@@ -1,0 +1,592 @@
+﻿syntax = "proto3";
+package protocols;
+
+enum TeamSide
+{
+    Neutral = 0;
+    Home = 1;
+    Away = 2;
+}
+enum InningHalf
+{
+    UnknownHalf = 0;
+    Top = 1;
+    Bottom = 2;
+}
+enum BattingMode
+{
+    UnknownMode = 0;
+    Contact = 1;
+    Slugging = 2;
+    Bunt = 3;
+}
+enum PitchType
+{
+    UnknownPitchType = 0;
+    FastBall = 1;
+    Sinker = 2;
+    Slider = 3;
+    Curve = 4;
+    ScrewBall = 5;
+    ChangeUp = 6;
+    Cutter = 7;
+    TwoSeam = 8;
+    Sff = 9;
+    KnuckleCurve = 10;
+    ForkBall = 11;
+    Slurve = 12;
+    PalmBall = 13;
+    Shoot = 14;
+    Vslider = 15;
+    SlowCurve = 16;
+}
+enum PitchResult
+{
+    UnknownResult = 0;
+    Ball = 1; //坏球
+    Strike = 2; //好球
+    Foul = 3; //界外球
+    Single = 4; //一垒安打
+    Double = 5; //二垒安打
+    Triple = 6; //三垒安打
+    HomeRun = 7; //全垒打
+    Pickoff = 8; //牵制
+    IBB = 9; //故意四坏
+    PutOut = 10; //接杀
+    ForceOut = 11; //封杀
+    TouchOut = 12; //触杀
+    HBP = 13; //触身球
+}
+enum BatDir
+{
+    None = 0;
+    Left = 1;
+    Center = 2;
+    Right = 3;
+}
+enum RunFrameType
+{
+    UnknownRunFrameType = 0;
+    DefenseMove = 1;
+    RunBase = 2;
+    Catch = 3;
+    HitBallCatch = 4;
+}
+enum Role
+{
+    UnknownRole = 0;
+    PitcherRole = 1;
+    CatcherRole = 2;
+    FirstBaseManRole = 3;
+    SecondBaseManRole = 4;
+    ThirdBaseManRole = 5;
+    ShortstopRole = 6;
+    LeftFielderRole = 7;
+    CenterFielderRole = 8;
+    RightFielderRole = 9;
+    DesignatedHitterRole = 10;
+}
+enum OnFieldRole
+{
+    UnknownOnFieldRole = 0;
+    Pitcher = 1;
+    Catcher = 2;
+    FirstBaseMan = 3;
+    SecondBaseMan = 4;
+    ThirdBaseMan = 5;
+    Shortstop = 6;
+    LeftFielder = 7;
+    CenterFielder = 8;
+    RightFielder = 9;
+    Batter = 10;
+    FirstBaseRunner = 11;
+    SecondBaseRunner = 12;
+    ThirdBaseRunner = 13;
+}
+enum HandType
+{
+    UnknownHandType = 0;
+    LeftHand = 1;
+    RightHand = 2;
+    Both = 3;
+}
+enum BatOperationResultType
+{
+    UnknownBatOperationResultType = 0;
+    Auto = 1;
+    NotBat = 2;
+    EarlyOrLate = 3;
+    JustEarlyOrLateClick = 4;
+    JustEarlyOrLateLeft = 5;
+    JustEarlyOrLateCenter = 6;
+    JustEarlyOrLateRight = 7;
+    PerfectClick = 8;
+    PerfectLeft = 9;
+    PerfectCenter = 10;
+    PerfectRight = 11;   
+}
+
+//[RegID(1001)]
+message ServerStatusOp
+{
+}
+message ServerStatusResp
+{
+    repeated uint32 RoomStatus = 1;
+}
+
+//[RegID(101)]
+message Nop
+{
+}
+message Reset
+{
+}
+message OpponentConnected
+{
+    string uid = 1;
+    string name = 2;
+}
+message OpponentDisconnected
+{
+}
+
+//[RegID(1)]
+message ConnectToRoomOp
+{
+    string uid = 1;
+    string name = 2;
+    string room = 3;
+}
+message ConnectToRoomResp
+{
+    bool success = 1;
+    TeamSide side = 2;
+    bool started = 3;
+    //FullMatchSituation data = 4; // 这个不应该出现在这里。应该在MatchStart里
+}
+// 某个玩家发起换边操作。如果是主动发起，那么accept是true。如果是向服务器应答，那么accept表示是否同意。只会在比赛开始前换边
+message ChangeSideOp
+{
+    bool accept = 1;
+}
+// 服务器向客户端询问是否同意换边。如果同意需要回复ChangeSideOp{accept=true}，不同意回复ChangeSideOp{accept=false}。只会发生在比赛开始前。
+message ChangeSideQuestion
+{
+}
+// 换边成功的服务器应答。如果只有我方连接了，那么这个会成为ChangeSideOp的响应。
+message ChangeSideResp
+{
+    TeamSide side = 1;
+}
+// 某个玩家请求开始游戏。参考上面换边操作
+message StartMatchOp
+{
+    bool accept = 1;
+}
+message StartMatchQuestion
+{
+}
+message StartMatchResp
+{
+    TeamSide side = 1;
+    FullMatchSituation data = 2;
+}
+message NextBatterInfo
+{
+    uint32 battingOrder = 1;
+    uint32 batterId = 2;
+}
+
+//[NoReg]
+// 用于断线重连。断线重连只会发生在一次新的击球开始时。
+message FullMatchSituation
+{
+    MatchSituation matchSituation = 1;
+    PlayerSituation players = 2;
+    PitchSituation pitchSituation = 3;
+}
+//[NoReg]
+// 可变全局变量
+message MatchSituation
+{
+    uint32 inning = 1; // 现在是第几局
+    InningHalf half = 2; // 现在是上下半局哪个
+    uint32 pitchCount = 3; // 这是第几次投球
+    uint32 out = 4; // 已经有几个进攻者出局
+    uint32 strike = 5; // 几振了
+    uint32 ball = 6; // 几个坏球了
+    bool ended = 7; // 整场比赛是否结束了
+    TeamInfo homeTeamInfo = 8;
+    TeamInfo awayTeamInfo = 9;
+    repeated NextBatterInfo nextThreeBatterIds = 10;
+}
+//[NoReg]
+message OnFieldRoleToIDMapEntry
+{
+    OnFieldRole onFieldRole = 1;
+    uint32 id = 2;
+}
+//[NoReg]
+message TeamInfo
+{
+    string name = 1;
+    TeamStats stats = 2;
+    Role captain = 3;
+    repeated Role orderOfRoles = 4;
+    float overLordEnergy = 5;
+}
+//[NoReg]
+// 这个是在一次投打开始时就确定好的数据
+message PitchSituation
+{
+    TeamSide pitcherSide = 1; // 哪一方在投球
+    uint32 pitcher = 2; // 投手ID
+    uint32 catcher = 3; // 蹲着的人的ID
+    uint32 batter = 4; // 打手ID
+    PitchMode mode = 5; // 主宰时刻/强击、短打之类的状态
+    BatterProficiency batterProf = 6; // 打手擅长区块。投手在选目标时显示的红/蓝块。
+    BaseRunners baseRunners = 7; // 跑垒者
+    FieldSituation field = 8; // 野区状态
+    repeated OnFieldRoleToIDMapEntry onFieldToID = 9; // 场上指责对player id的对应关系
+}
+//[NoReg]
+// 场上球员的状态（buff,debuff等）
+// 除了这里其他地方应当只引用球员的ID。球员的原始数据未设计，期望在这个系统之外就决定了。这里是球员的当前数据，是随时变的。
+message PlayerSituation
+{
+    repeated PlayerInfo homeTeam = 1;
+    repeated PlayerInfo awayTeam = 2;
+}
+//[NoReg]
+message PlayerInfo
+{
+    uint32 id = 1;
+    PlayerAbilities abilities = 2;
+    repeated uint32 adeptRoles = 3;
+    PlayerSeasonStats stats = 4;
+    string cid = 5;
+    string kitName = 6;
+    string number = 7;
+    float power = 8;
+    Role role = 9;
+    OnFieldRole onFieldRole = 10;
+    HandType pitchHand = 11;
+    repeated PitchTypeInfo pitchTypes = 12;
+    HandType battingHand = 13;
+    BattingProficiency battingProficiency = 14;
+    uint32 plateAppearance = 15;
+    uint32 atBats = 16;
+    uint32 runs = 17;
+    uint32 hits = 18;
+    uint32 errors = 19;
+    uint32 homeRuns = 20;
+    uint32 pitchCount = 21;
+    float leftEnergyPercentage = 22;
+    float positionX = 23;
+    float positionY = 24;
+    float rotationX = 25;
+    float rotationY = 26;
+    float rotationZ = 27;
+}
+//[NoReg]
+message PlayerAbilities
+{
+    float contact = 1;
+    float drag = 2;
+    float push = 3;
+    float dragBunt = 4;
+    float slugging = 5;
+    float steal = 6;
+    float baseRunning = 7;
+    float stability = 8;
+    float reaction = 9;
+    float throwing = 10;
+    float fieldingRange = 11;
+    float blocking = 12;
+    float plateDispline = 13;
+    float stamina = 14;
+    float control = 15;
+    float breaking = 16;
+    float explosiveNess = 17;
+    float bunt = 18;
+    float stealTendency = 19;
+}
+//[NoReg]
+message PlayerSeasonStats
+{
+    float avg = 1;
+    float hr = 2;
+    float rbi = 3;
+    float sb = 4;
+    float win = 5;
+    float lose = 6;
+    float era = 7;
+    uint32 games = 8;
+}
+//[NoReg]
+message PitchTypeInfo
+{
+    PitchType type = 1;
+    float grade = 2;
+}
+//[NoReg]
+message BattingProficiency
+{
+    repeated uint32 goodBlocks = 1;
+    repeated uint32 badBlocks = 2;
+}
+//[NoReg]
+// 场上野区状态
+message FieldSituation
+{
+
+}
+//[NoReg]
+// 这个是在球投出之前就要决定的数据
+message PitchMode
+{
+    bool pitcherDominate = 1;
+    bool batterDominate = 2;
+    BattingMode battingMode = 3;
+}
+//[NoReg]
+// 打手擅长区块。投手在选目标时显示的红/蓝块。
+message BatterProficiency
+{
+    repeated uint32 good = 1;
+    repeated uint32 bad = 2;
+}
+//[NoReg]
+message PitchSelection
+{
+    uint32 ballType = 1;
+    float targetX = 2;
+    float targetY = 3;
+    bool dominate = 4;
+    uint32 eval = 5;
+    uint32 operationEval = 6;
+}
+//[NoReg]
+message BattingInfo
+{
+    bool auto = 1; // 是否是自动模式（一般是单机才会这样）。如果是true，下面到result之前的字段无效。
+    bool bat = 2; // 是否挥棒了。如果是false，下面到result之前的字段无效。
+    uint32 time = 3; // 挥棒时间
+    BatDir dir = 4; // 挥棒方向
+    BatOperationResultType eval = 5; // 挥棒评分
+}
+//[NoReg]
+// 跑垒者
+message BaseRunners
+{
+    uint32 first = 1;
+    uint32 second = 2;
+    uint32 third = 3;
+}
+//[NoReg]
+// 跑垒的一个关键帧
+message RunFrame
+{
+    RunFrameType type = 100;
+    RunFrame_DefenseMove frameDefenseMove = 1;
+    RunFrame_RunBase frameRunBase = 2;
+    RunFrame_Catch frameCatch = 3;
+    RunFrame_HitBallCatch frameHitBallCatch = 4;
+}
+//[NoReg]
+message RunFrame_DefenseMove
+{
+    float startTime = 1;
+    float endTime = 2;
+    OnFieldRole player = 3;
+    OnFieldRole targetPasser = 4;
+    uint32 toBase = 5;
+    float targetX = 6;
+    float targetY = 7;
+}
+//[NoReg]
+message RunFrame_RunBase
+{
+    float startTime = 1;
+    float endTime = 2;
+    OnFieldRole runner = 3;
+    uint32 fromBase = 4;
+    uint32 toBase = 5;
+    float outTime = 6;
+}
+//[NoReg]
+message RunFrame_Catch
+{
+    float endTime = 1;
+    OnFieldRole passer = 2;
+    OnFieldRole catcher = 3;
+    uint32 toBase = 4;
+    uint32 hitGroundTimes = 5;
+    OnFieldRole outAthleteOnFieldRole = 6;
+}
+//[NoReg]
+message RunFrame_HitBallCatch
+{
+    float startTime = 1;
+    float endTime = 2;
+    OnFieldRole catcher = 3;
+    float targetX = 4;
+    float targetY = 5;
+    uint32 hitGroundTimes = 6;
+    bool isRollingBall = 7;
+    OnFieldRole outAthleteOnFieldRole = 8;
+    bool isHitWall = 9;
+}
+//[NoReg]
+message BatResult
+{
+    PitchResult result = 1;
+    repeated RunFrame frames = 2;
+    float pitchEndTime = 3;
+    float outFieldPositionX = 4;
+    float outFieldPositionZ = 5;
+    float outFieldFlyTime = 6;
+    uint32 outFieldFlyHitGroundTimes = 7;
+    bool isFastOut = 8;
+}
+//[NoReg]
+message PossibleBatResult
+{
+    BatOperationResultType resultType = 1;
+    BatResult result = 2;
+}
+//[NoReg]
+message TeamStats
+{
+    uint32 runs = 1;
+    uint32 hits = 2;
+    uint32 errors = 3;
+    repeated uint32 inningScores = 4;
+}
+
+message SelectPitchOp
+{
+    PitchSelection selection = 1;
+}
+message SelectPitchResp
+{
+    PitchSelection selection = 1;
+    repeated PossibleBatResult possibleResults = 2;
+}
+// TODO: Delete these Dominate Messages.
+message DominatePitchOp
+{
+    SelectPitchOp op = 1;
+    uint32 eval = 2;
+}
+message DominatePitchResp
+{
+    SelectPitchResp resp = 1;
+    uint32 eval = 2;
+}
+message BatOp
+{
+    BattingInfo bat = 1;
+    bool dominate = 2;
+}
+message BatResp
+{
+    BattingInfo bat = 1;
+    BatResult result = 2;
+    FullMatchSituation nextSituation = 3;
+}
+message DominateBatOp
+{
+    BatOp op = 1;
+    uint32 eval = 2;
+}
+message DominateBatResp
+{
+    BatResp resp = 1;
+    uint32 eval = 2;
+}
+// 设置主宰时刻的操作。会根据当前是打手还是投手来自动判断是哪种主宰时刻。由客户端发往服务器。
+message SetDominateOp
+{
+    bool active = 1;
+}
+// 主宰时刻开关被设置的事件通知。由服务器发往两个客户端。
+message SetDominateEvent
+{
+    uint32 role = 1; // 0-pitcher, 1-batter.
+    bool active = 2;
+}
+// 设置打击模式（短打，强击，正常）
+message SetBattingModeOp
+{
+    BattingMode mode = 1;
+}
+message SetBattingModeEvent
+{
+    BattingMode mode = 1;
+}
+// 尝试跳过过场动画之类的操作
+message MoveToNextStepOp
+{
+    uint32 step = 1;
+}
+message MoveToNextStepResp
+{
+    uint32 step = 1;
+}
+// 投打准备
+message PitchPrepareOp
+{
+}
+message PitchReadyResp
+{
+}
+message VainSwingOp
+{
+}
+message VainSwingEvent
+{
+}
+message PitcherUrgeEvent
+{
+}
+message BeginBatSwingOp
+{
+}
+message BeginBatSwingEvent
+{
+}
+//[RegID(2001)]
+//[FrameSyncBegin]
+message FrameSyncBegin
+{
+    uint32 interval = 1;
+    uint32 index = 2;
+    uint32 time = 3;
+}
+//[FrameSyncTick]
+message FrameSyncTick
+{
+    uint32 interval = 1;
+    uint32 index = 2;
+    uint32 time = 3;
+}
+//[FrameSyncEnd]
+message FrameSyncEnd
+{
+}
+//[FrameSyncReq]
+message RunToBaseReq
+{
+    uint32 tobase = 1;
+    uint32 curbase = 2;
+    uint32 time = 3;
+    float offset = 4;
+}
+//[FrameSync]
+message RunToBaseResp
+{
+    BatResult result = 1;
+    FullMatchSituation nextSituation = 2;
+}

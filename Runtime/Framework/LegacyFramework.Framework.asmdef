@@ -1,0 +1,15 @@
+{
+    "name": "LegacyFramework.Framework",
+    "references": [
+        "Unity.IO.Compression",
+        "LegacyFramework.Json"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
