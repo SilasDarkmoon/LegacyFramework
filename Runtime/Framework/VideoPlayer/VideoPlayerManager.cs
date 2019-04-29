@@ -52,7 +52,7 @@ public class VideoPlayerManager : MonoBehaviour, IPointerClickHandler
     #region 对外接口
     private bool CheckPlayVideo()
     {
-        return true;// (int)QualityManager.GetLevel() > (int)MinimumAdaptation || ProhibitedAndroidSimulator && Capstones.PlatExt.PlatDependant.IsRunAndroidSimulator();
+        return false;// (int)QualityManager.GetLevel() > (int)MinimumAdaptation || ProhibitedAndroidSimulator && Capstones.PlatExt.PlatDependant.IsRunAndroidSimulator();
     }
     /// <summary>
     /// init 方法
