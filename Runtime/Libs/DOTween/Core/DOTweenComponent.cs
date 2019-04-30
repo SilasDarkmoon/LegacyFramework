@@ -31,7 +31,8 @@ namespace DG.Tweening.Core
         {
             inspectorUpdater = 0;
             _unscaledTime = Time.realtimeSinceStartup;
-            Capstones.UnityFramework.ResManager.DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(gameObject);
+            //Capstones.UnityFramework.ResManager.DontDestroyOnLoad(gameObject);
         }
 
         void Start()

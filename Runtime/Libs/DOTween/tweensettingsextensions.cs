@@ -30,7 +30,7 @@ namespace DG.Tweening
     /// <summary>
     /// Methods that extend Tween objects and allow to set their parameters
     /// </summary>
-    [XLua.LuaCallCSharp]
+    //[XLua.LuaCallCSharp]
     public static class TweenSettingsExtensions
     {
         #region Tweeners + Sequences

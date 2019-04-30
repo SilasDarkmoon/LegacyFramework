@@ -9,18 +9,18 @@ namespace DG.Tweening
     /// <summary>
     /// Used for tween callbacks
     /// </summary>
-    [XLua.CSharpCallLua()]
+    //[XLua.CSharpCallLua()]
     public delegate void TweenCallback();
     /// <summary>
     /// Used for tween callbacks
     /// </summary>
-    [XLua.CSharpCallLua()]
+    //[XLua.CSharpCallLua()]
     public delegate void TweenCallback<in T>(T value);
 
     /// <summary>
     /// Used for custom and animationCurve-based ease functions. Must return a value between 0 and 1.
     /// </summary>
-    [XLua.CSharpCallLua()]
+    //[XLua.CSharpCallLua()]
     public delegate float EaseFunction(float time, float duration, float overshootOrAmplitude, float period);
 }
 

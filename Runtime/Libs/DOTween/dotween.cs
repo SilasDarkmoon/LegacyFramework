@@ -23,14 +23,14 @@ using DG.Tweening.Core.Enums;
 using DG.Tweening.Plugins.Core;
 using DG.Tweening.Plugins.Options;
 using UnityEngine;
-using Capstones.UnityFramework;
+//using Capstones.UnityFramework;
 
 namespace DG.Tweening
 {
     /// <summary>
     /// Main DOTween class. Contains static methods to create and control tweens in a generic way
     /// </summary>
-    [XLua.LuaCallCSharp()]
+    //[XLua.LuaCallCSharp()]
     public class DOTween
     {
         /// <summary>DOTween's version</summary>
@@ -150,13 +150,13 @@ namespace DG.Tweening
             if (initialized) return instance;
             if (!Application.isPlaying || isQuitting) return null;
 
-            DOTweenSettings settings = ResManager.LoadRes(DOTweenSettings.AssetName, typeof(DOTweenSettings)) as DOTweenSettings;
+            DOTweenSettings settings = Resources.Load<DOTweenSettings>("DOTweenSettings");
             return Init(settings, recycleAllByDefault, useSafeMode, logBehaviour);
         }
         // Auto-init
         static void AutoInit()
         {
-            DOTweenSettings settings = ResManager.LoadRes(DOTweenSettings.AssetName, typeof(DOTweenSettings)) as DOTweenSettings;
+            DOTweenSettings settings = Resources.Load<DOTweenSettings>("DOTweenSettings");
             Init(settings, null, null, null);
         }
         // Full init

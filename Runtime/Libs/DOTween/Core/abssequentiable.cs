@@ -7,7 +7,7 @@
 #pragma warning disable 1591
 namespace DG.Tweening.Core
 {
-    [XLua.LuaCallCSharp]
+    //[XLua.LuaCallCSharp]
     public abstract class ABSSequentiable
     {
         internal TweenType tweenType;

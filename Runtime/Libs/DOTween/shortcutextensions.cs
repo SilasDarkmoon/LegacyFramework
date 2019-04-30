@@ -27,7 +27,7 @@ namespace DG.Tweening
     /// <summary>
     /// Methods that extend known Unity objects and allow to directly create and control tweens from their instances
     /// </summary>
-    [XLua.LuaCallCSharp]
+    //[XLua.LuaCallCSharp]
     public static class ShortcutExtensions
     {
         // ===================================================================================
@@ -45,12 +45,12 @@ namespace DG.Tweening
             return DOTween.To(() => target.volume, x => target.volume = x, endValue, duration).SetTarget(target);
         }
 
-        public static Tweener DOFade(this AudioPlayer target, float endValue, float duration)
-        {
-            if (endValue < 0) endValue = 0;
-            else if (endValue > 1) endValue = 1;
-            return DOTween.To(() => target.GlobalVolume, x => target.GlobalVolume = x, endValue, duration).SetTarget(target);
-        }
+        //public static Tweener DOFade(this AudioPlayer target, float endValue, float duration)
+        //{
+        //    if (endValue < 0) endValue = 0;
+        //    else if (endValue > 1) endValue = 1;
+        //    return DOTween.To(() => target.GlobalVolume, x => target.GlobalVolume = x, endValue, duration).SetTarget(target);
+        //}
 
         /// <summary>Tweens an AudioSource's pitch to the given value.
         /// Also stores the AudioSource as the tween's target so it can be used for filtered operations</summary>

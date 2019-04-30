@@ -14,7 +14,7 @@ namespace DG.Tweening
     /// <summary>
     /// Indicates either a Tweener or a Sequence
     /// </summary>
-    [XLua.LuaCallCSharp]
+    //[XLua.LuaCallCSharp]
     public abstract class Tween : ABSSequentiable
     {
         // OPTIONS ///////////////////////////////////////////////////

@@ -22,7 +22,7 @@ namespace DG.Tweening
     /// <summary>
     /// Animates a single value
     /// </summary>
-    [XLua.LuaCallCSharp]
+    //[XLua.LuaCallCSharp]
     public abstract class Tweener : Tween
     {
         // TRUE when start value has been changed via From or ChangeStart/Values (allows DoStartup to take it into account).

@@ -27,7 +27,7 @@ public static class MusicManager
     {
         if (AudioManager.GetPlayer("music") != null && AudioManager.GetPlayer("music").isPlaying)
         {
-            Sequence seq = new Sequence();
+            Sequence seq = DOTween.Sequence();
             seq.Append(FadeOut());
             seq.AppendCallback(() =>
             {
@@ -80,8 +80,9 @@ public static class MusicManager
 
     public static Sequence FadeOut()
     {
-        Sequence seq = new Sequence();
-        seq.Append(AudioManager.GetPlayer("music").DOFade(0, 2f));
+        Sequence seq = DOTween.Sequence();
+        var target = AudioManager.GetPlayer("music");
+        seq.Append(DOTween.To(() => target.GlobalVolume, x => target.GlobalVolume = x, 0, 2f).SetTarget(target));
         seq.AppendCallback(Stop);
         return seq;
     }

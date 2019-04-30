@@ -16,7 +16,7 @@ namespace DG.Tweening
     /// <summary>
     /// Controls other tweens as a group
     /// </summary>
-    [XLua.LuaCallCSharp()]
+    //[XLua.LuaCallCSharp()]
     public sealed class Sequence : Tween
     {
         // SETUP DATA ////////////////////////////////////////////////
