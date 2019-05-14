@@ -2,9 +2,10 @@
     "name": "LegacyFramework.Framework",
     "references": [
         "Unity.IO.Compression",
-        "LegacyFramework.Json",
+        "JsonObject",
         "Unity.Collections.Concurrent",
-        "LegacyFramework.DOTween"
+        "LegacyFramework.DOTween",
+        "ResManager"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],

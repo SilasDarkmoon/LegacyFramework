@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Capstones.UnityFramework;
 using Unity.Collections.Concurrent;
+using Capstones.UnityEngineEx;
 
 namespace Capstones.Net.FrameSync
 {

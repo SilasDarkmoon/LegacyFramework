@@ -2,7 +2,7 @@
     "name": "LegacyFramework.Editor",
     "references": [
         "LegacyFramework.Framework",
-        "LegacyFramework.Json",
+        "JsonObject",
         "Unity.IO.Compression",
         "LegacyFramework.DOTween"
     ],
