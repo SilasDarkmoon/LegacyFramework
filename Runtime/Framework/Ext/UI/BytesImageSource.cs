@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Capstones.UnityEngineEx;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace UIExt
@@ -64,7 +65,7 @@ namespace UIExt
                     if (GLog.IsLogErrorEnabled) GLog.LogError("Only 'Path' is allowed in BytesImageSource. Donot use 'Source'(TextAsset).\n" + path + "\n" + gameObject.name);
                 }
 #endif
-                var tex = Capstones.UnityFramework.ResManager.LoadTexFromBytes(Source);
+                Texture2D tex = null;// Capstones.UnityFramework.ResManager.LoadTexFromBytes(Source);
                 if (tex)
                 {
                     _CreatedTex = tex;
@@ -109,7 +110,7 @@ namespace UIExt
             }
             else if (!string.IsNullOrEmpty(Path))
             {
-                var sprite = Capstones.UnityFramework.ResManager.LoadRes(Path) as Sprite;
+                var sprite = ResManager.LoadRes(Path) as Sprite;
                 if (sprite && sprite.texture)
                 {
                     _Loaded = sprite.texture;
@@ -117,7 +118,7 @@ namespace UIExt
                     Material matPacked = null;
                     if (_IsPacked)
                     {
-                        matPacked = Capstones.UnityFramework.ResManager.LoadRes("Assets/CapstonesRes/Common/Materials/PackedSpritesDynamic.mat") as Material;
+                        matPacked = ResManager.LoadRes("Assets/CapstonesRes/Common/Materials/PackedSpritesDynamic.mat") as Material;
                     }
 
                     var image = GetComponent<Image>();

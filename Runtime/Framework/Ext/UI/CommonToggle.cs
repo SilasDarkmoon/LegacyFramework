@@ -4,6 +4,7 @@ using XLua;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Capstones.UnityEngineEx;
 
 public enum ButtonGroupType
 {
@@ -43,7 +44,7 @@ public class CommonToggle : ToggleGroup
             GameObject prefabObj = null;
             if (!string.IsNullOrEmpty(TogglePrefab))
             {
-                prefabObj = Capstones.UnityFramework.ResManager.LoadRes(TogglePrefab) as GameObject;
+                prefabObj = ResManager.LoadRes(TogglePrefab) as GameObject;
             }
 
             for (int i = 0; i < TogglesCount; i++)

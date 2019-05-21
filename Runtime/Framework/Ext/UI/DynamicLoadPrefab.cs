@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using Capstones.UnityFramework;
+using Capstones.UnityEngineEx;
 
 namespace UIExt
 {
@@ -79,13 +80,13 @@ namespace UIExt
 
         void Start()
         {
-            Capstones.UnityFramework.EditorBridge.OnPlayModeChanged += OnPlayModeChanged;
+            //EditorBridge.OnPlayModeChanged += OnPlayModeChanged;
             //CheckAndSavePrefab();
             ApplySource();
         }
         void OnDestroy()
         {
-            Capstones.UnityFramework.EditorBridge.OnPlayModeChanged -= OnPlayModeChanged;
+            //EditorBridge.OnPlayModeChanged -= OnPlayModeChanged;
             MarkFrozen();
         }
         public void DestroyDynamicChildren()
@@ -138,7 +139,7 @@ namespace UIExt
                 var source = Source;
                 if (!source && !string.IsNullOrEmpty(Path))
                 {
-                    source = Capstones.UnityFramework.ResManager.LoadRes(Path, typeof(GameObject)) as GameObject;
+                    source = ResManager.LoadRes(Path, typeof(GameObject)) as GameObject;
                 }
                 if (source)
                 {
@@ -202,7 +203,7 @@ namespace UIExt
             UnregDelayedWork();
             if (_Lifetime != Lifetime.Frozen && !Application.isPlaying)
             {
-                EditorBridge.OnDelayedCallOnce += OnEnableDelayed;
+                //EditorBridge.OnDelayedCallOnce += OnEnableDelayed;
                 _DelayedWork = DelayedWork.OnEnable;
             }
         }
@@ -218,7 +219,7 @@ namespace UIExt
             UnregDelayedWork();
             if (_Lifetime != Lifetime.Frozen && !Application.isPlaying)
             {
-                EditorBridge.OnDelayedCallOnce += OnDisableDelayed;
+                //EditorBridge.OnDelayedCallOnce += OnDisableDelayed;
                 _DelayedWork = DelayedWork.OnDisable;
             }
         }
@@ -233,12 +234,12 @@ namespace UIExt
         {
             if (_DelayedWork == DelayedWork.OnEnable)
             {
-                EditorBridge.OnDelayedCallOnce -= OnEnableDelayed;
+                //EditorBridge.OnDelayedCallOnce -= OnEnableDelayed;
                 _DelayedWork = DelayedWork.None;
             }
             else if (_DelayedWork == DelayedWork.OnDisable)
             {
-                EditorBridge.OnDelayedCallOnce -= OnDisableDelayed;
+                //EditorBridge.OnDelayedCallOnce -= OnDisableDelayed;
                 _DelayedWork = DelayedWork.None;
             }
         }

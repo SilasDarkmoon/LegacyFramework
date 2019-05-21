@@ -10,9 +10,6 @@ using Unity.Collections.Concurrent;
 using Capstones.UnityEngineEx;
 using System.IO;
 
-using PlatDependant = Capstones.PlatExt.PlatDependant;
-using TaskProgress = Capstones.PlatExt.PlatDependant.TaskProgress;
-
 namespace Capstones.Net
 {
     public class SerializationConfig : ICloneable

@@ -9,9 +9,6 @@ using UnityEngine;
 using Unity.Collections.Concurrent;
 using Capstones.UnityEngineEx;
 
-using PlatDependant = Capstones.PlatExt.PlatDependant;
-using TaskProgress = Capstones.PlatExt.PlatDependant.TaskProgress;
-
 namespace Capstones.Net
 {
     public class TCPClient : ICustomSendConnection, IDisposable

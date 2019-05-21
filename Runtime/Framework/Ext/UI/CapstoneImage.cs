@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using Capstones.UnityEngineEx;
 using Capstones.UnityFramework;
 
 #if UNITY_EDITOR && !USE_CLIENT_RES_MANAGER

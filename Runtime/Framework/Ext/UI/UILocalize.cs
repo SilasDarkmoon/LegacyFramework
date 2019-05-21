@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Capstones.UnityEngineEx;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -54,7 +55,7 @@ public class UILocalize : MonoBehaviour
     {
         if (!string.IsNullOrEmpty(key) && string.IsNullOrEmpty(Text.text))
         {
-            value = Capstones.UnityFramework.LanguageConverter.GetLangValue(key);
+            value = LanguageConverter.GetLangValue(key);
         }
     }
 }

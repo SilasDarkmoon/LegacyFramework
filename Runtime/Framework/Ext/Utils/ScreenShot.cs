@@ -7,6 +7,7 @@ using System.IO;
 using QRCoder;
 
 using UnityEngine;
+using Capstones.UnityEngineEx;
 
 namespace Capstones.UnityFramework
 {
@@ -37,9 +38,9 @@ namespace Capstones.UnityFramework
                 path = dir + screenShotFileName + ".png";
 
                 var imagebytes = tex.EncodeToPNG();
-                PlatExt.PlatDependant.CreateFolder(dir);
-                PlatExt.PlatDependant.DeleteFile(path);
-                using (var stream = PlatExt.PlatDependant.OpenWrite(path))
+                PlatDependant.CreateFolder(dir);
+                PlatDependant.DeleteFile(path);
+                using (var stream = PlatDependant.OpenWrite(path))
                 {
                     stream.Write(imagebytes, 0, imagebytes.Length);
                 }
@@ -102,9 +103,9 @@ namespace Capstones.UnityFramework
                 path = dir + screenShotFileName + ".png";
 
                 var imagebytes = texMain.EncodeToPNG();
-                PlatExt.PlatDependant.CreateFolder(dir);
-                PlatExt.PlatDependant.DeleteFile(path);
-                using (var stream = PlatExt.PlatDependant.OpenWrite(path))
+                PlatDependant.CreateFolder(dir);
+                PlatDependant.DeleteFile(path);
+                using (var stream = PlatDependant.OpenWrite(path))
                 {
                     stream.Write(imagebytes, 0, imagebytes.Length);
                 }
@@ -161,9 +162,9 @@ namespace Capstones.UnityFramework
                 path = dir + screenShotFileName + ".png";
 
                 var imagebytes = texMain.EncodeToPNG();
-                PlatExt.PlatDependant.CreateFolder(dir);
-                PlatExt.PlatDependant.DeleteFile(path);
-                using (var stream = PlatExt.PlatDependant.OpenWrite(path))
+                PlatDependant.CreateFolder(dir);
+                PlatDependant.DeleteFile(path);
+                using (var stream = PlatDependant.OpenWrite(path))
                 {
                     stream.Write(imagebytes, 0, imagebytes.Length);
                 }

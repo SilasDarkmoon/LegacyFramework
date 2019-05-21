@@ -8,6 +8,6 @@ public class DontDestroyMono : MonoBehaviour
 {
     private void Awake()
     {
-        ResManager.DontDestroyOnLoad(gameObject);
+        GameObject.DontDestroyOnLoad(gameObject);
     }
 }

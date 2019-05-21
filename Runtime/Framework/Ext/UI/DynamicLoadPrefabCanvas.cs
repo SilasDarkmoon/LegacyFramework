@@ -14,13 +14,13 @@ namespace UIExt
             {
                 var e = canvas.enabled;
                 canvas.enabled = false;
-                Capstones.UnityFramework.EditorBridge.OnDelayedCallOnce += () =>
-                {
-                    if (canvas)
-                    {
-                        canvas.enabled = e;
-                    }
-                };
+                //EditorBridge.OnDelayedCallOnce += () =>
+                //{
+                //    if (canvas)
+                //    {
+                //        canvas.enabled = e;
+                //    }
+                //};
             }
             DestroyImmediate(this);
         }

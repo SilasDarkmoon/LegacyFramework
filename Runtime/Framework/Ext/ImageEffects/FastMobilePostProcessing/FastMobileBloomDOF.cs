@@ -1,6 +1,7 @@
 ﻿using Capstones.UnityFramework;
 namespace FastMobilePostProcessing
 {
+    using Capstones.UnityEngineEx;
     using UnityEngine;
     using UnityStandardAssets.ImageEffects;
 

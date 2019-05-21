@@ -11,7 +11,6 @@ using Capstones.UnityEngineEx;
 using System.IO;
 
 using Capstones.UnityFramework;
-using PlatDependant = Capstones.PlatExt.PlatDependant;
 
 namespace Capstones.Net
 {

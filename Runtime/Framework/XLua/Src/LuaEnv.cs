@@ -18,11 +18,9 @@ using RealStatePtr = System.IntPtr;
 using LuaCSFunction = XLua.LuaDLL.lua_CSFunction;
 #endif
 
-using Capstones.PlatExt;
-
-
 namespace XLua
 {
+    using Capstones.UnityEngineEx;
     using System;
     using System.Collections.Generic;
     using System.Reflection;
@@ -201,7 +199,7 @@ namespace XLua
 
                 CSFuncResetLoaders(rawL);
 
-                XLuaExt.LuaEvent.Init(rawL);
+                //XLuaExt.LuaEvent.Init(rawL);
 #if THREAD_SAFE || HOTFIX_ENABLE
             }
 #endif
@@ -794,12 +792,12 @@ namespace XLua
             LuaAPI.xlua_pushasciistring(rawL, "resp");
             LuaAPI.lua_pushstdcallcfunction(rawL, CSFuncParseResponse);
             LuaAPI.xlua_psettable(rawL, -3);
-            LuaAPI.xlua_pushasciistring(rawL, "platform");
-            LuaAPI.lua_pushstring(rawL, Capstones.LuaExt.LuaFramework.AppPlatform);
-            LuaAPI.xlua_psettable(rawL, -3);
-            LuaAPI.xlua_pushasciistring(rawL, "updatepath");
-            LuaAPI.lua_pushstring(rawL, Capstones.LuaExt.LuaFramework.AppUpdatePath);
-            LuaAPI.xlua_psettable(rawL, -3);
+            //LuaAPI.xlua_pushasciistring(rawL, "platform");
+            //LuaAPI.lua_pushstring(rawL, ThreadSafeValues.AppPlatform);
+            //LuaAPI.xlua_psettable(rawL, -3);
+            //LuaAPI.xlua_pushasciistring(rawL, "updatepath");
+            //LuaAPI.lua_pushstring(rawL, Capstones.LuaExt.LuaFramework.AppUpdatePath);
+            //LuaAPI.xlua_psettable(rawL, -3);
             LuaAPI.xlua_pushasciistring(rawL, "capid");
             LuaAPI.lua_pushstdcallcfunction(rawL, CSFuncGetCapID);
             LuaAPI.xlua_psettable(rawL, -3);
@@ -819,7 +817,8 @@ namespace XLua
             get
             {
 #if UNITY_EDITOR
-                return Capstones.LuaExt.LuaFramework.AppDataPath + "/CapstonesScripts/spt/xlua/?.lua";
+                return //Capstones.LuaExt.LuaFramework.AppDataPath + 
+                "/CapstonesScripts/spt/xlua/?.lua";
 #else
                 return Capstones.LuaExt.LuaFramework.AppUpdatePath + "/spt/xlua/?.lua;" + Capstones.LuaExt.LuaFramework.AppStreamingAssetsPath + "/spt/xlua/?.lua";
 #endif
@@ -829,7 +828,8 @@ namespace XLua
         private static string GetLuaDistributePath(string flag)
         {
 #if UNITY_EDITOR
-            return Capstones.LuaExt.LuaFramework.AppDataPath + "/CapstonesScripts/distribute/" + flag + "/?.lua";
+            return //Capstones.LuaExt.LuaFramework.AppDataPath + 
+            "/CapstonesScripts/distribute/" + flag + "/?.lua";
 #else
         return Capstones.LuaExt.LuaFramework.AppUpdatePath + "/spt/distribute/" + flag + "/?.lua;" + Capstones.LuaExt.LuaFramework.AppStreamingAssetsPath + "/spt/distribute/" + flag + "/?.lua";
 #endif
@@ -843,7 +843,7 @@ namespace XLua
                 _OldPath = this.Global.GetInPath<string>("package.path");
             }
             var packagePath = luaPackagePath + ";" + _OldPath;
-            foreach (var flag in Capstones.UnityFramework.ResManager.GetDistributeFlags())
+            foreach (var flag in ResManager.GetDistributeFlags())
             {
                 packagePath = GetLuaDistributePath(flag) + ";" + packagePath;
             }
@@ -977,13 +977,13 @@ namespace XLua
             }
             else
             {
-                Capstones.UnityFramework.ResManager.UnloadAllRes();
-                Capstones.UnityFramework.ResManager.ReloadDistributeFlags();
+                ResManager.UnloadAllRes();
+                ResManager.ReloadDistributeFlags();
             }
 
             // Set package.path
             var packagePath = luaPackagePath + ";" + _OldPath;
-            foreach (var flag in Capstones.UnityFramework.ResManager.GetDistributeFlags())
+            foreach (var flag in ResManager.GetDistributeFlags())
             {
                 packagePath = GetLuaDistributePath(flag) + ";" + packagePath;
             }
@@ -1078,136 +1078,136 @@ namespace XLua
         [AOT.MonoPInvokeCallback(typeof(LuaDLL.lua_CSFunction))]
         public static int ClrFuncApkLoader(IntPtr L)
         {
-            string mname = LuaAPI.lua_tostring(L, 1);
-            if (!string.IsNullOrEmpty(mname))
-            {
-                mname = mname.Replace('.', '/');
+            //string mname = LuaAPI.lua_tostring(L, 1);
+            //if (!string.IsNullOrEmpty(mname))
+            //{
+            //    mname = mname.Replace('.', '/');
 
-                var dflags = Capstones.UnityFramework.ResManager.GetDistributeFlags();
-                for (int j = dflags.Length - 1; j >= 0; --j)
-                {
-                    var flag = dflags[j];
-                    if (PlatDependant.IsFileExist(Capstones.LuaExt.LuaFramework.AppUpdatePath + "/spt/distribute/" + flag + "/" + mname + ".lua"))
-                    {
-                        return 0;
-                    }
+            //    var dflags = ResManager.GetDistributeFlags();
+            //    for (int j = dflags.Length - 1; j >= 0; --j)
+            //    {
+            //        var flag = dflags[j];
+            //        if (PlatDependant.IsFileExist(Capstones.LuaExt.LuaFramework.AppUpdatePath + "/spt/distribute/" + flag + "/" + mname + ".lua"))
+            //        {
+            //            return 0;
+            //        }
 
-                    int retryTimes = 10;
-                    for (int i = 0; i < retryTimes; ++i)
-                    {
-                        System.Exception error = null;
-                        do
-                        {
-                            Unity.IO.Compression.ZipArchive za = Capstones.UnityFramework.ResManager.AndroidApkZipArchive;
-                            if (za == null)
-                            {
-                                error = new Exception("Apk Archive Cannot be read.");
-                                break;
-                            }
-                            try
-                            {
-                                var entryname = "assets/spt/distribute/" + flag + "/" + mname + ".lua";
-                                var entry = za.GetEntry(entryname);
-                                if (entry != null)
-                                {
-                                    var pathd = Capstones.LuaExt.LuaFramework.AppUpdatePath + "/spt/" + entryname.Substring("assets/spt/".Length);
-                                    using (var srcstream = entry.Open())
-                                    {
-                                        using (var dststream = Capstones.PlatExt.PlatDependant.OpenWrite(pathd + ".tmp"))
-                                        {
-                                            srcstream.CopyTo(dststream);
-                                        }
-                                    }
-                                    PlatDependant.MoveFile(pathd + ".tmp", pathd);
-                                    return 0;
-                                }
-                            }
-                            catch (Exception e)
-                            {
-                                error = e;
-                                break;
-                            }
-                        } while (false);
-                        if (error != null)
-                        {
-                            if (i == retryTimes - 1)
-                            {
-                                if (GLog.IsLogErrorEnabled) GLog.LogException(error);
-                                throw error;
-                            }
-                            else
-                            {
-                                if (GLog.IsLogErrorEnabled) GLog.LogException(error + "\nNeed Retry " + i);
-                            }
-                        }
-                        else
-                        {
-                            break;
-                        }
-                    }
-                }
-                // none dflag
-                {
-                    if (PlatDependant.IsFileExist(Capstones.LuaExt.LuaFramework.AppUpdatePath + "/spt/xlua/" + mname + ".lua"))
-                    {
-                        return 0;
-                    }
+            //        int retryTimes = 10;
+            //        for (int i = 0; i < retryTimes; ++i)
+            //        {
+            //            System.Exception error = null;
+            //            do
+            //            {
+            //                Unity.IO.Compression.ZipArchive za = Capstones.UnityFramework.ResManager.AndroidApkZipArchive;
+            //                if (za == null)
+            //                {
+            //                    error = new Exception("Apk Archive Cannot be read.");
+            //                    break;
+            //                }
+            //                try
+            //                {
+            //                    var entryname = "assets/spt/distribute/" + flag + "/" + mname + ".lua";
+            //                    var entry = za.GetEntry(entryname);
+            //                    if (entry != null)
+            //                    {
+            //                        var pathd = Capstones.LuaExt.LuaFramework.AppUpdatePath + "/spt/" + entryname.Substring("assets/spt/".Length);
+            //                        using (var srcstream = entry.Open())
+            //                        {
+            //                            using (var dststream = Capstones.PlatExt.PlatDependant.OpenWrite(pathd + ".tmp"))
+            //                            {
+            //                                srcstream.CopyTo(dststream);
+            //                            }
+            //                        }
+            //                        PlatDependant.MoveFile(pathd + ".tmp", pathd);
+            //                        return 0;
+            //                    }
+            //                }
+            //                catch (Exception e)
+            //                {
+            //                    error = e;
+            //                    break;
+            //                }
+            //            } while (false);
+            //            if (error != null)
+            //            {
+            //                if (i == retryTimes - 1)
+            //                {
+            //                    if (GLog.IsLogErrorEnabled) GLog.LogException(error);
+            //                    throw error;
+            //                }
+            //                else
+            //                {
+            //                    if (GLog.IsLogErrorEnabled) GLog.LogException(error + "\nNeed Retry " + i);
+            //                }
+            //            }
+            //            else
+            //            {
+            //                break;
+            //            }
+            //        }
+            //    }
+            //    // none dflag
+            //    {
+            //        if (PlatDependant.IsFileExist(Capstones.LuaExt.LuaFramework.AppUpdatePath + "/spt/xlua/" + mname + ".lua"))
+            //        {
+            //            return 0;
+            //        }
 
-                    int retryTimes = 10;
-                    for (int i = 0; i < retryTimes; ++i)
-                    {
-                        System.Exception error = null;
-                        do
-                        {
-                            Unity.IO.Compression.ZipArchive za = Capstones.UnityFramework.ResManager.AndroidApkZipArchive;
-                            if (za == null)
-                            {
-                                error = new Exception("Apk Archive Cannot be read.");
-                                break;
-                            }
-                            try
-                            {
-                                var entryname = "assets/spt/xlua/" + mname + ".lua";
-                                var entry = za.GetEntry(entryname);
-                                if (entry != null)
-                                {
-                                    var pathd = Capstones.LuaExt.LuaFramework.AppUpdatePath + "/spt/xlua/" + entryname.Substring("assets/spt/xlua/".Length);
-                                    using (var srcstream = entry.Open())
-                                    {
-                                        using (var dststream = Capstones.PlatExt.PlatDependant.OpenWrite(pathd + ".tmp"))
-                                        {
-                                            srcstream.CopyTo(dststream);
-                                        }
-                                    }
-                                    PlatDependant.MoveFile(pathd + ".tmp", pathd);
-                                    return 0;
-                                }
-                            }
-                            catch (Exception e)
-                            {
-                                error = e;
-                                break;
-                            }
-                        } while (false);
-                        if (error != null)
-                        {
-                            if (i == retryTimes - 1)
-                            {
-                                if (GLog.IsLogErrorEnabled) GLog.LogException(error);
-                                throw error;
-                            }
-                            else
-                            {
-                                if (GLog.IsLogErrorEnabled) GLog.LogException(error + "\nNeed Retry " + i);
-                            }
-                        }
-                        else
-                        {
-                            break;
-                        }
-                    }
-                }
-            }
+            //        int retryTimes = 10;
+            //        for (int i = 0; i < retryTimes; ++i)
+            //        {
+            //            System.Exception error = null;
+            //            do
+            //            {
+            //                Unity.IO.Compression.ZipArchive za = Capstones.UnityFramework.ResManager.AndroidApkZipArchive;
+            //                if (za == null)
+            //                {
+            //                    error = new Exception("Apk Archive Cannot be read.");
+            //                    break;
+            //                }
+            //                try
+            //                {
+            //                    var entryname = "assets/spt/xlua/" + mname + ".lua";
+            //                    var entry = za.GetEntry(entryname);
+            //                    if (entry != null)
+            //                    {
+            //                        var pathd = Capstones.LuaExt.LuaFramework.AppUpdatePath + "/spt/xlua/" + entryname.Substring("assets/spt/xlua/".Length);
+            //                        using (var srcstream = entry.Open())
+            //                        {
+            //                            using (var dststream = Capstones.PlatExt.PlatDependant.OpenWrite(pathd + ".tmp"))
+            //                            {
+            //                                srcstream.CopyTo(dststream);
+            //                            }
+            //                        }
+            //                        PlatDependant.MoveFile(pathd + ".tmp", pathd);
+            //                        return 0;
+            //                    }
+            //                }
+            //                catch (Exception e)
+            //                {
+            //                    error = e;
+            //                    break;
+            //                }
+            //            } while (false);
+            //            if (error != null)
+            //            {
+            //                if (i == retryTimes - 1)
+            //                {
+            //                    if (GLog.IsLogErrorEnabled) GLog.LogException(error);
+            //                    throw error;
+            //                }
+            //                else
+            //                {
+            //                    if (GLog.IsLogErrorEnabled) GLog.LogException(error + "\nNeed Retry " + i);
+            //                }
+            //            }
+            //            else
+            //            {
+            //                break;
+            //            }
+            //        }
+            //    }
+            //}
             return 0;
         }
 
@@ -1374,7 +1374,7 @@ namespace XLua
                     args[i - 2] = LuaAPI.lua_tostring(L, -1);
                     LuaAPI.lua_pop(L, 1);
                 }
-                string val = Capstones.UnityFramework.LanguageConverter.GetLangValue(key, args);
+                string val = LanguageConverter.GetLangValue(key, args);
 
                 if (isStringType)
                 {
@@ -1446,60 +1446,62 @@ namespace XLua
         [AOT.MonoPInvokeCallback(typeof(LuaDLL.lua_CSFunction))]
         public static int CSFuncEncryptPostData(IntPtr L)
         {
-            ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
+            //ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
 
-            var oldtop = LuaAPI.lua_gettop(L);
+            //var oldtop = LuaAPI.lua_gettop(L);
 
-            if (oldtop >= 1 && LuaAPI.lua_isstring(L, 1))
-            {
-                var data = System.Text.Encoding.UTF8.GetBytes(LuaAPI.lua_tostring(L, 1));
-                string token = null;
-                ulong seq = 0;
+            //if (oldtop >= 1 && LuaAPI.lua_isstring(L, 1))
+            //{
+            //    var data = System.Text.Encoding.UTF8.GetBytes(LuaAPI.lua_tostring(L, 1));
+            //    string token = null;
+            //    ulong seq = 0;
 
-                if (oldtop >= 2 && LuaAPI.lua_type(L, 2) > 0)
-                {
-                    token = LuaAPI.lua_tostring(L, 2);
-                }
-                if (oldtop >= 3 && LuaAPI.lua_type(L, 3) > 0)
-                {
-                    seq = (ulong)LuaAPI.lua_tonumber(L, 3);
-                }
-                var encrypted = Capstones.PlatExt.PlatDependant.EncryptPostData(data, token, seq);
-                if (encrypted != null)
-                {
-                    translator.PushByType(L, encrypted);
-                }
-            }
-            return LuaAPI.lua_gettop(L) - oldtop;
+            //    if (oldtop >= 2 && LuaAPI.lua_type(L, 2) > 0)
+            //    {
+            //        token = LuaAPI.lua_tostring(L, 2);
+            //    }
+            //    if (oldtop >= 3 && LuaAPI.lua_type(L, 3) > 0)
+            //    {
+            //        seq = (ulong)LuaAPI.lua_tonumber(L, 3);
+            //    }
+            //    var encrypted = PlatDependant.EncryptPostData(data, token, seq);
+            //    if (encrypted != null)
+            //    {
+            //        translator.PushByType(L, encrypted);
+            //    }
+            //}
+            //return LuaAPI.lua_gettop(L) - oldtop;
+            return 0;
         }
 
         [AOT.MonoPInvokeCallback(typeof(LuaDLL.lua_CSFunction))]
         public static int CSFuncParseResponse(IntPtr L)
         {
-            ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
+            //ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
 
-            var oldtop = LuaAPI.lua_gettop(L);
-            var httpreq = translator.FastGetCSObj(L, 1) as Capstones.UnityFramework.HttpRequest;
+            //var oldtop = LuaAPI.lua_gettop(L);
+            //var httpreq = translator.FastGetCSObj(L, 1) as Capstones.UnityFramework.HttpRequest;
 
-            string token = null;
-            ulong seq = 0;
-            if (oldtop >= 2 && LuaAPI.lua_type(L, 2) > 0)
-            {
-                token = LuaAPI.lua_tostring(L, 2);
-            }
-            if (oldtop >= 3 && LuaAPI.lua_type(L, 3) > 0)
-            {
-                seq = (ulong)LuaAPI.lua_tonumber(L, 3);
-            }
+            //string token = null;
+            //ulong seq = 0;
+            //if (oldtop >= 2 && LuaAPI.lua_type(L, 2) > 0)
+            //{
+            //    token = LuaAPI.lua_tostring(L, 2);
+            //}
+            //if (oldtop >= 3 && LuaAPI.lua_type(L, 3) > 0)
+            //{
+            //    seq = (ulong)LuaAPI.lua_tonumber(L, 3);
+            //}
 
-            string resp = "";
-            if (httpreq != null)
-            {
-                resp = httpreq.ParseResponse(token, seq);
-            }
-            LuaAPI.lua_pushstring(L, resp);
+            //string resp = "";
+            //if (httpreq != null)
+            //{
+            //    resp = httpreq.ParseResponse(token, seq);
+            //}
+            //LuaAPI.lua_pushstring(L, resp);
 
-            return 1;
+            //return 1;
+            return 0;
         }
 
         [AOT.MonoPInvokeCallback(typeof(LuaDLL.lua_CSFunction))]

@@ -184,7 +184,7 @@ public static class GenConfig
         #endregion
         #region struct + enum
         typeof(DG.Tweening.Ease),
-        typeof(Capstones.UnityFramework.HttpRequest.RequestStatus),
+       // typeof(Capstones.UnityFramework.HttpRequest.RequestStatus),
         typeof(XLua.UI.ScrollRectEx.MovementType),
         typeof(XLua.UI.ScrollRectExSameSize.Direction),
         typeof(XLua.UI.ScrollRectEx.Direction),

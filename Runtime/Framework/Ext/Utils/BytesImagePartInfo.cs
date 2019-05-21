@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Capstones.UnityEngineEx;
+using UnityEngine;
 
 public class BytesImagePartInfo : ScriptableObject
 {
@@ -18,7 +19,7 @@ public class BytesImageSpriteInfo
 
     public Sprite CreateSprite()
     {
-        var tex = Capstones.UnityFramework.ResManager.LoadRes(PackPath, typeof(Texture2D)) as Texture2D;
+        var tex = ResManager.LoadRes(PackPath, typeof(Texture2D)) as Texture2D;
         if (tex == null)
         {
             return null;

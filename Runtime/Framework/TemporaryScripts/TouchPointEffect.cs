@@ -32,8 +32,8 @@ public class TouchPointEffect : MonoBehaviour
 
     void Awake()
     {
-        Capstones.UnityFramework.ResManager.DontDestroyOnLoad(gameObject);
-        Capstones.UnityFramework.ResManager.CanDestroyAll(gameObject);
+        GameObject.DontDestroyOnLoad(gameObject);
+        //Capstones.UnityFramework.ResManager.CanDestroyAll(gameObject);
 
         _trailCache = new GameObject[_trailCount];
         for (int i = 0; i < _trailCount; i++)

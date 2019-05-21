@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Capstones.UnityEngineEx;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -35,7 +36,7 @@ public class TextAdjustLanguageLineSpacing : Text
 
     private string GetValidLanguage()
     {
-        string[] allFlags = Capstones.UnityFramework.ResManager.GetDistributeFlags();
+        string[] allFlags = ResManager.GetDistributeFlags();
 
         for (int i = allFlags.Length - 1; i >= 0; i--)
         {

@@ -72,11 +72,11 @@ public class AudioManager
 
         // Create new Audio Player
         var go = new GameObject("AudioPlayer " + category, typeof(AudioSource), typeof(AudioPlayer));
-        ResManager.DontDestroyOnLoad(go);
-        if (!ignoreClear)
-        {
-            ResManager.CanDestroyAll(go);
-        }
+        GameObject.DontDestroyOnLoad(go);
+        //if (!ignoreClear)
+        //{
+        //    ResManager.CanDestroyAll(go);
+        //}
 
         var audioPlayer = go.GetComponent<AudioPlayer>();
         audioPlayer.Category = category;

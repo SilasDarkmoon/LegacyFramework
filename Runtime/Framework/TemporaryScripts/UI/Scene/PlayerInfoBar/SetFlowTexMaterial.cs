@@ -1,6 +1,7 @@
 ﻿using UnityEngine.UI;
 using UnityEngine;
 using System.Collections;
+using Capstones.UnityEngineEx;
 /// <summary>
 /// UI流光效果，支持裁剪
 /// 可以在UGUI的Image或者Raw Image使用
@@ -38,7 +39,7 @@ public class SetFlowTexMaterial : MonoBehaviour
             image = maskableGraphic as Image;
             if (image)
             {
-                imageMat = new Material(Capstones.UnityFramework.ResManager.LoadRes("Assets/CapstonesRes/Common/Shaders/UI/UIFlowLight.shader") as Shader);
+                imageMat = new Material(ResManager.LoadRes("Assets/CapstonesRes/Common/Shaders/UI/UIFlowLight.shader") as Shader);
                 widthRate = image.sprite.textureRect.width * 1.0f / image.sprite.texture.width;
                 heightRate = image.sprite.textureRect.height * 1.0f / image.sprite.texture.height;
                 xOffsetRate = (image.sprite.textureRect.xMin) * 1.0f / image.sprite.texture.width;

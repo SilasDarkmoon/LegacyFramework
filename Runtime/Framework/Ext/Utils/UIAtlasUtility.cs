@@ -2,6 +2,7 @@ using System.IO;
 using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
+using Capstones.UnityEngineEx;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -52,7 +53,7 @@ public static class UIAtlasUtility
     public static string GetAtlasPathBySprite(string spritePath)
     {
 #if !USE_CLIENT_RES_MANAGER
-        spritePath = Capstones.UnityFramework.ResManager.GetDistributeAssetName(spritePath);
+        //spritePath = ResManager.GetDistributeAssetName(spritePath);
 #endif
         string spriteName = Path.GetFileName(spritePath);
         spritePath = GetAssetPathWithoutUITextures(spritePath);
