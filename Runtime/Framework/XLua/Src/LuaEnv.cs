@@ -817,10 +817,9 @@ namespace XLua
             get
             {
 #if UNITY_EDITOR
-                return //Capstones.LuaExt.LuaFramework.AppDataPath + 
-                "/CapstonesScripts/spt/xlua/?.lua";
+                return ThreadSafeValues.AppDataPath + "/CapstonesScripts/spt/xlua/?.lua";
 #else
-                return Capstones.LuaExt.LuaFramework.AppUpdatePath + "/spt/xlua/?.lua;" + Capstones.LuaExt.LuaFramework.AppStreamingAssetsPath + "/spt/xlua/?.lua";
+                return ThreadSafeValues.UpdatePath + "/spt/xlua/?.lua;" + ThreadSafeValues.AppStreamingAssetsPath + "/spt/xlua/?.lua";
 #endif
             }
         }
@@ -828,10 +827,9 @@ namespace XLua
         private static string GetLuaDistributePath(string flag)
         {
 #if UNITY_EDITOR
-            return //Capstones.LuaExt.LuaFramework.AppDataPath + 
-            "/CapstonesScripts/distribute/" + flag + "/?.lua";
+            return ThreadSafeValues.AppDataPath + "/CapstonesScripts/distribute/" + flag + "/?.lua";
 #else
-        return Capstones.LuaExt.LuaFramework.AppUpdatePath + "/spt/distribute/" + flag + "/?.lua;" + Capstones.LuaExt.LuaFramework.AppStreamingAssetsPath + "/spt/distribute/" + flag + "/?.lua";
+            return ThreadSafeValues.UpdatePath + "/spt/distribute/" + flag + "/?.lua;" + ThreadSafeValues.AppStreamingAssetsPath + "/spt/distribute/" + flag + "/?.lua";
 #endif
         }
 

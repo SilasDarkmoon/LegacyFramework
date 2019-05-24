@@ -380,7 +380,7 @@ namespace UIExt
             var source = Source;
             if (!source && !string.IsNullOrEmpty(Path))
             {
-                source = Capstones.UnityFramework.ResManager.LoadRes(Path, typeof(GameObject)) as GameObject;
+                source = ResManager.LoadRes(Path, typeof(GameObject)) as GameObject;
             }
             if (source)
             {
