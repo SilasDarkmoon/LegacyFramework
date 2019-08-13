@@ -65,7 +65,7 @@ namespace UIExt
                     if (GLog.IsLogErrorEnabled) GLog.LogError("Only 'Path' is allowed in BytesImageSource. Donot use 'Source'(TextAsset).\n" + path + "\n" + gameObject.name);
                 }
 #endif
-                Texture2D tex = null;// Capstones.UnityFramework.ResManager.LoadTexFromBytes(Source);
+                Texture2D tex = null;// ResManager.LoadTexFromBytes(Source);
                 if (tex)
                 {
                     _CreatedTex = tex;

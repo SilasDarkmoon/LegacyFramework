@@ -853,7 +853,7 @@ namespace XLua
             //{
             //    if (Capstones.LuaExt.LuaFramework.AppStreamingAssetsPath.Contains("://"))
             //    {
-            //        if (Capstones.UnityFramework.ResManager.LoadAssetsFromApk)
+            //        if (ResManager.LoadAssetsFromApk)
             //        {
             //            var loaders = package.Get<LuaTable>("loaders");
             //            if (loaders != null)
@@ -864,7 +864,7 @@ namespace XLua
             //    }
             //}
 
-            if (Capstones.UnityFramework.ResManager.LoadAssetsFromApk)
+            if (ResManager.LoadAssetsFromApk)
             {
                 LuaAPI.xlua_getglobal(l, "package");
                 //l.GetGlobal("package"); // package
@@ -993,7 +993,7 @@ namespace XLua
             //{
             //    if (Capstones.LuaExt.LuaFramework.AppStreamingAssetsPath.Contains("://"))
             //    {
-            //        if (Capstones.UnityFramework.ResManager.LoadAssetsFromApk)
+            //        if (ResManager.LoadAssetsFromApk)
             //        {
             //            var loaders = package.Get<LuaTable>("loaders");
             //            if (loaders != null)
@@ -1004,7 +1004,7 @@ namespace XLua
             //    }
             //}
 
-            if (Capstones.UnityFramework.ResManager.LoadAssetsFromApk)
+            if (ResManager.LoadAssetsFromApk)
             {
                 LuaAPI.xlua_getglobal(l, "package");
                 //l.GetGlobal("package"); // package
@@ -1096,7 +1096,7 @@ namespace XLua
             //            System.Exception error = null;
             //            do
             //            {
-            //                Unity.IO.Compression.ZipArchive za = Capstones.UnityFramework.ResManager.AndroidApkZipArchive;
+            //                Unity.IO.Compression.ZipArchive za = ResManager.AndroidApkZipArchive;
             //                if (za == null)
             //                {
             //                    error = new Exception("Apk Archive Cannot be read.");
@@ -1157,7 +1157,7 @@ namespace XLua
             //            System.Exception error = null;
             //            do
             //            {
-            //                Unity.IO.Compression.ZipArchive za = Capstones.UnityFramework.ResManager.AndroidApkZipArchive;
+            //                Unity.IO.Compression.ZipArchive za = ResManager.AndroidApkZipArchive;
             //                if (za == null)
             //                {
             //                    error = new Exception("Apk Archive Cannot be read.");

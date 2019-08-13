@@ -399,7 +399,7 @@ public class LuaBehaviour : MonoBehaviour
 
     //all lua behaviour shared one luaenv only!
     private static LuaEnv _luaEnv;
-    internal static LuaEnv luaEnv
+    public static LuaEnv luaEnv
     {
         get
         {

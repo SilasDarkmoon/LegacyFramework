@@ -9,6 +9,9 @@ using UnityEngine;
 using Unity.Collections.Concurrent;
 using Capstones.UnityEngineEx;
 
+using PlatDependant = Capstones.UnityEngineEx.PlatDependant;
+using TaskProgress = Capstones.UnityEngineEx.TaskProgress;
+
 namespace Capstones.Net
 {
     public class UDPServer : UDPClient
@@ -87,9 +90,17 @@ namespace Capstones.Net
                     {
                         if (ParentServer.IsConnectionAlive)
                         {
-                            ParentServer._ConnectWorkCanceled = true;
-                            PlatDependant.LogError(e);
+                            if (e is SocketException && ((SocketException)e).ErrorCode == 10054)
+                            {
+                                // the remote closed.
+                            }
+                            else
+                            {
+                                //ParentServer._ConnectWorkCanceled = true;
+                                PlatDependant.LogError(e);
+                            }
                         }
+                        return;
                     }
                     ParentServer._HaveDataToSend.Set();
                 }, null);
@@ -316,9 +327,17 @@ namespace Capstones.Net
                             {
                                 if (IsConnectionAlive)
                                 {
-                                    _ConnectWorkCanceled = true;
-                                    PlatDependant.LogError(e);
+                                    if (e is SocketException && ((SocketException)e).ErrorCode == 10054)
+                                    {
+                                        // the remote closed.
+                                    }
+                                    else
+                                    {
+                                        //_ConnectWorkCanceled = true;
+                                        PlatDependant.LogError(e);
+                                    }
                                 }
+                                return;
                             }
                             _HaveDataToSend.Set();
                         }, null);
@@ -335,9 +354,17 @@ namespace Capstones.Net
                             {
                                 if (IsConnectionAlive)
                                 {
-                                    _ConnectWorkCanceled = true;
-                                    PlatDependant.LogError(e);
+                                    if (e is SocketException && ((SocketException)e).ErrorCode == 10054)
+                                    {
+                                        // the remote closed.
+                                    }
+                                    else
+                                    {
+                                        //_ConnectWorkCanceled = true;
+                                        PlatDependant.LogError(e);
+                                    }
                                 }
+                                return;
                             }
                             _HaveDataToSend.Set();
                         }, null);

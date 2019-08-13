@@ -27,194 +27,246 @@ namespace Protocols {
             "ChJTcmMvQ29tYmluZWQucHJvdG8SCXByb3RvY29scyIQCg5TZXJ2ZXJTdGF0",
             "dXNPcCImChBTZXJ2ZXJTdGF0dXNSZXNwEhIKClJvb21TdGF0dXMYASADKA0i",
             "BQoDTm9wIgcKBVJlc2V0Ii4KEU9wcG9uZW50Q29ubmVjdGVkEgsKA3VpZBgB",
-            "IAEoCRIMCgRuYW1lGAIgASgJIhYKFE9wcG9uZW50RGlzY29ubmVjdGVkIjoK",
-            "D0Nvbm5lY3RUb1Jvb21PcBILCgN1aWQYASABKAkSDAoEbmFtZRgCIAEoCRIM",
-            "CgRyb29tGAMgASgJIlgKEUNvbm5lY3RUb1Jvb21SZXNwEg8KB3N1Y2Nlc3MY",
-            "ASABKAgSIQoEc2lkZRgCIAEoDjITLnByb3RvY29scy5UZWFtU2lkZRIPCgdz",
-            "dGFydGVkGAMgASgIIh4KDENoYW5nZVNpZGVPcBIOCgZhY2NlcHQYASABKAgi",
-            "FAoSQ2hhbmdlU2lkZVF1ZXN0aW9uIjMKDkNoYW5nZVNpZGVSZXNwEiEKBHNp",
-            "ZGUYASABKA4yEy5wcm90b2NvbHMuVGVhbVNpZGUiHgoMU3RhcnRNYXRjaE9w",
-            "Eg4KBmFjY2VwdBgBIAEoCCIUChJTdGFydE1hdGNoUXVlc3Rpb24iYAoOU3Rh",
-            "cnRNYXRjaFJlc3ASIQoEc2lkZRgBIAEoDjITLnByb3RvY29scy5UZWFtU2lk",
-            "ZRIrCgRkYXRhGAIgASgLMh0ucHJvdG9jb2xzLkZ1bGxNYXRjaFNpdHVhdGlv",
-            "biI4Cg5OZXh0QmF0dGVySW5mbxIUCgxiYXR0aW5nT3JkZXIYASABKA0SEAoI",
-            "YmF0dGVySWQYAiABKA0ipwEKEkZ1bGxNYXRjaFNpdHVhdGlvbhIxCg5tYXRj",
-            "aFNpdHVhdGlvbhgBIAEoCzIZLnByb3RvY29scy5NYXRjaFNpdHVhdGlvbhIr",
-            "CgdwbGF5ZXJzGAIgASgLMhoucHJvdG9jb2xzLlBsYXllclNpdHVhdGlvbhIx",
-            "Cg5waXRjaFNpdHVhdGlvbhgDIAEoCzIZLnByb3RvY29scy5QaXRjaFNpdHVh",
-            "dGlvbiKgAgoOTWF0Y2hTaXR1YXRpb24SDgoGaW5uaW5nGAEgASgNEiMKBGhh",
-            "bGYYAiABKA4yFS5wcm90b2NvbHMuSW5uaW5nSGFsZhISCgpwaXRjaENvdW50",
-            "GAMgASgNEgsKA291dBgEIAEoDRIOCgZzdHJpa2UYBSABKA0SDAoEYmFsbBgG",
-            "IAEoDRINCgVlbmRlZBgHIAEoCBIpCgxob21lVGVhbUluZm8YCCABKAsyEy5w",
-            "cm90b2NvbHMuVGVhbUluZm8SKQoMYXdheVRlYW1JbmZvGAkgASgLMhMucHJv",
-            "dG9jb2xzLlRlYW1JbmZvEjUKEm5leHRUaHJlZUJhdHRlcklkcxgKIAMoCzIZ",
-            "LnByb3RvY29scy5OZXh0QmF0dGVySW5mbyJSChdPbkZpZWxkUm9sZVRvSURN",
-            "YXBFbnRyeRIrCgtvbkZpZWxkUm9sZRgBIAEoDjIWLnByb3RvY29scy5PbkZp",
-            "ZWxkUm9sZRIKCgJpZBgCIAEoDSKeAQoIVGVhbUluZm8SDAoEbmFtZRgBIAEo",
-            "CRIjCgVzdGF0cxgCIAEoCzIULnByb3RvY29scy5UZWFtU3RhdHMSIAoHY2Fw",
-            "dGFpbhgDIAEoDjIPLnByb3RvY29scy5Sb2xlEiUKDG9yZGVyT2ZSb2xlcxgE",
-            "IAMoDjIPLnByb3RvY29scy5Sb2xlEhYKDm92ZXJMb3JkRW5lcmd5GAUgASgC",
-            "ItICCg5QaXRjaFNpdHVhdGlvbhIoCgtwaXRjaGVyU2lkZRgBIAEoDjITLnBy",
-            "b3RvY29scy5UZWFtU2lkZRIPCgdwaXRjaGVyGAIgASgNEg8KB2NhdGNoZXIY",
-            "AyABKA0SDgoGYmF0dGVyGAQgASgNEiIKBG1vZGUYBSABKAsyFC5wcm90b2Nv",
-            "bHMuUGl0Y2hNb2RlEjAKCmJhdHRlclByb2YYBiABKAsyHC5wcm90b2NvbHMu",
-            "QmF0dGVyUHJvZmljaWVuY3kSKwoLYmFzZVJ1bm5lcnMYByABKAsyFi5wcm90",
-            "b2NvbHMuQmFzZVJ1bm5lcnMSKAoFZmllbGQYCCABKAsyGS5wcm90b2NvbHMu",
-            "RmllbGRTaXR1YXRpb24SNwoLb25GaWVsZFRvSUQYCSADKAsyIi5wcm90b2Nv",
-            "bHMuT25GaWVsZFJvbGVUb0lETWFwRW50cnkiYwoPUGxheWVyU2l0dWF0aW9u",
-            "EicKCGhvbWVUZWFtGAEgAygLMhUucHJvdG9jb2xzLlBsYXllckluZm8SJwoI",
-            "YXdheVRlYW0YAiADKAsyFS5wcm90b2NvbHMuUGxheWVySW5mbyLEBQoKUGxh",
-            "eWVySW5mbxIKCgJpZBgBIAEoDRItCglhYmlsaXRpZXMYAiABKAsyGi5wcm90",
-            "b2NvbHMuUGxheWVyQWJpbGl0aWVzEhIKCmFkZXB0Um9sZXMYAyADKA0SKwoF",
-            "c3RhdHMYBCABKAsyHC5wcm90b2NvbHMuUGxheWVyU2Vhc29uU3RhdHMSCwoD",
-            "Y2lkGAUgASgJEg8KB2tpdE5hbWUYBiABKAkSDgoGbnVtYmVyGAcgASgJEg0K",
-            "BXBvd2VyGAggASgCEh0KBHJvbGUYCSABKA4yDy5wcm90b2NvbHMuUm9sZRIr",
-            "CgtvbkZpZWxkUm9sZRgKIAEoDjIWLnByb3RvY29scy5PbkZpZWxkUm9sZRIm",
-            "CglwaXRjaEhhbmQYCyABKA4yEy5wcm90b2NvbHMuSGFuZFR5cGUSLAoKcGl0",
-            "Y2hUeXBlcxgMIAMoCzIYLnByb3RvY29scy5QaXRjaFR5cGVJbmZvEigKC2Jh",
-            "dHRpbmdIYW5kGA0gASgOMhMucHJvdG9jb2xzLkhhbmRUeXBlEjkKEmJhdHRp",
-            "bmdQcm9maWNpZW5jeRgOIAEoCzIdLnByb3RvY29scy5CYXR0aW5nUHJvZmlj",
-            "aWVuY3kSFwoPcGxhdGVBcHBlYXJhbmNlGA8gASgNEg4KBmF0QmF0cxgQIAEo",
-            "DRIMCgRydW5zGBEgASgNEgwKBGhpdHMYEiABKA0SDgoGZXJyb3JzGBMgASgN",
-            "EhAKCGhvbWVSdW5zGBQgASgNEhIKCnBpdGNoQ291bnQYFSABKA0SHAoUbGVm",
-            "dEVuZXJneVBlcmNlbnRhZ2UYFiABKAISEQoJcG9zaXRpb25YGBcgASgCEhEK",
-            "CXBvc2l0aW9uWRgYIAEoAhIRCglyb3RhdGlvblgYGSABKAISEQoJcm90YXRp",
-            "b25ZGBogASgCEhEKCXJvdGF0aW9uWhgbIAEoAiLtAgoPUGxheWVyQWJpbGl0",
-            "aWVzEg8KB2NvbnRhY3QYASABKAISDAoEZHJhZxgCIAEoAhIMCgRwdXNoGAMg",
-            "ASgCEhAKCGRyYWdCdW50GAQgASgCEhAKCHNsdWdnaW5nGAUgASgCEg0KBXN0",
-            "ZWFsGAYgASgCEhMKC2Jhc2VSdW5uaW5nGAcgASgCEhEKCXN0YWJpbGl0eRgI",
-            "IAEoAhIQCghyZWFjdGlvbhgJIAEoAhIQCgh0aHJvd2luZxgKIAEoAhIVCg1m",
-            "aWVsZGluZ1JhbmdlGAsgASgCEhAKCGJsb2NraW5nGAwgASgCEhUKDXBsYXRl",
-            "RGlzcGxpbmUYDSABKAISDwoHc3RhbWluYRgOIAEoAhIPCgdjb250cm9sGA8g",
-            "ASgCEhAKCGJyZWFraW5nGBAgASgCEhUKDWV4cGxvc2l2ZU5lc3MYESABKAIS",
-            "DAoEYnVudBgSIAEoAhIVCg1zdGVhbFRlbmRlbmN5GBMgASgCInwKEVBsYXll",
-            "clNlYXNvblN0YXRzEgsKA2F2ZxgBIAEoAhIKCgJochgCIAEoAhILCgNyYmkY",
-            "AyABKAISCgoCc2IYBCABKAISCwoDd2luGAUgASgCEgwKBGxvc2UYBiABKAIS",
-            "CwoDZXJhGAcgASgCEg0KBWdhbWVzGAggASgNIkIKDVBpdGNoVHlwZUluZm8S",
-            "IgoEdHlwZRgBIAEoDjIULnByb3RvY29scy5QaXRjaFR5cGUSDQoFZ3JhZGUY",
-            "AiABKAIiOwoSQmF0dGluZ1Byb2ZpY2llbmN5EhIKCmdvb2RCbG9ja3MYASAD",
-            "KA0SEQoJYmFkQmxvY2tzGAIgAygNIhAKDkZpZWxkU2l0dWF0aW9uImkKCVBp",
-            "dGNoTW9kZRIXCg9waXRjaGVyRG9taW5hdGUYASABKAgSFgoOYmF0dGVyRG9t",
-            "aW5hdGUYAiABKAgSKwoLYmF0dGluZ01vZGUYAyABKA4yFi5wcm90b2NvbHMu",
-            "QmF0dGluZ01vZGUiLgoRQmF0dGVyUHJvZmljaWVuY3kSDAoEZ29vZBgBIAMo",
-            "DRILCgNiYWQYAiADKA0iewoOUGl0Y2hTZWxlY3Rpb24SEAoIYmFsbFR5cGUY",
-            "ASABKA0SDwoHdGFyZ2V0WBgCIAEoAhIPCgd0YXJnZXRZGAMgASgCEhAKCGRv",
-            "bWluYXRlGAQgASgIEgwKBGV2YWwYBSABKA0SFQoNb3BlcmF0aW9uRXZhbBgG",
-            "IAEoDSKHAQoLQmF0dGluZ0luZm8SDAoEYXV0bxgBIAEoCBILCgNiYXQYAiAB",
-            "KAgSDAoEdGltZRgDIAEoDRIeCgNkaXIYBCABKA4yES5wcm90b2NvbHMuQmF0",
-            "RGlyEi8KBGV2YWwYBSABKA4yIS5wcm90b2NvbHMuQmF0T3BlcmF0aW9uUmVz",
-            "dWx0VHlwZSI7CgtCYXNlUnVubmVycxINCgVmaXJzdBgBIAEoDRIOCgZzZWNv",
-            "bmQYAiABKA0SDQoFdGhpcmQYAyABKA0iiwIKCFJ1bkZyYW1lEiUKBHR5cGUY",
-            "ZCABKA4yFy5wcm90b2NvbHMuUnVuRnJhbWVUeXBlEjkKEGZyYW1lRGVmZW5z",
-            "ZU1vdmUYASABKAsyHy5wcm90b2NvbHMuUnVuRnJhbWVfRGVmZW5zZU1vdmUS",
-            "MQoMZnJhbWVSdW5CYXNlGAIgASgLMhsucHJvdG9jb2xzLlJ1bkZyYW1lX1J1",
-            "bkJhc2USLQoKZnJhbWVDYXRjaBgDIAEoCzIZLnByb3RvY29scy5SdW5GcmFt",
-            "ZV9DYXRjaBI7ChFmcmFtZUhpdEJhbGxDYXRjaBgEIAEoCzIgLnByb3RvY29s",
-            "cy5SdW5GcmFtZV9IaXRCYWxsQ2F0Y2giwgEKFFJ1bkZyYW1lX0RlZmVuc2VN",
-            "b3ZlEhEKCXN0YXJ0VGltZRgBIAEoAhIPCgdlbmRUaW1lGAIgASgCEiYKBnBs",
-            "YXllchgDIAEoDjIWLnByb3RvY29scy5PbkZpZWxkUm9sZRIsCgx0YXJnZXRQ",
-            "YXNzZXIYBCABKA4yFi5wcm90b2NvbHMuT25GaWVsZFJvbGUSDgoGdG9CYXNl",
-            "GAUgASgNEg8KB3RhcmdldFgYBiABKAISDwoHdGFyZ2V0WRgHIAEoAiKRAQoQ",
-            "UnVuRnJhbWVfUnVuQmFzZRIRCglzdGFydFRpbWUYASABKAISDwoHZW5kVGlt",
-            "ZRgCIAEoAhImCgZydW5uZXIYAyABKA4yFi5wcm90b2NvbHMuT25GaWVsZFJv",
-            "bGUSEAoIZnJvbUJhc2UYBCABKA0SDgoGdG9CYXNlGAUgASgNEg8KB291dFRp",
-            "bWUYBiABKAIi0QEKDlJ1bkZyYW1lX0NhdGNoEg8KB2VuZFRpbWUYASABKAIS",
-            "JgoGcGFzc2VyGAIgASgOMhYucHJvdG9jb2xzLk9uRmllbGRSb2xlEicKB2Nh",
-            "dGNoZXIYAyABKA4yFi5wcm90b2NvbHMuT25GaWVsZFJvbGUSDgoGdG9CYXNl",
-            "GAQgASgNEhYKDmhpdEdyb3VuZFRpbWVzGAUgASgNEjUKFW91dEF0aGxldGVP",
-            "bkZpZWxkUm9sZRgGIAEoDjIWLnByb3RvY29scy5PbkZpZWxkUm9sZSL/AQoV",
-            "UnVuRnJhbWVfSGl0QmFsbENhdGNoEhEKCXN0YXJ0VGltZRgBIAEoAhIPCgdl",
-            "bmRUaW1lGAIgASgCEicKB2NhdGNoZXIYAyABKA4yFi5wcm90b2NvbHMuT25G",
-            "aWVsZFJvbGUSDwoHdGFyZ2V0WBgEIAEoAhIPCgd0YXJnZXRZGAUgASgCEhYK",
-            "DmhpdEdyb3VuZFRpbWVzGAYgASgNEhUKDWlzUm9sbGluZ0JhbGwYByABKAgS",
-            "NQoVb3V0QXRobGV0ZU9uRmllbGRSb2xlGAggASgOMhYucHJvdG9jb2xzLk9u",
-            "RmllbGRSb2xlEhEKCWlzSGl0V2FsbBgJIAEoCCLzAQoJQmF0UmVzdWx0EiYK",
-            "BnJlc3VsdBgBIAEoDjIWLnByb3RvY29scy5QaXRjaFJlc3VsdBIjCgZmcmFt",
-            "ZXMYAiADKAsyEy5wcm90b2NvbHMuUnVuRnJhbWUSFAoMcGl0Y2hFbmRUaW1l",
-            "GAMgASgCEhkKEW91dEZpZWxkUG9zaXRpb25YGAQgASgCEhkKEW91dEZpZWxk",
-            "UG9zaXRpb25aGAUgASgCEhcKD291dEZpZWxkRmx5VGltZRgGIAEoAhIhChlv",
-            "dXRGaWVsZEZseUhpdEdyb3VuZFRpbWVzGAcgASgNEhEKCWlzRmFzdE91dBgI",
-            "IAEoCCJwChFQb3NzaWJsZUJhdFJlc3VsdBI1CgpyZXN1bHRUeXBlGAEgASgO",
-            "MiEucHJvdG9jb2xzLkJhdE9wZXJhdGlvblJlc3VsdFR5cGUSJAoGcmVzdWx0",
-            "GAIgASgLMhQucHJvdG9jb2xzLkJhdFJlc3VsdCJNCglUZWFtU3RhdHMSDAoE",
-            "cnVucxgBIAEoDRIMCgRoaXRzGAIgASgNEg4KBmVycm9ycxgDIAEoDRIUCgxp",
-            "bm5pbmdTY29yZXMYBCADKA0iPQoNU2VsZWN0UGl0Y2hPcBIsCglzZWxlY3Rp",
-            "b24YASABKAsyGS5wcm90b2NvbHMuUGl0Y2hTZWxlY3Rpb24idgoPU2VsZWN0",
-            "UGl0Y2hSZXNwEiwKCXNlbGVjdGlvbhgBIAEoCzIZLnByb3RvY29scy5QaXRj",
-            "aFNlbGVjdGlvbhI1Cg9wb3NzaWJsZVJlc3VsdHMYAiADKAsyHC5wcm90b2Nv",
-            "bHMuUG9zc2libGVCYXRSZXN1bHQiRQoPRG9taW5hdGVQaXRjaE9wEiQKAm9w",
-            "GAEgASgLMhgucHJvdG9jb2xzLlNlbGVjdFBpdGNoT3ASDAoEZXZhbBgCIAEo",
-            "DSJLChFEb21pbmF0ZVBpdGNoUmVzcBIoCgRyZXNwGAEgASgLMhoucHJvdG9j",
-            "b2xzLlNlbGVjdFBpdGNoUmVzcBIMCgRldmFsGAIgASgNIj4KBUJhdE9wEiMK",
-            "A2JhdBgBIAEoCzIWLnByb3RvY29scy5CYXR0aW5nSW5mbxIQCghkb21pbmF0",
-            "ZRgCIAEoCCKKAQoHQmF0UmVzcBIjCgNiYXQYASABKAsyFi5wcm90b2NvbHMu",
-            "QmF0dGluZ0luZm8SJAoGcmVzdWx0GAIgASgLMhQucHJvdG9jb2xzLkJhdFJl",
-            "c3VsdBI0Cg1uZXh0U2l0dWF0aW9uGAMgASgLMh0ucHJvdG9jb2xzLkZ1bGxN",
-            "YXRjaFNpdHVhdGlvbiI7Cg1Eb21pbmF0ZUJhdE9wEhwKAm9wGAEgASgLMhAu",
-            "cHJvdG9jb2xzLkJhdE9wEgwKBGV2YWwYAiABKA0iQQoPRG9taW5hdGVCYXRS",
-            "ZXNwEiAKBHJlc3AYASABKAsyEi5wcm90b2NvbHMuQmF0UmVzcBIMCgRldmFs",
-            "GAIgASgNIh8KDVNldERvbWluYXRlT3ASDgoGYWN0aXZlGAEgASgIIjAKEFNl",
-            "dERvbWluYXRlRXZlbnQSDAoEcm9sZRgBIAEoDRIOCgZhY3RpdmUYAiABKAgi",
-            "OAoQU2V0QmF0dGluZ01vZGVPcBIkCgRtb2RlGAEgASgOMhYucHJvdG9jb2xz",
-            "LkJhdHRpbmdNb2RlIjsKE1NldEJhdHRpbmdNb2RlRXZlbnQSJAoEbW9kZRgB",
-            "IAEoDjIWLnByb3RvY29scy5CYXR0aW5nTW9kZSIgChBNb3ZlVG9OZXh0U3Rl",
-            "cE9wEgwKBHN0ZXAYASABKA0iIgoSTW92ZVRvTmV4dFN0ZXBSZXNwEgwKBHN0",
-            "ZXAYASABKA0iEAoOUGl0Y2hQcmVwYXJlT3AiEAoOUGl0Y2hSZWFkeVJlc3Ai",
-            "DQoLVmFpblN3aW5nT3AiEAoOVmFpblN3aW5nRXZlbnQiEgoQUGl0Y2hlclVy",
-            "Z2VFdmVudCIRCg9CZWdpbkJhdFN3aW5nT3AiFAoSQmVnaW5CYXRTd2luZ0V2",
-            "ZW50Ij8KDkZyYW1lU3luY0JlZ2luEhAKCGludGVydmFsGAEgASgNEg0KBWlu",
-            "ZGV4GAIgASgNEgwKBHRpbWUYAyABKA0iPgoNRnJhbWVTeW5jVGljaxIQCghp",
-            "bnRlcnZhbBgBIAEoDRINCgVpbmRleBgCIAEoDRIMCgR0aW1lGAMgASgNIg4K",
-            "DEZyYW1lU3luY0VuZCJNCgxSdW5Ub0Jhc2VSZXESDgoGdG9iYXNlGAEgASgN",
-            "Eg8KB2N1cmJhc2UYAiABKA0SDAoEdGltZRgDIAEoDRIOCgZvZmZzZXQYBCAB",
-            "KAIiawoNUnVuVG9CYXNlUmVzcBIkCgZyZXN1bHQYASABKAsyFC5wcm90b2Nv",
-            "bHMuQmF0UmVzdWx0EjQKDW5leHRTaXR1YXRpb24YAiABKAsyHS5wcm90b2Nv",
-            "bHMuRnVsbE1hdGNoU2l0dWF0aW9uKisKCFRlYW1TaWRlEgsKB05ldXRyYWwQ",
-            "ABIICgRIb21lEAESCAoEQXdheRACKjIKCklubmluZ0hhbGYSDwoLVW5rbm93",
-            "bkhhbGYQABIHCgNUb3AQARIKCgZCb3R0b20QAipDCgtCYXR0aW5nTW9kZRIP",
-            "CgtVbmtub3duTW9kZRAAEgsKB0NvbnRhY3QQARIMCghTbHVnZ2luZxACEggK",
-            "BEJ1bnQQAyryAQoJUGl0Y2hUeXBlEhQKEFVua25vd25QaXRjaFR5cGUQABIM",
-            "CghGYXN0QmFsbBABEgoKBlNpbmtlchACEgoKBlNsaWRlchADEgkKBUN1cnZl",
-            "EAQSDQoJU2NyZXdCYWxsEAUSDAoIQ2hhbmdlVXAQBhIKCgZDdXR0ZXIQBxIL",
-            "CgdUd29TZWFtEAgSBwoDU2ZmEAkSEAoMS251Y2tsZUN1cnZlEAoSDAoIRm9y",
-            "a0JhbGwQCxIKCgZTbHVydmUQDBIMCghQYWxtQmFsbBANEgkKBVNob290EA4S",
-            "CwoHVnNsaWRlchAPEg0KCVNsb3dDdXJ2ZRAQKrgBCgtQaXRjaFJlc3VsdBIR",
-            "Cg1Vbmtub3duUmVzdWx0EAASCAoEQmFsbBABEgoKBlN0cmlrZRACEggKBEZv",
-            "dWwQAxIKCgZTaW5nbGUQBBIKCgZEb3VibGUQBRIKCgZUcmlwbGUQBhILCgdI",
-            "b21lUnVuEAcSCwoHUGlja29mZhAIEgcKA0lCQhAJEgoKBlB1dE91dBAKEgwK",
-            "CEZvcmNlT3V0EAsSDAoIVG91Y2hPdXQQDBIHCgNIQlAQDSozCgZCYXREaXIS",
-            "CAoETm9uZRAAEggKBExlZnQQARIKCgZDZW50ZXIQAhIJCgVSaWdodBADKmIK",
+            "IAEoCRIMCgRuYW1lGAIgASgJIhYKFE9wcG9uZW50RGlzY29ubmVjdGVkIjAK",
+            "DEdhbWVyc1N0YXR1cxIPCgdob21lUlRUGAEgASgNEg8KB2F3YXlSVFQYAiAB",
+            "KA0iOgoPQ29ubmVjdFRvUm9vbU9wEgsKA3VpZBgBIAEoCRIMCgRuYW1lGAIg",
+            "ASgJEgwKBHJvb20YAyABKAkiWAoRQ29ubmVjdFRvUm9vbVJlc3ASDwoHc3Vj",
+            "Y2VzcxgBIAEoCBIhCgRzaWRlGAIgASgOMhMucHJvdG9jb2xzLlRlYW1TaWRl",
+            "Eg8KB3N0YXJ0ZWQYAyABKAgiHgoMQ2hhbmdlU2lkZU9wEg4KBmFjY2VwdBgB",
+            "IAEoCCIUChJDaGFuZ2VTaWRlUXVlc3Rpb24iMwoOQ2hhbmdlU2lkZVJlc3AS",
+            "IQoEc2lkZRgBIAEoDjITLnByb3RvY29scy5UZWFtU2lkZSIeCgxTdGFydE1h",
+            "dGNoT3ASDgoGYWNjZXB0GAEgASgIIhQKElN0YXJ0TWF0Y2hRdWVzdGlvbiJg",
+            "Cg5TdGFydE1hdGNoUmVzcBIhCgRzaWRlGAEgASgOMhMucHJvdG9jb2xzLlRl",
+            "YW1TaWRlEisKBGRhdGEYAiABKAsyHS5wcm90b2NvbHMuRnVsbE1hdGNoU2l0",
+            "dWF0aW9uIjgKDk5leHRCYXR0ZXJJbmZvEhQKDGJhdHRpbmdPcmRlchgBIAEo",
+            "DRIQCghiYXR0ZXJJZBgCIAEoDSKnAQoSRnVsbE1hdGNoU2l0dWF0aW9uEjEK",
+            "Dm1hdGNoU2l0dWF0aW9uGAEgASgLMhkucHJvdG9jb2xzLk1hdGNoU2l0dWF0",
+            "aW9uEisKB3BsYXllcnMYAiABKAsyGi5wcm90b2NvbHMuUGxheWVyU2l0dWF0",
+            "aW9uEjEKDnBpdGNoU2l0dWF0aW9uGAMgASgLMhkucHJvdG9jb2xzLlBpdGNo",
+            "U2l0dWF0aW9uIqACCg5NYXRjaFNpdHVhdGlvbhIOCgZpbm5pbmcYASABKA0S",
+            "IwoEaGFsZhgCIAEoDjIVLnByb3RvY29scy5Jbm5pbmdIYWxmEhIKCnBpdGNo",
+            "Q291bnQYAyABKA0SCwoDb3V0GAQgASgNEg4KBnN0cmlrZRgFIAEoDRIMCgRi",
+            "YWxsGAYgASgNEg0KBWVuZGVkGAcgASgIEikKDGhvbWVUZWFtSW5mbxgIIAEo",
+            "CzITLnByb3RvY29scy5UZWFtSW5mbxIpCgxhd2F5VGVhbUluZm8YCSABKAsy",
+            "Ey5wcm90b2NvbHMuVGVhbUluZm8SNQoSbmV4dFRocmVlQmF0dGVySWRzGAog",
+            "AygLMhkucHJvdG9jb2xzLk5leHRCYXR0ZXJJbmZvIlIKF09uRmllbGRSb2xl",
+            "VG9JRE1hcEVudHJ5EisKC29uRmllbGRSb2xlGAEgASgOMhYucHJvdG9jb2xz",
+            "Lk9uRmllbGRSb2xlEgoKAmlkGAIgASgNIrMBCghUZWFtSW5mbxIMCgRuYW1l",
+            "GAEgASgJEiMKBXN0YXRzGAIgASgLMhQucHJvdG9jb2xzLlRlYW1TdGF0cxIg",
+            "CgdjYXB0YWluGAMgASgOMg8ucHJvdG9jb2xzLlJvbGUSJQoMb3JkZXJPZlJv",
+            "bGVzGAQgAygOMg8ucHJvdG9jb2xzLlJvbGUSFgoOb3ZlckxvcmRFbmVyZ3kY",
+            "BSABKAISEwoLaG9tZVNoaXJ0SUQYBiABKAkilgMKDlBpdGNoU2l0dWF0aW9u",
+            "EigKC3BpdGNoZXJTaWRlGAEgASgOMhMucHJvdG9jb2xzLlRlYW1TaWRlEg8K",
+            "B3BpdGNoZXIYAiABKA0SDwoHY2F0Y2hlchgDIAEoDRIOCgZiYXR0ZXIYBCAB",
+            "KA0SIgoEbW9kZRgFIAEoCzIULnByb3RvY29scy5QaXRjaE1vZGUSMAoKYmF0",
+            "dGVyUHJvZhgGIAEoCzIcLnByb3RvY29scy5CYXR0ZXJQcm9maWNpZW5jeRIr",
+            "CgtiYXNlUnVubmVycxgHIAEoCzIWLnByb3RvY29scy5CYXNlUnVubmVycxIo",
+            "CgVmaWVsZBgIIAEoCzIZLnByb3RvY29scy5GaWVsZFNpdHVhdGlvbhI3Cgtv",
+            "bkZpZWxkVG9JRBgJIAMoCzIiLnByb3RvY29scy5PbkZpZWxkUm9sZVRvSURN",
+            "YXBFbnRyeRIgChhpbml0UGl0Y2hUYXJnZXRQb3NpdGlvblgYCiABKAISIAoY",
+            "aW5pdFBpdGNoVGFyZ2V0UG9zaXRpb25ZGAsgASgCImMKD1BsYXllclNpdHVh",
+            "dGlvbhInCghob21lVGVhbRgBIAMoCzIVLnByb3RvY29scy5QbGF5ZXJJbmZv",
+            "EicKCGF3YXlUZWFtGAIgAygLMhUucHJvdG9jb2xzLlBsYXllckluZm8i9AUK",
+            "ClBsYXllckluZm8SCgoCaWQYASABKA0SLQoJYWJpbGl0aWVzGAIgASgLMhou",
+            "cHJvdG9jb2xzLlBsYXllckFiaWxpdGllcxISCgphZGVwdFJvbGVzGAMgAygN",
+            "EisKBXN0YXRzGAQgASgLMhwucHJvdG9jb2xzLlBsYXllclNlYXNvblN0YXRz",
+            "EgsKA2NpZBgFIAEoCRIPCgdraXROYW1lGAYgASgJEg4KBm51bWJlchgHIAEo",
+            "CRINCgVwb3dlchgIIAEoAhIdCgRyb2xlGAkgASgOMg8ucHJvdG9jb2xzLlJv",
+            "bGUSKwoLb25GaWVsZFJvbGUYCiABKA4yFi5wcm90b2NvbHMuT25GaWVsZFJv",
+            "bGUSJgoJcGl0Y2hIYW5kGAsgASgOMhMucHJvdG9jb2xzLkhhbmRUeXBlEiwK",
+            "CnBpdGNoVHlwZXMYDCADKAsyGC5wcm90b2NvbHMuUGl0Y2hUeXBlSW5mbxIo",
+            "CgtiYXR0aW5nSGFuZBgNIAEoDjITLnByb3RvY29scy5IYW5kVHlwZRI5ChJi",
+            "YXR0aW5nUHJvZmljaWVuY3kYDiABKAsyHS5wcm90b2NvbHMuQmF0dGluZ1By",
+            "b2ZpY2llbmN5Ei4KDWRvbWluYXRlVHlwZXMYDyADKA4yFy5wcm90b2NvbHMu",
+            "RG9taW5hdGVUeXBlEhcKD3BsYXRlQXBwZWFyYW5jZRgQIAEoDRIOCgZhdEJh",
+            "dHMYESABKA0SDAoEcnVucxgSIAEoDRIMCgRoaXRzGBMgASgNEg4KBmVycm9y",
+            "cxgUIAEoDRIQCghob21lUnVucxgVIAEoDRISCgpwaXRjaENvdW50GBYgASgN",
+            "EhwKFGxlZnRFbmVyZ3lQZXJjZW50YWdlGBcgASgCEhEKCXBvc2l0aW9uWBgY",
+            "IAEoAhIRCglwb3NpdGlvblkYGSABKAISEQoJcm90YXRpb25YGBogASgCEhEK",
+            "CXJvdGF0aW9uWRgbIAEoAhIRCglyb3RhdGlvbloYHCABKAIivQEKD1BsYXll",
+            "ckFiaWxpdGllcxIPCgdjb250YWN0GAEgASgCEhAKCHNsdWdnaW5nGAIgASgC",
+            "EhMKC2Jhc2VSdW5uaW5nGAMgASgCEhAKCGZpZWxkaW5nGAQgASgCEhUKDXBs",
+            "YXRlRGlzcGxpbmUYBSABKAISDwoHc3RhbWluYRgGIAEoAhIPCgdjb250cm9s",
+            "GAcgASgCEhAKCGJyZWFraW5nGAggASgCEhUKDWV4cGxvc2l2ZW5lc3MYCSAB",
+            "KAIifAoRUGxheWVyU2Vhc29uU3RhdHMSCwoDYXZnGAEgASgCEgoKAmhyGAIg",
+            "ASgCEgsKA3JiaRgDIAEoAhIKCgJzYhgEIAEoAhILCgN3aW4YBSABKAISDAoE",
+            "bG9zZRgGIAEoAhILCgNlcmEYByABKAISDQoFZ2FtZXMYCCABKA0iXQoNUGl0",
+            "Y2hUeXBlSW5mbxIiCgR0eXBlGAEgASgOMhQucHJvdG9jb2xzLlBpdGNoVHlw",
+            "ZRIoCgVncmFkZRgCIAEoDjIZLnByb3RvY29scy5QaXRjaFR5cGVHcmFkZSI7",
+            "ChJCYXR0aW5nUHJvZmljaWVuY3kSEgoKZ29vZEJsb2NrcxgBIAMoDRIRCgli",
+            "YWRCbG9ja3MYAiADKA0iEAoORmllbGRTaXR1YXRpb24iOwoQRG9taW5hdGVP",
+            "cFN0YXR1cxINCgVjb3VudBgBIAEoDRIYChBjb3VudEJ5UGl0Y2hUeXBlGAIg",
+            "AygNIoIBCg5Eb21pbmF0ZVN0YXR1cxIdChVwaXRjaGVyT3ZlckxvcmRFbmVy",
+            "Z3kYASABKAISHAoUYmF0dGVyT3ZlckxvcmRFbmVyZ3kYAiABKAISMwoOYWN0",
+            "aXZlT3BTdGF0dXMYAyADKAsyGy5wcm90b2NvbHMuRG9taW5hdGVPcFN0YXR1",
+            "cyKmAQoJUGl0Y2hNb2RlEisKCGRvbWluYXRlGAEgASgLMhkucHJvdG9jb2xz",
+            "LkRvbWluYXRlU3RhdHVzEisKC2JhdHRpbmdNb2RlGAIgASgOMhYucHJvdG9j",
+            "b2xzLkJhdHRpbmdNb2RlEi0KCXN0ZWFsQmFzZRgDIAEoCzIaLnByb3RvY29s",
+            "cy5TdGVhbEJhc2VTdGF0dXMSEAoIYXV0b1BsYXkYBCABKAgiLgoRQmF0dGVy",
+            "UHJvZmljaWVuY3kSDAoEZ29vZBgBIAMoDRILCgNiYWQYAiADKA0ioQEKDlBp",
+            "dGNoU2VsZWN0aW9uEhAKCGJhbGxUeXBlGAEgASgNEg8KB3RhcmdldFgYAiAB",
+            "KAISDwoHdGFyZ2V0WRgDIAEoAhISCgpwdXp6bGVUeXBlGAQgASgNEgwKBGV2",
+            "YWwYBSABKA0SEgoKcGl0Y2hTcGVlZBgGIAEoAhIUCgxvZmZzZXRMZW5ndGgY",
+            "ByABKAISDwoHcGlja29mZhgIIAEoDSLzAQoLQmF0dGluZ0luZm8SDAoEYXV0",
+            "bxgBIAEoCBILCgNiYXQYAiABKAgSDAoEdGltZRgDIAEoDRIeCgNkaXIYBCAB",
+            "KA4yES5wcm90b2NvbHMuQmF0RGlyEi8KBGV2YWwYBSABKA4yIS5wcm90b2Nv",
+            "bHMuQmF0T3BlcmF0aW9uUmVzdWx0VHlwZRInCgliYXRPcFR5cGUYBiABKA4y",
+            "FC5wcm90b2NvbHMuQmF0T3BUeXBlEg8KB3RhcmdldFkYByABKAISFwoPdGFy",
+            "Z2V0WEFmdGVyQmF0GAggASgCEhcKD3RhcmdldFlBZnRlckJhdBgJIAEoAiI7",
+            "CgtCYXNlUnVubmVycxINCgVmaXJzdBgBIAEoDRIOCgZzZWNvbmQYAiABKA0S",
+            "DQoFdGhpcmQYAyABKA0i/wIKCFJ1bkZyYW1lEiUKBHR5cGUYZCABKA4yFy5w",
+            "cm90b2NvbHMuUnVuRnJhbWVUeXBlEjkKEGZyYW1lRGVmZW5zZU1vdmUYASAB",
+            "KAsyHy5wcm90b2NvbHMuUnVuRnJhbWVfRGVmZW5zZU1vdmUSMQoMZnJhbWVS",
+            "dW5CYXNlGAIgASgLMhsucHJvdG9jb2xzLlJ1bkZyYW1lX1J1bkJhc2USLQoK",
+            "ZnJhbWVDYXRjaBgDIAEoCzIZLnByb3RvY29scy5SdW5GcmFtZV9DYXRjaBI7",
+            "ChFmcmFtZUhpdEJhbGxDYXRjaBgEIAEoCzIgLnByb3RvY29scy5SdW5GcmFt",
+            "ZV9IaXRCYWxsQ2F0Y2gSMQoMZnJhbWVQaWNrb2ZmGAUgASgLMhsucHJvdG9j",
+            "b2xzLlJ1bkZyYW1lX1BpY2tvZmYSPwoTZnJhbWVDYXRjaGVyUGlja29mZhgG",
+            "IAEoCzIiLnByb3RvY29scy5SdW5GcmFtZV9DYXRjaGVyUGlja29mZiLCAQoU",
+            "UnVuRnJhbWVfRGVmZW5zZU1vdmUSEQoJc3RhcnRUaW1lGAEgASgCEg8KB2Vu",
+            "ZFRpbWUYAiABKAISJgoGcGxheWVyGAMgASgOMhYucHJvdG9jb2xzLk9uRmll",
+            "bGRSb2xlEiwKDHRhcmdldFBhc3NlchgEIAEoDjIWLnByb3RvY29scy5PbkZp",
+            "ZWxkUm9sZRIOCgZ0b0Jhc2UYBSABKA0SDwoHdGFyZ2V0WBgGIAEoAhIPCgd0",
+            "YXJnZXRZGAcgASgCIpEBChBSdW5GcmFtZV9SdW5CYXNlEhEKCXN0YXJ0VGlt",
+            "ZRgBIAEoAhIPCgdlbmRUaW1lGAIgASgCEiYKBnJ1bm5lchgDIAEoDjIWLnBy",
+            "b3RvY29scy5PbkZpZWxkUm9sZRIQCghmcm9tQmFzZRgEIAEoDRIOCgZ0b0Jh",
+            "c2UYBSABKA0SDwoHb3V0VGltZRgGIAEoAiLRAQoOUnVuRnJhbWVfQ2F0Y2gS",
+            "DwoHZW5kVGltZRgBIAEoAhImCgZwYXNzZXIYAiABKA4yFi5wcm90b2NvbHMu",
+            "T25GaWVsZFJvbGUSJwoHY2F0Y2hlchgDIAEoDjIWLnByb3RvY29scy5PbkZp",
+            "ZWxkUm9sZRIOCgZ0b0Jhc2UYBCABKA0SFgoOaGl0R3JvdW5kVGltZXMYBSAB",
+            "KA0SNQoVb3V0QXRobGV0ZU9uRmllbGRSb2xlGAYgASgOMhYucHJvdG9jb2xz",
+            "Lk9uRmllbGRSb2xlIv8BChVSdW5GcmFtZV9IaXRCYWxsQ2F0Y2gSEQoJc3Rh",
+            "cnRUaW1lGAEgASgCEg8KB2VuZFRpbWUYAiABKAISJwoHY2F0Y2hlchgDIAEo",
+            "DjIWLnByb3RvY29scy5PbkZpZWxkUm9sZRIPCgd0YXJnZXRYGAQgASgCEg8K",
+            "B3RhcmdldFkYBSABKAISFgoOaGl0R3JvdW5kVGltZXMYBiABKA0SFQoNaXNS",
+            "b2xsaW5nQmFsbBgHIAEoCBI1ChVvdXRBdGhsZXRlT25GaWVsZFJvbGUYCCAB",
+            "KA4yFi5wcm90b2NvbHMuT25GaWVsZFJvbGUSEQoJaXNIaXRXYWxsGAkgASgI",
+            "Ii8KEFJ1bkZyYW1lX1BpY2tvZmYSDAoEYmFzZRgBIAEoDRINCgVpc091dBgC",
+            "IAEoCCKrAQoXUnVuRnJhbWVfQ2F0Y2hlclBpY2tvZmYSDwoHZW5kVGltZRgB",
+            "IAEoAhIPCgdvdXRUaW1lGAIgASgCEicKB2NhdGNoZXIYAyABKA4yFi5wcm90",
+            "b2NvbHMuT25GaWVsZFJvbGUSDgoGdG9CYXNlGAQgASgNEjUKFW91dEF0aGxl",
+            "dGVPbkZpZWxkUm9sZRgFIAEoDjIWLnByb3RvY29scy5PbkZpZWxkUm9sZSKq",
+            "AwoJQmF0UmVzdWx0EiYKBnJlc3VsdBgBIAEoDjIWLnByb3RvY29scy5QaXRj",
+            "aFJlc3VsdBIjCgZmcmFtZXMYAiADKAsyEy5wcm90b2NvbHMuUnVuRnJhbWUS",
+            "FAoMcGl0Y2hFbmRUaW1lGAMgASgCEhkKEW91dEZpZWxkUG9zaXRpb25YGAQg",
+            "ASgCEhkKEW91dEZpZWxkUG9zaXRpb25aGAUgASgCEhcKD291dEZpZWxkRmx5",
+            "VGltZRgGIAEoAhIhChlvdXRGaWVsZEZseUhpdEdyb3VuZFRpbWVzGAcgASgN",
+            "EhEKCWlzRmFzdE91dBgIIAEoCBITCgtpc0F1dG9Td2luZxgJIAEoCBI5Chlo",
+            "aXRCYWxsQ2F0Y2hlck9uRmllbGRSb2xlGAogASgOMhYucHJvdG9jb2xzLk9u",
+            "RmllbGRSb2xlEjEKDnRyYWplY3RvcnlUeXBlGAsgASgOMhkucHJvdG9jb2xz",
+            "LlRyYWplY3RvcnlUeXBlEjIKEm11bHRpUGxheURlZmVuZGVycxgMIAMoDjIW",
+            "LnByb3RvY29scy5PbkZpZWxkUm9sZSJwChFQb3NzaWJsZUJhdFJlc3VsdBI1",
+            "CgpyZXN1bHRUeXBlGAEgASgOMiEucHJvdG9jb2xzLkJhdE9wZXJhdGlvblJl",
+            "c3VsdFR5cGUSJAoGcmVzdWx0GAIgASgLMhQucHJvdG9jb2xzLkJhdFJlc3Vs",
+            "dCJNCglUZWFtU3RhdHMSDAoEcnVucxgBIAEoDRIMCgRoaXRzGAIgASgNEg4K",
+            "BmVycm9ycxgDIAEoDRIUCgxpbm5pbmdTY29yZXMYBCADKA0iUwoWQ2hhbmdl",
+            "ZFBsYXllckFiaWxpdGllcxIKCgJpZBgBIAEoDRItCglhYmlsaXRpZXMYAiAB",
+            "KAsyGi5wcm90b2NvbHMuUGxheWVyQWJpbGl0aWVzIj0KDVNlbGVjdFBpdGNo",
+            "T3ASLAoJc2VsZWN0aW9uGAEgASgLMhkucHJvdG9jb2xzLlBpdGNoU2VsZWN0",
+            "aW9uIrMBCg9TZWxlY3RQaXRjaFJlc3ASLAoJc2VsZWN0aW9uGAEgASgLMhku",
+            "cHJvdG9jb2xzLlBpdGNoU2VsZWN0aW9uEjUKD3Bvc3NpYmxlUmVzdWx0cxgC",
+            "IAMoCzIcLnByb3RvY29scy5Qb3NzaWJsZUJhdFJlc3VsdBI7ChBjaGFuZ2Vk",
+            "QWJpbGl0aWVzGAMgAygLMiEucHJvdG9jb2xzLkNoYW5nZWRQbGF5ZXJBYmls",
+            "aXRpZXMiRQoPRG9taW5hdGVQaXRjaE9wEiQKAm9wGAEgASgLMhgucHJvdG9j",
+            "b2xzLlNlbGVjdFBpdGNoT3ASDAoEZXZhbBgCIAEoDSJLChFEb21pbmF0ZVBp",
+            "dGNoUmVzcBIoCgRyZXNwGAEgASgLMhoucHJvdG9jb2xzLlNlbGVjdFBpdGNo",
+            "UmVzcBIMCgRldmFsGAIgASgNIiwKBUJhdE9wEiMKA2JhdBgBIAEoCzIWLnBy",
+            "b3RvY29scy5CYXR0aW5nSW5mbyKKAQoHQmF0UmVzcBIjCgNiYXQYASABKAsy",
+            "Fi5wcm90b2NvbHMuQmF0dGluZ0luZm8SJAoGcmVzdWx0GAIgASgLMhQucHJv",
+            "dG9jb2xzLkJhdFJlc3VsdBI0Cg1uZXh0U2l0dWF0aW9uGAMgASgLMh0ucHJv",
+            "dG9jb2xzLkZ1bGxNYXRjaFNpdHVhdGlvbiI7Cg1Eb21pbmF0ZUJhdE9wEhwK",
+            "Am9wGAEgASgLMhAucHJvdG9jb2xzLkJhdE9wEgwKBGV2YWwYAiABKA0iQQoP",
+            "RG9taW5hdGVCYXRSZXNwEiAKBHJlc3AYASABKAsyEi5wcm90b2NvbHMuQmF0",
+            "UmVzcBIMCgRldmFsGAIgASgNIh8KDVNldERvbWluYXRlT3ASDgoGYWN0aXZl",
+            "GAEgASgIIj0KEFNldERvbWluYXRlRXZlbnQSKQoGc3RhdHVzGAEgASgLMhku",
+            "cHJvdG9jb2xzLkRvbWluYXRlU3RhdHVzIowBCg9TdGVhbEJhc2VTdGF0dXMS",
+            "DQoFYmFzZTEYASABKAgSDQoFYmFzZTIYAiABKAgSDQoFYmFzZTMYAyABKAgS",
+            "GAoQYmFzZTFBZHZhbmNlRGlzdBgEIAEoAhIYChBiYXNlMkFkdmFuY2VEaXN0",
+            "GAUgASgCEhgKEGJhc2UzQWR2YW5jZURpc3QYBiABKAIiPAoOU2V0U3RlYWxC",
+            "YXNlT3ASKgoGc3RhdHVzGAEgASgLMhoucHJvdG9jb2xzLlN0ZWFsQmFzZVN0",
+            "YXR1cyI/ChFTZXRTdGVhbEJhc2VFdmVudBIqCgZzdGF0dXMYASABKAsyGi5w",
+            "cm90b2NvbHMuU3RlYWxCYXNlU3RhdHVzIjgKEFNldEJhdHRpbmdNb2RlT3AS",
+            "JAoEbW9kZRgBIAEoDjIWLnByb3RvY29scy5CYXR0aW5nTW9kZSI7ChNTZXRC",
+            "YXR0aW5nTW9kZUV2ZW50EiQKBG1vZGUYASABKA4yFi5wcm90b2NvbHMuQmF0",
+            "dGluZ01vZGUiIAoQTW92ZVRvTmV4dFN0ZXBPcBIMCgRzdGVwGAEgASgNIiIK",
+            "Ek1vdmVUb05leHRTdGVwUmVzcBIMCgRzdGVwGAEgASgNIhAKDlBpdGNoUHJl",
+            "cGFyZU9wIhAKDlBpdGNoUmVhZHlSZXNwIgsKCUJhdERvbmVPcCINCgtWYWlu",
+            "U3dpbmdPcCIQCg5WYWluU3dpbmdFdmVudCISChBQaXRjaGVyVXJnZUV2ZW50",
+            "IhEKD0JlZ2luQmF0U3dpbmdPcCIUChJCZWdpbkJhdFN3aW5nRXZlbnQiMwob",
+            "U2VsZWN0aW5nQmF0dGluZ1RhcmdldEV2ZW50EgkKAXgYASABKAISCQoBeRgC",
+            "IAEoAiI/Cg5GcmFtZVN5bmNCZWdpbhIQCghpbnRlcnZhbBgBIAEoDRINCgVp",
+            "bmRleBgCIAEoDRIMCgR0aW1lGAMgASgNIj4KDUZyYW1lU3luY1RpY2sSEAoI",
+            "aW50ZXJ2YWwYASABKA0SDQoFaW5kZXgYAiABKA0SDAoEdGltZRgDIAEoDSIO",
+            "CgxGcmFtZVN5bmNFbmQiTQoMUnVuVG9CYXNlUmVxEg4KBnRvYmFzZRgBIAEo",
+            "DRIPCgdjdXJiYXNlGAIgASgNEgwKBHRpbWUYAyABKA0SDgoGb2Zmc2V0GAQg",
+            "ASgCImsKDVJ1blRvQmFzZVJlc3ASJAoGcmVzdWx0GAEgASgLMhQucHJvdG9j",
+            "b2xzLkJhdFJlc3VsdBI0Cg1uZXh0U2l0dWF0aW9uGAIgASgLMh0ucHJvdG9j",
+            "b2xzLkZ1bGxNYXRjaFNpdHVhdGlvbiorCghUZWFtU2lkZRILCgdOZXV0cmFs",
+            "EAASCAoESG9tZRABEggKBEF3YXkQAioyCgpJbm5pbmdIYWxmEg8KC1Vua25v",
+            "d25IYWxmEAASBwoDVG9wEAESCgoGQm90dG9tEAIqQwoLQmF0dGluZ01vZGUS",
+            "DwoLVW5rbm93bk1vZGUQABILCgdDb250YWN0EAESDAoIU2x1Z2dpbmcQAhII",
+            "CgRCdW50EAMqaAoOVHJhamVjdG9yeVR5cGUSGQoVVW5rbm93blRyYWplY3Rv",
+            "cnlUeXBlEAASEQoNTG93VHJhamVjdG9yeRABEhQKEE1pZGRsZVRyYWplY3Rv",
+            "cnkQAhISCg5IaWdoVHJhamVjdG9yeRADKvIBCglQaXRjaFR5cGUSFAoQVW5r",
+            "bm93blBpdGNoVHlwZRAAEgwKCEZhc3RCYWxsEAESCgoGU2lua2VyEAISCgoG",
+            "U2xpZGVyEAMSCQoFQ3VydmUQBBINCglTY3Jld0JhbGwQBRIMCghDaGFuZ2VV",
+            "cBAGEgoKBkN1dHRlchAHEgsKB1R3b1NlYW0QCBIHCgNTZmYQCRIQCgxLbnVj",
+            "a2xlQ3VydmUQChIMCghGb3JrQmFsbBALEgoKBlNsdXJ2ZRAMEgwKCFBhbG1C",
+            "YWxsEA0SCQoFU2hvb3QQDhILCgdWc2xpZGVyEA8SDQoJU2xvd0N1cnZlEBAq",
+            "TgoOUGl0Y2hUeXBlR3JhZGUSGQoVVW5rbm93blBpdGNoVHlwZUdyYWRlEAAS",
+            "BQoBRBABEgUKAUMQAhIFCgFCEAMSBQoBQRAEEgUKAVMQBSpQChVNYW51YWxQ",
+            "aXRjaFB1enpsZVR5cGUSFQoRVW5rbm93blB1enpsZVR5cGUQABIQCgxQdXp6",
+            "bGVTdHJpa2UQARIOCgpQdXp6bGVCYWxsEAIquAEKC1BpdGNoUmVzdWx0EhEK",
+            "DVVua25vd25SZXN1bHQQABIICgRCYWxsEAESCgoGU3RyaWtlEAISCAoERm91",
+            "bBADEgoKBlNpbmdsZRAEEgoKBkRvdWJsZRAFEgoKBlRyaXBsZRAGEgsKB0hv",
+            "bWVSdW4QBxILCgdQaWNrb2ZmEAgSBwoDSUJCEAkSCgoGUHV0T3V0EAoSDAoI",
+            "Rm9yY2VPdXQQCxIMCghUb3VjaE91dBAMEgcKA0hCUBANKjMKBkJhdERpchII",
+            "CgROb25lEAASCAoETGVmdBABEgoKBkNlbnRlchACEgkKBVJpZ2h0EAMqiAEK",
             "DFJ1bkZyYW1lVHlwZRIXChNVbmtub3duUnVuRnJhbWVUeXBlEAASDwoLRGVm",
             "ZW5zZU1vdmUQARILCgdSdW5CYXNlEAISCQoFQ2F0Y2gQAxIQCgxIaXRCYWxs",
-            "Q2F0Y2gQBCrrAQoEUm9sZRIPCgtVbmtub3duUm9sZRAAEg8KC1BpdGNoZXJS",
-            "b2xlEAESDwoLQ2F0Y2hlclJvbGUQAhIUChBGaXJzdEJhc2VNYW5Sb2xlEAMS",
-            "FQoRU2Vjb25kQmFzZU1hblJvbGUQBBIUChBUaGlyZEJhc2VNYW5Sb2xlEAUS",
-            "EQoNU2hvcnRzdG9wUm9sZRAGEhMKD0xlZnRGaWVsZGVyUm9sZRAHEhUKEUNl",
-            "bnRlckZpZWxkZXJSb2xlEAgSFAoQUmlnaHRGaWVsZGVyUm9sZRAJEhgKFERl",
-            "c2lnbmF0ZWRIaXR0ZXJSb2xlEAoqhwIKC09uRmllbGRSb2xlEhYKElVua25v",
-            "d25PbkZpZWxkUm9sZRAAEgsKB1BpdGNoZXIQARILCgdDYXRjaGVyEAISEAoM",
-            "Rmlyc3RCYXNlTWFuEAMSEQoNU2Vjb25kQmFzZU1hbhAEEhAKDFRoaXJkQmFz",
-            "ZU1hbhAFEg0KCVNob3J0c3RvcBAGEg8KC0xlZnRGaWVsZGVyEAcSEQoNQ2Vu",
-            "dGVyRmllbGRlchAIEhAKDFJpZ2h0RmllbGRlchAJEgoKBkJhdHRlchAKEhMK",
-            "D0ZpcnN0QmFzZVJ1bm5lchALEhQKEFNlY29uZEJhc2VSdW5uZXIQDBITCg9U",
-            "aGlyZEJhc2VSdW5uZXIQDSpGCghIYW5kVHlwZRITCg9Vbmtub3duSGFuZFR5",
-            "cGUQABIMCghMZWZ0SGFuZBABEg0KCVJpZ2h0SGFuZBACEggKBEJvdGgQAyqS",
-            "AgoWQmF0T3BlcmF0aW9uUmVzdWx0VHlwZRIhCh1Vbmtub3duQmF0T3BlcmF0",
-            "aW9uUmVzdWx0VHlwZRAAEggKBEF1dG8QARIKCgZOb3RCYXQQAhIPCgtFYXJs",
-            "eU9yTGF0ZRADEhgKFEp1c3RFYXJseU9yTGF0ZUNsaWNrEAQSFwoTSnVzdEVh",
-            "cmx5T3JMYXRlTGVmdBAFEhkKFUp1c3RFYXJseU9yTGF0ZUNlbnRlchAGEhgK",
-            "FEp1c3RFYXJseU9yTGF0ZVJpZ2h0EAcSEAoMUGVyZmVjdENsaWNrEAgSDwoL",
-            "UGVyZmVjdExlZnQQCRIRCg1QZXJmZWN0Q2VudGVyEAoSEAoMUGVyZmVjdFJp",
-            "Z2h0EAtiBnByb3RvMw=="));
+            "Q2F0Y2gQBBIQCgxQaWNrb2ZmRnJhbWUQBRISCg5DYXRjaGVyUGlja29mZhAG",
+            "KusBCgRSb2xlEg8KC1Vua25vd25Sb2xlEAASDwoLUGl0Y2hlclJvbGUQARIP",
+            "CgtDYXRjaGVyUm9sZRACEhQKEEZpcnN0QmFzZU1hblJvbGUQAxIVChFTZWNv",
+            "bmRCYXNlTWFuUm9sZRAEEhQKEFRoaXJkQmFzZU1hblJvbGUQBRIRCg1TaG9y",
+            "dHN0b3BSb2xlEAYSEwoPTGVmdEZpZWxkZXJSb2xlEAcSFQoRQ2VudGVyRmll",
+            "bGRlclJvbGUQCBIUChBSaWdodEZpZWxkZXJSb2xlEAkSGAoURGVzaWduYXRl",
+            "ZEhpdHRlclJvbGUQCiqHAgoLT25GaWVsZFJvbGUSFgoSVW5rbm93bk9uRmll",
+            "bGRSb2xlEAASCwoHUGl0Y2hlchABEgsKB0NhdGNoZXIQAhIQCgxGaXJzdEJh",
+            "c2VNYW4QAxIRCg1TZWNvbmRCYXNlTWFuEAQSEAoMVGhpcmRCYXNlTWFuEAUS",
+            "DQoJU2hvcnRzdG9wEAYSDwoLTGVmdEZpZWxkZXIQBxIRCg1DZW50ZXJGaWVs",
+            "ZGVyEAgSEAoMUmlnaHRGaWVsZGVyEAkSCgoGQmF0dGVyEAoSEwoPRmlyc3RC",
+            "YXNlUnVubmVyEAsSFAoQU2Vjb25kQmFzZVJ1bm5lchAMEhMKD1RoaXJkQmFz",
+            "ZVJ1bm5lchANKkYKCEhhbmRUeXBlEhMKD1Vua25vd25IYW5kVHlwZRAAEgwK",
+            "CExlZnRIYW5kEAESDQoJUmlnaHRIYW5kEAISCAoEQm90aBADKoQBChZCYXRP",
+            "cGVyYXRpb25SZXN1bHRUeXBlEiEKHVVua25vd25CYXRPcGVyYXRpb25SZXN1",
+            "bHRUeXBlEAASCAoEQXV0bxABEgoKBk5vdEJhdBACEg8KC0Vhcmx5T3JMYXRl",
+            "EAMSEwoPSnVzdEVhcmx5T3JMYXRlEAQSCwoHUGVyZmVjdBAFKlMKCUJhdE9w",
+            "VHlwZRIUChBVbmtub3duQmF0T3BUeXBlEAASCwoHRGVmYXVsdBABEhEKDUd1",
+            "ZXNzUGl0Y2hQb3MQAhIQCgxTZWxlY3RIaXRQb3MQAyrSBAoMRG9taW5hdGVU",
+            "eXBlEhMKD1Vua25vd25Eb21pbmF0ZRAAEhMKD0JhdHRlckRvbWluYXRlMRAB",
+            "EhUKEVNsb3dNb3Rpb25CYXR0aW5nEAESEwoPQmF0dGVyRG9taW5hdGUyEAIS",
+            "DgoKQmF0dGluZ0V5ZRACEhMKD0JhdHRlckRvbWluYXRlMxADEhYKEkhpdFRh",
+            "cmdldFNlbGVjdGlvbhADEhMKD0JhdHRlckRvbWluYXRlNBAEEhMKD0JhdHRl",
+            "ckRvbWluYXRlNRAFEhMKD0JhdHRlckRvbWluYXRlNhAGEhMKD0JhdHRlckRv",
+            "bWluYXRlNxAHEhMKD0JhdHRlckRvbWluYXRlOBAIEhMKD0JhdHRlckRvbWlu",
+            "YXRlORAJEhQKEEJhdHRlckRvbWluYXRlMTAQChIUChBQaXRjaGVyRG9taW5h",
+            "dGUxEAsSEwoPTGlnaHRTcGVlZFBpdGNoEAsSFAoQUGl0Y2hlckRvbWluYXRl",
+            "MhAMEg4KClN1cGVyQ3VydmUQDBIUChBQaXRjaGVyRG9taW5hdGUzEA0SFQoR",
+            "VW5kZXJDb250cm9sUGl0Y2gQDRIUChBQaXRjaGVyRG9taW5hdGU0EA4SFAoQ",
+            "UGl0Y2hlckRvbWluYXRlNRAPEhQKEFBpdGNoZXJEb21pbmF0ZTYQEBIUChBQ",
+            "aXRjaGVyRG9taW5hdGU3EBESFAoQUGl0Y2hlckRvbWluYXRlOBASEhQKEFBp",
+            "dGNoZXJEb21pbmF0ZTkQExIVChFQaXRjaGVyRG9taW5hdGUxMBAUGgIQAWIG",
+            "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Protocols.TeamSide), typeof(global::Protocols.InningHalf), typeof(global::Protocols.BattingMode), typeof(global::Protocols.PitchType), typeof(global::Protocols.PitchResult), typeof(global::Protocols.BatDir), typeof(global::Protocols.RunFrameType), typeof(global::Protocols.Role), typeof(global::Protocols.OnFieldRole), typeof(global::Protocols.HandType), typeof(global::Protocols.BatOperationResultType), }, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Protocols.TeamSide), typeof(global::Protocols.InningHalf), typeof(global::Protocols.BattingMode), typeof(global::Protocols.TrajectoryType), typeof(global::Protocols.PitchType), typeof(global::Protocols.PitchTypeGrade), typeof(global::Protocols.ManualPitchPuzzleType), typeof(global::Protocols.PitchResult), typeof(global::Protocols.BatDir), typeof(global::Protocols.RunFrameType), typeof(global::Protocols.Role), typeof(global::Protocols.OnFieldRole), typeof(global::Protocols.HandType), typeof(global::Protocols.BatOperationResultType), typeof(global::Protocols.BatOpType), typeof(global::Protocols.DominateType), }, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.ServerStatusOp), global::Protocols.ServerStatusOp.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.ServerStatusResp), global::Protocols.ServerStatusResp.Parser, new[]{ "RoomStatus" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.Nop), global::Protocols.Nop.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.Reset), global::Protocols.Reset.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.OpponentConnected), global::Protocols.OpponentConnected.Parser, new[]{ "Uid", "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.OpponentDisconnected), global::Protocols.OpponentDisconnected.Parser, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.GamersStatus), global::Protocols.GamersStatus.Parser, new[]{ "HomeRTT", "AwayRTT" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.ConnectToRoomOp), global::Protocols.ConnectToRoomOp.Parser, new[]{ "Uid", "Name", "Room" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.ConnectToRoomResp), global::Protocols.ConnectToRoomResp.Parser, new[]{ "Success", "Side", "Started" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.ChangeSideOp), global::Protocols.ChangeSideOp.Parser, new[]{ "Accept" }, null, null, null),
@@ -227,49 +279,59 @@ namespace Protocols {
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.FullMatchSituation), global::Protocols.FullMatchSituation.Parser, new[]{ "MatchSituation", "Players", "PitchSituation" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.MatchSituation), global::Protocols.MatchSituation.Parser, new[]{ "Inning", "Half", "PitchCount", "Out", "Strike", "Ball", "Ended", "HomeTeamInfo", "AwayTeamInfo", "NextThreeBatterIds" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.OnFieldRoleToIDMapEntry), global::Protocols.OnFieldRoleToIDMapEntry.Parser, new[]{ "OnFieldRole", "Id" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.TeamInfo), global::Protocols.TeamInfo.Parser, new[]{ "Name", "Stats", "Captain", "OrderOfRoles", "OverLordEnergy" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PitchSituation), global::Protocols.PitchSituation.Parser, new[]{ "PitcherSide", "Pitcher", "Catcher", "Batter", "Mode", "BatterProf", "BaseRunners", "Field", "OnFieldToID" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.TeamInfo), global::Protocols.TeamInfo.Parser, new[]{ "Name", "Stats", "Captain", "OrderOfRoles", "OverLordEnergy", "HomeShirtID" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PitchSituation), global::Protocols.PitchSituation.Parser, new[]{ "PitcherSide", "Pitcher", "Catcher", "Batter", "Mode", "BatterProf", "BaseRunners", "Field", "OnFieldToID", "InitPitchTargetPositionX", "InitPitchTargetPositionY" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PlayerSituation), global::Protocols.PlayerSituation.Parser, new[]{ "HomeTeam", "AwayTeam" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PlayerInfo), global::Protocols.PlayerInfo.Parser, new[]{ "Id", "Abilities", "AdeptRoles", "Stats", "Cid", "KitName", "Number", "Power", "Role", "OnFieldRole", "PitchHand", "PitchTypes", "BattingHand", "BattingProficiency", "PlateAppearance", "AtBats", "Runs", "Hits", "Errors", "HomeRuns", "PitchCount", "LeftEnergyPercentage", "PositionX", "PositionY", "RotationX", "RotationY", "RotationZ" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PlayerAbilities), global::Protocols.PlayerAbilities.Parser, new[]{ "Contact", "Drag", "Push", "DragBunt", "Slugging", "Steal", "BaseRunning", "Stability", "Reaction", "Throwing", "FieldingRange", "Blocking", "PlateDispline", "Stamina", "Control", "Breaking", "ExplosiveNess", "Bunt", "StealTendency" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PlayerInfo), global::Protocols.PlayerInfo.Parser, new[]{ "Id", "Abilities", "AdeptRoles", "Stats", "Cid", "KitName", "Number", "Power", "Role", "OnFieldRole", "PitchHand", "PitchTypes", "BattingHand", "BattingProficiency", "DominateTypes", "PlateAppearance", "AtBats", "Runs", "Hits", "Errors", "HomeRuns", "PitchCount", "LeftEnergyPercentage", "PositionX", "PositionY", "RotationX", "RotationY", "RotationZ" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PlayerAbilities), global::Protocols.PlayerAbilities.Parser, new[]{ "Contact", "Slugging", "BaseRunning", "Fielding", "PlateDispline", "Stamina", "Control", "Breaking", "Explosiveness" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PlayerSeasonStats), global::Protocols.PlayerSeasonStats.Parser, new[]{ "Avg", "Hr", "Rbi", "Sb", "Win", "Lose", "Era", "Games" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PitchTypeInfo), global::Protocols.PitchTypeInfo.Parser, new[]{ "Type", "Grade" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.BattingProficiency), global::Protocols.BattingProficiency.Parser, new[]{ "GoodBlocks", "BadBlocks" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.FieldSituation), global::Protocols.FieldSituation.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PitchMode), global::Protocols.PitchMode.Parser, new[]{ "PitcherDominate", "BatterDominate", "BattingMode" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.DominateOpStatus), global::Protocols.DominateOpStatus.Parser, new[]{ "Count", "CountByPitchType" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.DominateStatus), global::Protocols.DominateStatus.Parser, new[]{ "PitcherOverLordEnergy", "BatterOverLordEnergy", "ActiveOpStatus" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PitchMode), global::Protocols.PitchMode.Parser, new[]{ "Dominate", "BattingMode", "StealBase", "AutoPlay" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.BatterProficiency), global::Protocols.BatterProficiency.Parser, new[]{ "Good", "Bad" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PitchSelection), global::Protocols.PitchSelection.Parser, new[]{ "BallType", "TargetX", "TargetY", "Dominate", "Eval", "OperationEval" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.BattingInfo), global::Protocols.BattingInfo.Parser, new[]{ "Auto", "Bat", "Time", "Dir", "Eval" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PitchSelection), global::Protocols.PitchSelection.Parser, new[]{ "BallType", "TargetX", "TargetY", "PuzzleType", "Eval", "PitchSpeed", "OffsetLength", "Pickoff" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.BattingInfo), global::Protocols.BattingInfo.Parser, new[]{ "Auto", "Bat", "Time", "Dir", "Eval", "BatOpType", "TargetY", "TargetXAfterBat", "TargetYAfterBat" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.BaseRunners), global::Protocols.BaseRunners.Parser, new[]{ "First", "Second", "Third" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.RunFrame), global::Protocols.RunFrame.Parser, new[]{ "Type", "FrameDefenseMove", "FrameRunBase", "FrameCatch", "FrameHitBallCatch" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.RunFrame), global::Protocols.RunFrame.Parser, new[]{ "Type", "FrameDefenseMove", "FrameRunBase", "FrameCatch", "FrameHitBallCatch", "FramePickoff", "FrameCatcherPickoff" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.RunFrame_DefenseMove), global::Protocols.RunFrame_DefenseMove.Parser, new[]{ "StartTime", "EndTime", "Player", "TargetPasser", "ToBase", "TargetX", "TargetY" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.RunFrame_RunBase), global::Protocols.RunFrame_RunBase.Parser, new[]{ "StartTime", "EndTime", "Runner", "FromBase", "ToBase", "OutTime" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.RunFrame_Catch), global::Protocols.RunFrame_Catch.Parser, new[]{ "EndTime", "Passer", "Catcher", "ToBase", "HitGroundTimes", "OutAthleteOnFieldRole" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.RunFrame_HitBallCatch), global::Protocols.RunFrame_HitBallCatch.Parser, new[]{ "StartTime", "EndTime", "Catcher", "TargetX", "TargetY", "HitGroundTimes", "IsRollingBall", "OutAthleteOnFieldRole", "IsHitWall" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.BatResult), global::Protocols.BatResult.Parser, new[]{ "Result", "Frames", "PitchEndTime", "OutFieldPositionX", "OutFieldPositionZ", "OutFieldFlyTime", "OutFieldFlyHitGroundTimes", "IsFastOut" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.RunFrame_Pickoff), global::Protocols.RunFrame_Pickoff.Parser, new[]{ "Base", "IsOut" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.RunFrame_CatcherPickoff), global::Protocols.RunFrame_CatcherPickoff.Parser, new[]{ "EndTime", "OutTime", "Catcher", "ToBase", "OutAthleteOnFieldRole" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.BatResult), global::Protocols.BatResult.Parser, new[]{ "Result", "Frames", "PitchEndTime", "OutFieldPositionX", "OutFieldPositionZ", "OutFieldFlyTime", "OutFieldFlyHitGroundTimes", "IsFastOut", "IsAutoSwing", "HitBallCatcherOnFieldRole", "TrajectoryType", "MultiPlayDefenders" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PossibleBatResult), global::Protocols.PossibleBatResult.Parser, new[]{ "ResultType", "Result" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.TeamStats), global::Protocols.TeamStats.Parser, new[]{ "Runs", "Hits", "Errors", "InningScores" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.ChangedPlayerAbilities), global::Protocols.ChangedPlayerAbilities.Parser, new[]{ "Id", "Abilities" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.SelectPitchOp), global::Protocols.SelectPitchOp.Parser, new[]{ "Selection" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.SelectPitchResp), global::Protocols.SelectPitchResp.Parser, new[]{ "Selection", "PossibleResults" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.SelectPitchResp), global::Protocols.SelectPitchResp.Parser, new[]{ "Selection", "PossibleResults", "ChangedAbilities" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.DominatePitchOp), global::Protocols.DominatePitchOp.Parser, new[]{ "Op", "Eval" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.DominatePitchResp), global::Protocols.DominatePitchResp.Parser, new[]{ "Resp", "Eval" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.BatOp), global::Protocols.BatOp.Parser, new[]{ "Bat", "Dominate" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.BatOp), global::Protocols.BatOp.Parser, new[]{ "Bat" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.BatResp), global::Protocols.BatResp.Parser, new[]{ "Bat", "Result", "NextSituation" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.DominateBatOp), global::Protocols.DominateBatOp.Parser, new[]{ "Op", "Eval" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.DominateBatResp), global::Protocols.DominateBatResp.Parser, new[]{ "Resp", "Eval" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.SetDominateOp), global::Protocols.SetDominateOp.Parser, new[]{ "Active" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.SetDominateEvent), global::Protocols.SetDominateEvent.Parser, new[]{ "Role", "Active" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.SetDominateEvent), global::Protocols.SetDominateEvent.Parser, new[]{ "Status" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.StealBaseStatus), global::Protocols.StealBaseStatus.Parser, new[]{ "Base1", "Base2", "Base3", "Base1AdvanceDist", "Base2AdvanceDist", "Base3AdvanceDist" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.SetStealBaseOp), global::Protocols.SetStealBaseOp.Parser, new[]{ "Status" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.SetStealBaseEvent), global::Protocols.SetStealBaseEvent.Parser, new[]{ "Status" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.SetBattingModeOp), global::Protocols.SetBattingModeOp.Parser, new[]{ "Mode" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.SetBattingModeEvent), global::Protocols.SetBattingModeEvent.Parser, new[]{ "Mode" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.MoveToNextStepOp), global::Protocols.MoveToNextStepOp.Parser, new[]{ "Step" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.MoveToNextStepResp), global::Protocols.MoveToNextStepResp.Parser, new[]{ "Step" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PitchPrepareOp), global::Protocols.PitchPrepareOp.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PitchReadyResp), global::Protocols.PitchReadyResp.Parser, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.BatDoneOp), global::Protocols.BatDoneOp.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.VainSwingOp), global::Protocols.VainSwingOp.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.VainSwingEvent), global::Protocols.VainSwingEvent.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.PitcherUrgeEvent), global::Protocols.PitcherUrgeEvent.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.BeginBatSwingOp), global::Protocols.BeginBatSwingOp.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.BeginBatSwingEvent), global::Protocols.BeginBatSwingEvent.Parser, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.SelectingBattingTargetEvent), global::Protocols.SelectingBattingTargetEvent.Parser, new[]{ "X", "Y" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.FrameSyncBegin), global::Protocols.FrameSyncBegin.Parser, new[]{ "Interval", "Index", "Time" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.FrameSyncTick), global::Protocols.FrameSyncTick.Parser, new[]{ "Interval", "Index", "Time" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Protocols.FrameSyncEnd), global::Protocols.FrameSyncEnd.Parser, null, null, null, null),
@@ -300,6 +362,13 @@ namespace Protocols {
     [pbr::OriginalName("Bunt")] Bunt = 3,
   }
 
+  public enum TrajectoryType {
+    [pbr::OriginalName("UnknownTrajectoryType")] UnknownTrajectoryType = 0,
+    [pbr::OriginalName("LowTrajectory")] LowTrajectory = 1,
+    [pbr::OriginalName("MiddleTrajectory")] MiddleTrajectory = 2,
+    [pbr::OriginalName("HighTrajectory")] HighTrajectory = 3,
+  }
+
   public enum PitchType {
     [pbr::OriginalName("UnknownPitchType")] UnknownPitchType = 0,
     [pbr::OriginalName("FastBall")] FastBall = 1,
@@ -318,6 +387,21 @@ namespace Protocols {
     [pbr::OriginalName("Shoot")] Shoot = 14,
     [pbr::OriginalName("Vslider")] Vslider = 15,
     [pbr::OriginalName("SlowCurve")] SlowCurve = 16,
+  }
+
+  public enum PitchTypeGrade {
+    [pbr::OriginalName("UnknownPitchTypeGrade")] UnknownPitchTypeGrade = 0,
+    [pbr::OriginalName("D")] D = 1,
+    [pbr::OriginalName("C")] C = 2,
+    [pbr::OriginalName("B")] B = 3,
+    [pbr::OriginalName("A")] A = 4,
+    [pbr::OriginalName("S")] S = 5,
+  }
+
+  public enum ManualPitchPuzzleType {
+    [pbr::OriginalName("UnknownPuzzleType")] UnknownPuzzleType = 0,
+    [pbr::OriginalName("PuzzleStrike")] PuzzleStrike = 1,
+    [pbr::OriginalName("PuzzleBall")] PuzzleBall = 2,
   }
 
   public enum PitchResult {
@@ -389,6 +473,8 @@ namespace Protocols {
     [pbr::OriginalName("RunBase")] RunBase = 2,
     [pbr::OriginalName("Catch")] Catch = 3,
     [pbr::OriginalName("HitBallCatch")] HitBallCatch = 4,
+    [pbr::OriginalName("PickoffFrame")] PickoffFrame = 5,
+    [pbr::OriginalName("CatcherPickoff")] CatcherPickoff = 6,
   }
 
   public enum Role {
@@ -434,14 +520,63 @@ namespace Protocols {
     [pbr::OriginalName("Auto")] Auto = 1,
     [pbr::OriginalName("NotBat")] NotBat = 2,
     [pbr::OriginalName("EarlyOrLate")] EarlyOrLate = 3,
-    [pbr::OriginalName("JustEarlyOrLateClick")] JustEarlyOrLateClick = 4,
-    [pbr::OriginalName("JustEarlyOrLateLeft")] JustEarlyOrLateLeft = 5,
-    [pbr::OriginalName("JustEarlyOrLateCenter")] JustEarlyOrLateCenter = 6,
-    [pbr::OriginalName("JustEarlyOrLateRight")] JustEarlyOrLateRight = 7,
-    [pbr::OriginalName("PerfectClick")] PerfectClick = 8,
-    [pbr::OriginalName("PerfectLeft")] PerfectLeft = 9,
-    [pbr::OriginalName("PerfectCenter")] PerfectCenter = 10,
-    [pbr::OriginalName("PerfectRight")] PerfectRight = 11,
+    [pbr::OriginalName("JustEarlyOrLate")] JustEarlyOrLate = 4,
+    [pbr::OriginalName("Perfect")] Perfect = 5,
+  }
+
+  public enum BatOpType {
+    [pbr::OriginalName("UnknownBatOpType")] UnknownBatOpType = 0,
+    [pbr::OriginalName("Default")] Default = 1,
+    [pbr::OriginalName("GuessPitchPos")] GuessPitchPos = 2,
+    [pbr::OriginalName("SelectHitPos")] SelectHitPos = 3,
+  }
+
+  public enum DominateType {
+    [pbr::OriginalName("UnknownDominate")] UnknownDominate = 0,
+    /// <summary>
+    /// 停滞击球
+    /// </summary>
+    [pbr::OriginalName("BatterDominate1")] BatterDominate1 = 1,
+    [pbr::OriginalName("SlowMotionBatting", PreferredAlias = false)] SlowMotionBatting = 1,
+    /// <summary>
+    /// 预知球路
+    /// </summary>
+    [pbr::OriginalName("BatterDominate2")] BatterDominate2 = 2,
+    [pbr::OriginalName("BattingEye", PreferredAlias = false)] BattingEye = 2,
+    /// <summary>
+    /// 定向击球
+    /// </summary>
+    [pbr::OriginalName("BatterDominate3")] BatterDominate3 = 3,
+    [pbr::OriginalName("HitTargetSelection", PreferredAlias = false)] HitTargetSelection = 3,
+    [pbr::OriginalName("BatterDominate4")] BatterDominate4 = 4,
+    [pbr::OriginalName("BatterDominate5")] BatterDominate5 = 5,
+    [pbr::OriginalName("BatterDominate6")] BatterDominate6 = 6,
+    [pbr::OriginalName("BatterDominate7")] BatterDominate7 = 7,
+    [pbr::OriginalName("BatterDominate8")] BatterDominate8 = 8,
+    [pbr::OriginalName("BatterDominate9")] BatterDominate9 = 9,
+    [pbr::OriginalName("BatterDominate10")] BatterDominate10 = 10,
+    /// <summary>
+    /// 光速直球
+    /// </summary>
+    [pbr::OriginalName("PitcherDominate1")] PitcherDominate1 = 11,
+    [pbr::OriginalName("LightSpeedPitch", PreferredAlias = false)] LightSpeedPitch = 11,
+    /// <summary>
+    /// 超级曲球
+    /// </summary>
+    [pbr::OriginalName("PitcherDominate2")] PitcherDominate2 = 12,
+    [pbr::OriginalName("SuperCurve", PreferredAlias = false)] SuperCurve = 12,
+    /// <summary>
+    /// 可控投球
+    /// </summary>
+    [pbr::OriginalName("PitcherDominate3")] PitcherDominate3 = 13,
+    [pbr::OriginalName("UnderControlPitch", PreferredAlias = false)] UnderControlPitch = 13,
+    [pbr::OriginalName("PitcherDominate4")] PitcherDominate4 = 14,
+    [pbr::OriginalName("PitcherDominate5")] PitcherDominate5 = 15,
+    [pbr::OriginalName("PitcherDominate6")] PitcherDominate6 = 16,
+    [pbr::OriginalName("PitcherDominate7")] PitcherDominate7 = 17,
+    [pbr::OriginalName("PitcherDominate8")] PitcherDominate8 = 18,
+    [pbr::OriginalName("PitcherDominate9")] PitcherDominate9 = 19,
+    [pbr::OriginalName("PitcherDominate10")] PitcherDominate10 = 20,
   }
 
   #endregion
@@ -1136,6 +1271,163 @@ namespace Protocols {
 
   }
 
+  public sealed partial class GamersStatus : pb::IMessage<GamersStatus> {
+    private static readonly pb::MessageParser<GamersStatus> _parser = new pb::MessageParser<GamersStatus>(() => new GamersStatus());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GamersStatus> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GamersStatus() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GamersStatus(GamersStatus other) : this() {
+      homeRTT_ = other.homeRTT_;
+      awayRTT_ = other.awayRTT_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GamersStatus Clone() {
+      return new GamersStatus(this);
+    }
+
+    /// <summary>Field number for the "homeRTT" field.</summary>
+    public const int HomeRTTFieldNumber = 1;
+    private uint homeRTT_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public uint HomeRTT {
+      get { return homeRTT_; }
+      set {
+        homeRTT_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "awayRTT" field.</summary>
+    public const int AwayRTTFieldNumber = 2;
+    private uint awayRTT_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public uint AwayRTT {
+      get { return awayRTT_; }
+      set {
+        awayRTT_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GamersStatus);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GamersStatus other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (HomeRTT != other.HomeRTT) return false;
+      if (AwayRTT != other.AwayRTT) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HomeRTT != 0) hash ^= HomeRTT.GetHashCode();
+      if (AwayRTT != 0) hash ^= AwayRTT.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (HomeRTT != 0) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(HomeRTT);
+      }
+      if (AwayRTT != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(AwayRTT);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (HomeRTT != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(HomeRTT);
+      }
+      if (AwayRTT != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(AwayRTT);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GamersStatus other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HomeRTT != 0) {
+        HomeRTT = other.HomeRTT;
+      }
+      if (other.AwayRTT != 0) {
+        AwayRTT = other.AwayRTT;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            HomeRTT = input.ReadUInt32();
+            break;
+          }
+          case 16: {
+            AwayRTT = input.ReadUInt32();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   /// <summary>
   ///[RegID(1)]
   /// </summary>
@@ -1147,7 +1439,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1332,7 +1624,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1523,7 +1815,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1655,7 +1947,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1759,7 +2051,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1891,7 +2183,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2020,7 +2312,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2121,7 +2413,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2284,7 +2576,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2445,7 +2737,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2652,7 +2944,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3061,7 +3353,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3221,7 +3513,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3243,6 +3535,7 @@ namespace Protocols {
       captain_ = other.captain_;
       orderOfRoles_ = other.orderOfRoles_.Clone();
       overLordEnergy_ = other.overLordEnergy_;
+      homeShirtID_ = other.homeShirtID_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3305,6 +3598,17 @@ namespace Protocols {
       }
     }
 
+    /// <summary>Field number for the "homeShirtID" field.</summary>
+    public const int HomeShirtIDFieldNumber = 6;
+    private string homeShirtID_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string HomeShirtID {
+      get { return homeShirtID_; }
+      set {
+        homeShirtID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as TeamInfo);
@@ -3323,6 +3627,7 @@ namespace Protocols {
       if (Captain != other.Captain) return false;
       if(!orderOfRoles_.Equals(other.orderOfRoles_)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(OverLordEnergy, other.OverLordEnergy)) return false;
+      if (HomeShirtID != other.HomeShirtID) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3334,6 +3639,7 @@ namespace Protocols {
       if (Captain != 0) hash ^= Captain.GetHashCode();
       hash ^= orderOfRoles_.GetHashCode();
       if (OverLordEnergy != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(OverLordEnergy);
+      if (HomeShirtID.Length != 0) hash ^= HomeShirtID.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3364,6 +3670,10 @@ namespace Protocols {
         output.WriteRawTag(45);
         output.WriteFloat(OverLordEnergy);
       }
+      if (HomeShirtID.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(HomeShirtID);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3384,6 +3694,9 @@ namespace Protocols {
       size += orderOfRoles_.CalculateSize(_repeated_orderOfRoles_codec);
       if (OverLordEnergy != 0F) {
         size += 1 + 4;
+      }
+      if (HomeShirtID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(HomeShirtID);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3411,6 +3724,9 @@ namespace Protocols {
       orderOfRoles_.Add(other.orderOfRoles_);
       if (other.OverLordEnergy != 0F) {
         OverLordEnergy = other.OverLordEnergy;
+      }
+      if (other.HomeShirtID.Length != 0) {
+        HomeShirtID = other.HomeShirtID;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3447,6 +3763,10 @@ namespace Protocols {
             OverLordEnergy = input.ReadFloat();
             break;
           }
+          case 50: {
+            HomeShirtID = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -3465,7 +3785,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3491,6 +3811,8 @@ namespace Protocols {
       baseRunners_ = other.baseRunners_ != null ? other.baseRunners_.Clone() : null;
       field_ = other.field_ != null ? other.field_.Clone() : null;
       onFieldToID_ = other.onFieldToID_.Clone();
+      initPitchTargetPositionX_ = other.initPitchTargetPositionX_;
+      initPitchTargetPositionY_ = other.initPitchTargetPositionY_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3624,6 +3946,28 @@ namespace Protocols {
       get { return onFieldToID_; }
     }
 
+    /// <summary>Field number for the "initPitchTargetPositionX" field.</summary>
+    public const int InitPitchTargetPositionXFieldNumber = 10;
+    private float initPitchTargetPositionX_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float InitPitchTargetPositionX {
+      get { return initPitchTargetPositionX_; }
+      set {
+        initPitchTargetPositionX_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "initPitchTargetPositionY" field.</summary>
+    public const int InitPitchTargetPositionYFieldNumber = 11;
+    private float initPitchTargetPositionY_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float InitPitchTargetPositionY {
+      get { return initPitchTargetPositionY_; }
+      set {
+        initPitchTargetPositionY_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as PitchSituation);
@@ -3646,6 +3990,8 @@ namespace Protocols {
       if (!object.Equals(BaseRunners, other.BaseRunners)) return false;
       if (!object.Equals(Field, other.Field)) return false;
       if(!onFieldToID_.Equals(other.onFieldToID_)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(InitPitchTargetPositionX, other.InitPitchTargetPositionX)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(InitPitchTargetPositionY, other.InitPitchTargetPositionY)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3661,6 +4007,8 @@ namespace Protocols {
       if (baseRunners_ != null) hash ^= BaseRunners.GetHashCode();
       if (field_ != null) hash ^= Field.GetHashCode();
       hash ^= onFieldToID_.GetHashCode();
+      if (InitPitchTargetPositionX != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(InitPitchTargetPositionX);
+      if (InitPitchTargetPositionY != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(InitPitchTargetPositionY);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3707,6 +4055,14 @@ namespace Protocols {
         output.WriteMessage(Field);
       }
       onFieldToID_.WriteTo(output, _repeated_onFieldToID_codec);
+      if (InitPitchTargetPositionX != 0F) {
+        output.WriteRawTag(85);
+        output.WriteFloat(InitPitchTargetPositionX);
+      }
+      if (InitPitchTargetPositionY != 0F) {
+        output.WriteRawTag(93);
+        output.WriteFloat(InitPitchTargetPositionY);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3740,6 +4096,12 @@ namespace Protocols {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Field);
       }
       size += onFieldToID_.CalculateSize(_repeated_onFieldToID_codec);
+      if (InitPitchTargetPositionX != 0F) {
+        size += 1 + 4;
+      }
+      if (InitPitchTargetPositionY != 0F) {
+        size += 1 + 4;
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -3788,6 +4150,12 @@ namespace Protocols {
         Field.MergeFrom(other.Field);
       }
       onFieldToID_.Add(other.onFieldToID_);
+      if (other.InitPitchTargetPositionX != 0F) {
+        InitPitchTargetPositionX = other.InitPitchTargetPositionX;
+      }
+      if (other.InitPitchTargetPositionY != 0F) {
+        InitPitchTargetPositionY = other.InitPitchTargetPositionY;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -3847,6 +4215,14 @@ namespace Protocols {
             onFieldToID_.AddEntriesFrom(input, _repeated_onFieldToID_codec);
             break;
           }
+          case 85: {
+            InitPitchTargetPositionX = input.ReadFloat();
+            break;
+          }
+          case 93: {
+            InitPitchTargetPositionY = input.ReadFloat();
+            break;
+          }
         }
       }
     }
@@ -3866,7 +4242,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4010,7 +4386,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4041,6 +4417,7 @@ namespace Protocols {
       pitchTypes_ = other.pitchTypes_.Clone();
       battingHand_ = other.battingHand_;
       battingProficiency_ = other.battingProficiency_ != null ? other.battingProficiency_.Clone() : null;
+      dominateTypes_ = other.dominateTypes_.Clone();
       plateAppearance_ = other.plateAppearance_;
       atBats_ = other.atBats_;
       runs_ = other.runs_;
@@ -4214,8 +4591,18 @@ namespace Protocols {
       }
     }
 
+    /// <summary>Field number for the "dominateTypes" field.</summary>
+    public const int DominateTypesFieldNumber = 15;
+    private static readonly pb::FieldCodec<global::Protocols.DominateType> _repeated_dominateTypes_codec
+        = pb::FieldCodec.ForEnum(122, x => (int) x, x => (global::Protocols.DominateType) x);
+    private readonly pbc::RepeatedField<global::Protocols.DominateType> dominateTypes_ = new pbc::RepeatedField<global::Protocols.DominateType>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Protocols.DominateType> DominateTypes {
+      get { return dominateTypes_; }
+    }
+
     /// <summary>Field number for the "plateAppearance" field.</summary>
-    public const int PlateAppearanceFieldNumber = 15;
+    public const int PlateAppearanceFieldNumber = 16;
     private uint plateAppearance_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public uint PlateAppearance {
@@ -4226,7 +4613,7 @@ namespace Protocols {
     }
 
     /// <summary>Field number for the "atBats" field.</summary>
-    public const int AtBatsFieldNumber = 16;
+    public const int AtBatsFieldNumber = 17;
     private uint atBats_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public uint AtBats {
@@ -4237,7 +4624,7 @@ namespace Protocols {
     }
 
     /// <summary>Field number for the "runs" field.</summary>
-    public const int RunsFieldNumber = 17;
+    public const int RunsFieldNumber = 18;
     private uint runs_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public uint Runs {
@@ -4248,7 +4635,7 @@ namespace Protocols {
     }
 
     /// <summary>Field number for the "hits" field.</summary>
-    public const int HitsFieldNumber = 18;
+    public const int HitsFieldNumber = 19;
     private uint hits_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public uint Hits {
@@ -4259,7 +4646,7 @@ namespace Protocols {
     }
 
     /// <summary>Field number for the "errors" field.</summary>
-    public const int ErrorsFieldNumber = 19;
+    public const int ErrorsFieldNumber = 20;
     private uint errors_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public uint Errors {
@@ -4270,7 +4657,7 @@ namespace Protocols {
     }
 
     /// <summary>Field number for the "homeRuns" field.</summary>
-    public const int HomeRunsFieldNumber = 20;
+    public const int HomeRunsFieldNumber = 21;
     private uint homeRuns_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public uint HomeRuns {
@@ -4281,7 +4668,7 @@ namespace Protocols {
     }
 
     /// <summary>Field number for the "pitchCount" field.</summary>
-    public const int PitchCountFieldNumber = 21;
+    public const int PitchCountFieldNumber = 22;
     private uint pitchCount_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public uint PitchCount {
@@ -4292,7 +4679,7 @@ namespace Protocols {
     }
 
     /// <summary>Field number for the "leftEnergyPercentage" field.</summary>
-    public const int LeftEnergyPercentageFieldNumber = 22;
+    public const int LeftEnergyPercentageFieldNumber = 23;
     private float leftEnergyPercentage_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float LeftEnergyPercentage {
@@ -4303,7 +4690,7 @@ namespace Protocols {
     }
 
     /// <summary>Field number for the "positionX" field.</summary>
-    public const int PositionXFieldNumber = 23;
+    public const int PositionXFieldNumber = 24;
     private float positionX_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float PositionX {
@@ -4314,7 +4701,7 @@ namespace Protocols {
     }
 
     /// <summary>Field number for the "positionY" field.</summary>
-    public const int PositionYFieldNumber = 24;
+    public const int PositionYFieldNumber = 25;
     private float positionY_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float PositionY {
@@ -4325,7 +4712,7 @@ namespace Protocols {
     }
 
     /// <summary>Field number for the "rotationX" field.</summary>
-    public const int RotationXFieldNumber = 25;
+    public const int RotationXFieldNumber = 26;
     private float rotationX_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float RotationX {
@@ -4336,7 +4723,7 @@ namespace Protocols {
     }
 
     /// <summary>Field number for the "rotationY" field.</summary>
-    public const int RotationYFieldNumber = 26;
+    public const int RotationYFieldNumber = 27;
     private float rotationY_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float RotationY {
@@ -4347,7 +4734,7 @@ namespace Protocols {
     }
 
     /// <summary>Field number for the "rotationZ" field.</summary>
-    public const int RotationZFieldNumber = 27;
+    public const int RotationZFieldNumber = 28;
     private float rotationZ_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float RotationZ {
@@ -4384,6 +4771,7 @@ namespace Protocols {
       if(!pitchTypes_.Equals(other.pitchTypes_)) return false;
       if (BattingHand != other.BattingHand) return false;
       if (!object.Equals(BattingProficiency, other.BattingProficiency)) return false;
+      if(!dominateTypes_.Equals(other.dominateTypes_)) return false;
       if (PlateAppearance != other.PlateAppearance) return false;
       if (AtBats != other.AtBats) return false;
       if (Runs != other.Runs) return false;
@@ -4417,6 +4805,7 @@ namespace Protocols {
       hash ^= pitchTypes_.GetHashCode();
       if (BattingHand != 0) hash ^= BattingHand.GetHashCode();
       if (battingProficiency_ != null) hash ^= BattingProficiency.GetHashCode();
+      hash ^= dominateTypes_.GetHashCode();
       if (PlateAppearance != 0) hash ^= PlateAppearance.GetHashCode();
       if (AtBats != 0) hash ^= AtBats.GetHashCode();
       if (Runs != 0) hash ^= Runs.GetHashCode();
@@ -4493,56 +4882,57 @@ namespace Protocols {
         output.WriteRawTag(114);
         output.WriteMessage(BattingProficiency);
       }
+      dominateTypes_.WriteTo(output, _repeated_dominateTypes_codec);
       if (PlateAppearance != 0) {
-        output.WriteRawTag(120);
+        output.WriteRawTag(128, 1);
         output.WriteUInt32(PlateAppearance);
       }
       if (AtBats != 0) {
-        output.WriteRawTag(128, 1);
+        output.WriteRawTag(136, 1);
         output.WriteUInt32(AtBats);
       }
       if (Runs != 0) {
-        output.WriteRawTag(136, 1);
+        output.WriteRawTag(144, 1);
         output.WriteUInt32(Runs);
       }
       if (Hits != 0) {
-        output.WriteRawTag(144, 1);
+        output.WriteRawTag(152, 1);
         output.WriteUInt32(Hits);
       }
       if (Errors != 0) {
-        output.WriteRawTag(152, 1);
+        output.WriteRawTag(160, 1);
         output.WriteUInt32(Errors);
       }
       if (HomeRuns != 0) {
-        output.WriteRawTag(160, 1);
+        output.WriteRawTag(168, 1);
         output.WriteUInt32(HomeRuns);
       }
       if (PitchCount != 0) {
-        output.WriteRawTag(168, 1);
+        output.WriteRawTag(176, 1);
         output.WriteUInt32(PitchCount);
       }
       if (LeftEnergyPercentage != 0F) {
-        output.WriteRawTag(181, 1);
+        output.WriteRawTag(189, 1);
         output.WriteFloat(LeftEnergyPercentage);
       }
       if (PositionX != 0F) {
-        output.WriteRawTag(189, 1);
+        output.WriteRawTag(197, 1);
         output.WriteFloat(PositionX);
       }
       if (PositionY != 0F) {
-        output.WriteRawTag(197, 1);
+        output.WriteRawTag(205, 1);
         output.WriteFloat(PositionY);
       }
       if (RotationX != 0F) {
-        output.WriteRawTag(205, 1);
+        output.WriteRawTag(213, 1);
         output.WriteFloat(RotationX);
       }
       if (RotationY != 0F) {
-        output.WriteRawTag(213, 1);
+        output.WriteRawTag(221, 1);
         output.WriteFloat(RotationY);
       }
       if (RotationZ != 0F) {
-        output.WriteRawTag(221, 1);
+        output.WriteRawTag(229, 1);
         output.WriteFloat(RotationZ);
       }
       if (_unknownFields != null) {
@@ -4591,8 +4981,9 @@ namespace Protocols {
       if (battingProficiency_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(BattingProficiency);
       }
+      size += dominateTypes_.CalculateSize(_repeated_dominateTypes_codec);
       if (PlateAppearance != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(PlateAppearance);
+        size += 2 + pb::CodedOutputStream.ComputeUInt32Size(PlateAppearance);
       }
       if (AtBats != 0) {
         size += 2 + pb::CodedOutputStream.ComputeUInt32Size(AtBats);
@@ -4688,6 +5079,7 @@ namespace Protocols {
         }
         BattingProficiency.MergeFrom(other.BattingProficiency);
       }
+      dominateTypes_.Add(other.dominateTypes_);
       if (other.PlateAppearance != 0) {
         PlateAppearance = other.PlateAppearance;
       }
@@ -4804,55 +5196,60 @@ namespace Protocols {
             input.ReadMessage(battingProficiency_);
             break;
           }
+          case 122:
           case 120: {
-            PlateAppearance = input.ReadUInt32();
+            dominateTypes_.AddEntriesFrom(input, _repeated_dominateTypes_codec);
             break;
           }
           case 128: {
-            AtBats = input.ReadUInt32();
+            PlateAppearance = input.ReadUInt32();
             break;
           }
           case 136: {
-            Runs = input.ReadUInt32();
+            AtBats = input.ReadUInt32();
             break;
           }
           case 144: {
-            Hits = input.ReadUInt32();
+            Runs = input.ReadUInt32();
             break;
           }
           case 152: {
-            Errors = input.ReadUInt32();
+            Hits = input.ReadUInt32();
             break;
           }
           case 160: {
-            HomeRuns = input.ReadUInt32();
+            Errors = input.ReadUInt32();
             break;
           }
           case 168: {
+            HomeRuns = input.ReadUInt32();
+            break;
+          }
+          case 176: {
             PitchCount = input.ReadUInt32();
             break;
           }
-          case 181: {
+          case 189: {
             LeftEnergyPercentage = input.ReadFloat();
             break;
           }
-          case 189: {
+          case 197: {
             PositionX = input.ReadFloat();
             break;
           }
-          case 197: {
+          case 205: {
             PositionY = input.ReadFloat();
             break;
           }
-          case 205: {
+          case 213: {
             RotationX = input.ReadFloat();
             break;
           }
-          case 213: {
+          case 221: {
             RotationY = input.ReadFloat();
             break;
           }
-          case 221: {
+          case 229: {
             RotationZ = input.ReadFloat();
             break;
           }
@@ -4873,7 +5270,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4891,24 +5288,14 @@ namespace Protocols {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public PlayerAbilities(PlayerAbilities other) : this() {
       contact_ = other.contact_;
-      drag_ = other.drag_;
-      push_ = other.push_;
-      dragBunt_ = other.dragBunt_;
       slugging_ = other.slugging_;
-      steal_ = other.steal_;
       baseRunning_ = other.baseRunning_;
-      stability_ = other.stability_;
-      reaction_ = other.reaction_;
-      throwing_ = other.throwing_;
-      fieldingRange_ = other.fieldingRange_;
-      blocking_ = other.blocking_;
+      fielding_ = other.fielding_;
       plateDispline_ = other.plateDispline_;
       stamina_ = other.stamina_;
       control_ = other.control_;
       breaking_ = other.breaking_;
-      explosiveNess_ = other.explosiveNess_;
-      bunt_ = other.bunt_;
-      stealTendency_ = other.stealTendency_;
+      explosiveness_ = other.explosiveness_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4928,41 +5315,8 @@ namespace Protocols {
       }
     }
 
-    /// <summary>Field number for the "drag" field.</summary>
-    public const int DragFieldNumber = 2;
-    private float drag_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Drag {
-      get { return drag_; }
-      set {
-        drag_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "push" field.</summary>
-    public const int PushFieldNumber = 3;
-    private float push_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Push {
-      get { return push_; }
-      set {
-        push_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "dragBunt" field.</summary>
-    public const int DragBuntFieldNumber = 4;
-    private float dragBunt_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float DragBunt {
-      get { return dragBunt_; }
-      set {
-        dragBunt_ = value;
-      }
-    }
-
     /// <summary>Field number for the "slugging" field.</summary>
-    public const int SluggingFieldNumber = 5;
+    public const int SluggingFieldNumber = 2;
     private float slugging_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float Slugging {
@@ -4972,19 +5326,8 @@ namespace Protocols {
       }
     }
 
-    /// <summary>Field number for the "steal" field.</summary>
-    public const int StealFieldNumber = 6;
-    private float steal_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Steal {
-      get { return steal_; }
-      set {
-        steal_ = value;
-      }
-    }
-
     /// <summary>Field number for the "baseRunning" field.</summary>
-    public const int BaseRunningFieldNumber = 7;
+    public const int BaseRunningFieldNumber = 3;
     private float baseRunning_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float BaseRunning {
@@ -4994,63 +5337,19 @@ namespace Protocols {
       }
     }
 
-    /// <summary>Field number for the "stability" field.</summary>
-    public const int StabilityFieldNumber = 8;
-    private float stability_;
+    /// <summary>Field number for the "fielding" field.</summary>
+    public const int FieldingFieldNumber = 4;
+    private float fielding_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Stability {
-      get { return stability_; }
+    public float Fielding {
+      get { return fielding_; }
       set {
-        stability_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "reaction" field.</summary>
-    public const int ReactionFieldNumber = 9;
-    private float reaction_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Reaction {
-      get { return reaction_; }
-      set {
-        reaction_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "throwing" field.</summary>
-    public const int ThrowingFieldNumber = 10;
-    private float throwing_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Throwing {
-      get { return throwing_; }
-      set {
-        throwing_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "fieldingRange" field.</summary>
-    public const int FieldingRangeFieldNumber = 11;
-    private float fieldingRange_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float FieldingRange {
-      get { return fieldingRange_; }
-      set {
-        fieldingRange_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "blocking" field.</summary>
-    public const int BlockingFieldNumber = 12;
-    private float blocking_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Blocking {
-      get { return blocking_; }
-      set {
-        blocking_ = value;
+        fielding_ = value;
       }
     }
 
     /// <summary>Field number for the "plateDispline" field.</summary>
-    public const int PlateDisplineFieldNumber = 13;
+    public const int PlateDisplineFieldNumber = 5;
     private float plateDispline_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float PlateDispline {
@@ -5061,7 +5360,7 @@ namespace Protocols {
     }
 
     /// <summary>Field number for the "stamina" field.</summary>
-    public const int StaminaFieldNumber = 14;
+    public const int StaminaFieldNumber = 6;
     private float stamina_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float Stamina {
@@ -5072,7 +5371,7 @@ namespace Protocols {
     }
 
     /// <summary>Field number for the "control" field.</summary>
-    public const int ControlFieldNumber = 15;
+    public const int ControlFieldNumber = 7;
     private float control_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float Control {
@@ -5083,7 +5382,7 @@ namespace Protocols {
     }
 
     /// <summary>Field number for the "breaking" field.</summary>
-    public const int BreakingFieldNumber = 16;
+    public const int BreakingFieldNumber = 8;
     private float breaking_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float Breaking {
@@ -5093,36 +5392,14 @@ namespace Protocols {
       }
     }
 
-    /// <summary>Field number for the "explosiveNess" field.</summary>
-    public const int ExplosiveNessFieldNumber = 17;
-    private float explosiveNess_;
+    /// <summary>Field number for the "explosiveness" field.</summary>
+    public const int ExplosivenessFieldNumber = 9;
+    private float explosiveness_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float ExplosiveNess {
-      get { return explosiveNess_; }
+    public float Explosiveness {
+      get { return explosiveness_; }
       set {
-        explosiveNess_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "bunt" field.</summary>
-    public const int BuntFieldNumber = 18;
-    private float bunt_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Bunt {
-      get { return bunt_; }
-      set {
-        bunt_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "stealTendency" field.</summary>
-    public const int StealTendencyFieldNumber = 19;
-    private float stealTendency_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float StealTendency {
-      get { return stealTendency_; }
-      set {
-        stealTendency_ = value;
+        explosiveness_ = value;
       }
     }
 
@@ -5140,24 +5417,14 @@ namespace Protocols {
         return true;
       }
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Contact, other.Contact)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Drag, other.Drag)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Push, other.Push)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(DragBunt, other.DragBunt)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Slugging, other.Slugging)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Steal, other.Steal)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(BaseRunning, other.BaseRunning)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Stability, other.Stability)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Reaction, other.Reaction)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Throwing, other.Throwing)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(FieldingRange, other.FieldingRange)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Blocking, other.Blocking)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Fielding, other.Fielding)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(PlateDispline, other.PlateDispline)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Stamina, other.Stamina)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Control, other.Control)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Breaking, other.Breaking)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ExplosiveNess, other.ExplosiveNess)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Bunt, other.Bunt)) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(StealTendency, other.StealTendency)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Explosiveness, other.Explosiveness)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5165,24 +5432,14 @@ namespace Protocols {
     public override int GetHashCode() {
       int hash = 1;
       if (Contact != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Contact);
-      if (Drag != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Drag);
-      if (Push != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Push);
-      if (DragBunt != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(DragBunt);
       if (Slugging != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Slugging);
-      if (Steal != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Steal);
       if (BaseRunning != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(BaseRunning);
-      if (Stability != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Stability);
-      if (Reaction != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Reaction);
-      if (Throwing != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Throwing);
-      if (FieldingRange != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(FieldingRange);
-      if (Blocking != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Blocking);
+      if (Fielding != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Fielding);
       if (PlateDispline != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(PlateDispline);
       if (Stamina != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Stamina);
       if (Control != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Control);
       if (Breaking != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Breaking);
-      if (ExplosiveNess != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ExplosiveNess);
-      if (Bunt != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Bunt);
-      if (StealTendency != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(StealTendency);
+      if (Explosiveness != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Explosiveness);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5200,77 +5457,37 @@ namespace Protocols {
         output.WriteRawTag(13);
         output.WriteFloat(Contact);
       }
-      if (Drag != 0F) {
-        output.WriteRawTag(21);
-        output.WriteFloat(Drag);
-      }
-      if (Push != 0F) {
-        output.WriteRawTag(29);
-        output.WriteFloat(Push);
-      }
-      if (DragBunt != 0F) {
-        output.WriteRawTag(37);
-        output.WriteFloat(DragBunt);
-      }
       if (Slugging != 0F) {
-        output.WriteRawTag(45);
+        output.WriteRawTag(21);
         output.WriteFloat(Slugging);
       }
-      if (Steal != 0F) {
-        output.WriteRawTag(53);
-        output.WriteFloat(Steal);
-      }
       if (BaseRunning != 0F) {
-        output.WriteRawTag(61);
+        output.WriteRawTag(29);
         output.WriteFloat(BaseRunning);
       }
-      if (Stability != 0F) {
-        output.WriteRawTag(69);
-        output.WriteFloat(Stability);
-      }
-      if (Reaction != 0F) {
-        output.WriteRawTag(77);
-        output.WriteFloat(Reaction);
-      }
-      if (Throwing != 0F) {
-        output.WriteRawTag(85);
-        output.WriteFloat(Throwing);
-      }
-      if (FieldingRange != 0F) {
-        output.WriteRawTag(93);
-        output.WriteFloat(FieldingRange);
-      }
-      if (Blocking != 0F) {
-        output.WriteRawTag(101);
-        output.WriteFloat(Blocking);
+      if (Fielding != 0F) {
+        output.WriteRawTag(37);
+        output.WriteFloat(Fielding);
       }
       if (PlateDispline != 0F) {
-        output.WriteRawTag(109);
+        output.WriteRawTag(45);
         output.WriteFloat(PlateDispline);
       }
       if (Stamina != 0F) {
-        output.WriteRawTag(117);
+        output.WriteRawTag(53);
         output.WriteFloat(Stamina);
       }
       if (Control != 0F) {
-        output.WriteRawTag(125);
+        output.WriteRawTag(61);
         output.WriteFloat(Control);
       }
       if (Breaking != 0F) {
-        output.WriteRawTag(133, 1);
+        output.WriteRawTag(69);
         output.WriteFloat(Breaking);
       }
-      if (ExplosiveNess != 0F) {
-        output.WriteRawTag(141, 1);
-        output.WriteFloat(ExplosiveNess);
-      }
-      if (Bunt != 0F) {
-        output.WriteRawTag(149, 1);
-        output.WriteFloat(Bunt);
-      }
-      if (StealTendency != 0F) {
-        output.WriteRawTag(157, 1);
-        output.WriteFloat(StealTendency);
+      if (Explosiveness != 0F) {
+        output.WriteRawTag(77);
+        output.WriteFloat(Explosiveness);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -5283,37 +5500,13 @@ namespace Protocols {
       if (Contact != 0F) {
         size += 1 + 4;
       }
-      if (Drag != 0F) {
-        size += 1 + 4;
-      }
-      if (Push != 0F) {
-        size += 1 + 4;
-      }
-      if (DragBunt != 0F) {
-        size += 1 + 4;
-      }
       if (Slugging != 0F) {
-        size += 1 + 4;
-      }
-      if (Steal != 0F) {
         size += 1 + 4;
       }
       if (BaseRunning != 0F) {
         size += 1 + 4;
       }
-      if (Stability != 0F) {
-        size += 1 + 4;
-      }
-      if (Reaction != 0F) {
-        size += 1 + 4;
-      }
-      if (Throwing != 0F) {
-        size += 1 + 4;
-      }
-      if (FieldingRange != 0F) {
-        size += 1 + 4;
-      }
-      if (Blocking != 0F) {
+      if (Fielding != 0F) {
         size += 1 + 4;
       }
       if (PlateDispline != 0F) {
@@ -5326,16 +5519,10 @@ namespace Protocols {
         size += 1 + 4;
       }
       if (Breaking != 0F) {
-        size += 2 + 4;
+        size += 1 + 4;
       }
-      if (ExplosiveNess != 0F) {
-        size += 2 + 4;
-      }
-      if (Bunt != 0F) {
-        size += 2 + 4;
-      }
-      if (StealTendency != 0F) {
-        size += 2 + 4;
+      if (Explosiveness != 0F) {
+        size += 1 + 4;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -5351,38 +5538,14 @@ namespace Protocols {
       if (other.Contact != 0F) {
         Contact = other.Contact;
       }
-      if (other.Drag != 0F) {
-        Drag = other.Drag;
-      }
-      if (other.Push != 0F) {
-        Push = other.Push;
-      }
-      if (other.DragBunt != 0F) {
-        DragBunt = other.DragBunt;
-      }
       if (other.Slugging != 0F) {
         Slugging = other.Slugging;
-      }
-      if (other.Steal != 0F) {
-        Steal = other.Steal;
       }
       if (other.BaseRunning != 0F) {
         BaseRunning = other.BaseRunning;
       }
-      if (other.Stability != 0F) {
-        Stability = other.Stability;
-      }
-      if (other.Reaction != 0F) {
-        Reaction = other.Reaction;
-      }
-      if (other.Throwing != 0F) {
-        Throwing = other.Throwing;
-      }
-      if (other.FieldingRange != 0F) {
-        FieldingRange = other.FieldingRange;
-      }
-      if (other.Blocking != 0F) {
-        Blocking = other.Blocking;
+      if (other.Fielding != 0F) {
+        Fielding = other.Fielding;
       }
       if (other.PlateDispline != 0F) {
         PlateDispline = other.PlateDispline;
@@ -5396,14 +5559,8 @@ namespace Protocols {
       if (other.Breaking != 0F) {
         Breaking = other.Breaking;
       }
-      if (other.ExplosiveNess != 0F) {
-        ExplosiveNess = other.ExplosiveNess;
-      }
-      if (other.Bunt != 0F) {
-        Bunt = other.Bunt;
-      }
-      if (other.StealTendency != 0F) {
-        StealTendency = other.StealTendency;
+      if (other.Explosiveness != 0F) {
+        Explosiveness = other.Explosiveness;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -5421,75 +5578,35 @@ namespace Protocols {
             break;
           }
           case 21: {
-            Drag = input.ReadFloat();
-            break;
-          }
-          case 29: {
-            Push = input.ReadFloat();
-            break;
-          }
-          case 37: {
-            DragBunt = input.ReadFloat();
-            break;
-          }
-          case 45: {
             Slugging = input.ReadFloat();
             break;
           }
-          case 53: {
-            Steal = input.ReadFloat();
-            break;
-          }
-          case 61: {
+          case 29: {
             BaseRunning = input.ReadFloat();
             break;
           }
-          case 69: {
-            Stability = input.ReadFloat();
+          case 37: {
+            Fielding = input.ReadFloat();
             break;
           }
-          case 77: {
-            Reaction = input.ReadFloat();
-            break;
-          }
-          case 85: {
-            Throwing = input.ReadFloat();
-            break;
-          }
-          case 93: {
-            FieldingRange = input.ReadFloat();
-            break;
-          }
-          case 101: {
-            Blocking = input.ReadFloat();
-            break;
-          }
-          case 109: {
+          case 45: {
             PlateDispline = input.ReadFloat();
             break;
           }
-          case 117: {
+          case 53: {
             Stamina = input.ReadFloat();
             break;
           }
-          case 125: {
+          case 61: {
             Control = input.ReadFloat();
             break;
           }
-          case 133: {
+          case 69: {
             Breaking = input.ReadFloat();
             break;
           }
-          case 141: {
-            ExplosiveNess = input.ReadFloat();
-            break;
-          }
-          case 149: {
-            Bunt = input.ReadFloat();
-            break;
-          }
-          case 157: {
-            StealTendency = input.ReadFloat();
+          case 77: {
+            Explosiveness = input.ReadFloat();
             break;
           }
         }
@@ -5509,7 +5626,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5837,7 +5954,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5877,9 +5994,9 @@ namespace Protocols {
 
     /// <summary>Field number for the "grade" field.</summary>
     public const int GradeFieldNumber = 2;
-    private float grade_;
+    private global::Protocols.PitchTypeGrade grade_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Grade {
+    public global::Protocols.PitchTypeGrade Grade {
       get { return grade_; }
       set {
         grade_ = value;
@@ -5900,7 +6017,7 @@ namespace Protocols {
         return true;
       }
       if (Type != other.Type) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Grade, other.Grade)) return false;
+      if (Grade != other.Grade) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5908,7 +6025,7 @@ namespace Protocols {
     public override int GetHashCode() {
       int hash = 1;
       if (Type != 0) hash ^= Type.GetHashCode();
-      if (Grade != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Grade);
+      if (Grade != 0) hash ^= Grade.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5926,9 +6043,9 @@ namespace Protocols {
         output.WriteRawTag(8);
         output.WriteEnum((int) Type);
       }
-      if (Grade != 0F) {
-        output.WriteRawTag(21);
-        output.WriteFloat(Grade);
+      if (Grade != 0) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) Grade);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -5941,8 +6058,8 @@ namespace Protocols {
       if (Type != 0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
       }
-      if (Grade != 0F) {
-        size += 1 + 4;
+      if (Grade != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Grade);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -5958,7 +6075,7 @@ namespace Protocols {
       if (other.Type != 0) {
         Type = other.Type;
       }
-      if (other.Grade != 0F) {
+      if (other.Grade != 0) {
         Grade = other.Grade;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -5976,8 +6093,8 @@ namespace Protocols {
             type_ = (global::Protocols.PitchType) input.ReadEnum();
             break;
           }
-          case 21: {
-            Grade = input.ReadFloat();
+          case 16: {
+            grade_ = (global::Protocols.PitchTypeGrade) input.ReadEnum();
             break;
           }
         }
@@ -5997,7 +6114,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6144,7 +6261,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6239,6 +6356,348 @@ namespace Protocols {
 
   /// <summary>
   ///[NoReg]
+  /// </summary>
+  public sealed partial class DominateOpStatus : pb::IMessage<DominateOpStatus> {
+    private static readonly pb::MessageParser<DominateOpStatus> _parser = new pb::MessageParser<DominateOpStatus>(() => new DominateOpStatus());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DominateOpStatus> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[28]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DominateOpStatus() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DominateOpStatus(DominateOpStatus other) : this() {
+      count_ = other.count_;
+      countByPitchType_ = other.countByPitchType_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DominateOpStatus Clone() {
+      return new DominateOpStatus(this);
+    }
+
+    /// <summary>Field number for the "count" field.</summary>
+    public const int CountFieldNumber = 1;
+    private uint count_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public uint Count {
+      get { return count_; }
+      set {
+        count_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "countByPitchType" field.</summary>
+    public const int CountByPitchTypeFieldNumber = 2;
+    private static readonly pb::FieldCodec<uint> _repeated_countByPitchType_codec
+        = pb::FieldCodec.ForUInt32(18);
+    private readonly pbc::RepeatedField<uint> countByPitchType_ = new pbc::RepeatedField<uint>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<uint> CountByPitchType {
+      get { return countByPitchType_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DominateOpStatus);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DominateOpStatus other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Count != other.Count) return false;
+      if(!countByPitchType_.Equals(other.countByPitchType_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Count != 0) hash ^= Count.GetHashCode();
+      hash ^= countByPitchType_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Count != 0) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(Count);
+      }
+      countByPitchType_.WriteTo(output, _repeated_countByPitchType_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Count != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Count);
+      }
+      size += countByPitchType_.CalculateSize(_repeated_countByPitchType_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DominateOpStatus other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Count != 0) {
+        Count = other.Count;
+      }
+      countByPitchType_.Add(other.countByPitchType_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Count = input.ReadUInt32();
+            break;
+          }
+          case 18:
+          case 16: {
+            countByPitchType_.AddEntriesFrom(input, _repeated_countByPitchType_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///[NoReg]
+  /// </summary>
+  public sealed partial class DominateStatus : pb::IMessage<DominateStatus> {
+    private static readonly pb::MessageParser<DominateStatus> _parser = new pb::MessageParser<DominateStatus>(() => new DominateStatus());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<DominateStatus> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[29]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DominateStatus() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DominateStatus(DominateStatus other) : this() {
+      pitcherOverLordEnergy_ = other.pitcherOverLordEnergy_;
+      batterOverLordEnergy_ = other.batterOverLordEnergy_;
+      activeOpStatus_ = other.activeOpStatus_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public DominateStatus Clone() {
+      return new DominateStatus(this);
+    }
+
+    /// <summary>Field number for the "pitcherOverLordEnergy" field.</summary>
+    public const int PitcherOverLordEnergyFieldNumber = 1;
+    private float pitcherOverLordEnergy_;
+    /// <summary>
+    /// 目前投手攒的气
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float PitcherOverLordEnergy {
+      get { return pitcherOverLordEnergy_; }
+      set {
+        pitcherOverLordEnergy_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "batterOverLordEnergy" field.</summary>
+    public const int BatterOverLordEnergyFieldNumber = 2;
+    private float batterOverLordEnergy_;
+    /// <summary>
+    /// 目前打手攒的气
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float BatterOverLordEnergy {
+      get { return batterOverLordEnergy_; }
+      set {
+        batterOverLordEnergy_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "activeOpStatus" field.</summary>
+    public const int ActiveOpStatusFieldNumber = 3;
+    private static readonly pb::FieldCodec<global::Protocols.DominateOpStatus> _repeated_activeOpStatus_codec
+        = pb::FieldCodec.ForMessage(26, global::Protocols.DominateOpStatus.Parser);
+    private readonly pbc::RepeatedField<global::Protocols.DominateOpStatus> activeOpStatus_ = new pbc::RepeatedField<global::Protocols.DominateOpStatus>();
+    /// <summary>
+    /// The index is DominateType
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Protocols.DominateOpStatus> ActiveOpStatus {
+      get { return activeOpStatus_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as DominateStatus);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(DominateStatus other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(PitcherOverLordEnergy, other.PitcherOverLordEnergy)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(BatterOverLordEnergy, other.BatterOverLordEnergy)) return false;
+      if(!activeOpStatus_.Equals(other.activeOpStatus_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (PitcherOverLordEnergy != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(PitcherOverLordEnergy);
+      if (BatterOverLordEnergy != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(BatterOverLordEnergy);
+      hash ^= activeOpStatus_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (PitcherOverLordEnergy != 0F) {
+        output.WriteRawTag(13);
+        output.WriteFloat(PitcherOverLordEnergy);
+      }
+      if (BatterOverLordEnergy != 0F) {
+        output.WriteRawTag(21);
+        output.WriteFloat(BatterOverLordEnergy);
+      }
+      activeOpStatus_.WriteTo(output, _repeated_activeOpStatus_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (PitcherOverLordEnergy != 0F) {
+        size += 1 + 4;
+      }
+      if (BatterOverLordEnergy != 0F) {
+        size += 1 + 4;
+      }
+      size += activeOpStatus_.CalculateSize(_repeated_activeOpStatus_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(DominateStatus other) {
+      if (other == null) {
+        return;
+      }
+      if (other.PitcherOverLordEnergy != 0F) {
+        PitcherOverLordEnergy = other.PitcherOverLordEnergy;
+      }
+      if (other.BatterOverLordEnergy != 0F) {
+        BatterOverLordEnergy = other.BatterOverLordEnergy;
+      }
+      activeOpStatus_.Add(other.activeOpStatus_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 13: {
+            PitcherOverLordEnergy = input.ReadFloat();
+            break;
+          }
+          case 21: {
+            BatterOverLordEnergy = input.ReadFloat();
+            break;
+          }
+          case 26: {
+            activeOpStatus_.AddEntriesFrom(input, _repeated_activeOpStatus_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///[NoReg]
   /// 这个是在球投出之前就要决定的数据
   /// </summary>
   public sealed partial class PitchMode : pb::IMessage<PitchMode> {
@@ -6249,7 +6708,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6266,9 +6725,10 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public PitchMode(PitchMode other) : this() {
-      pitcherDominate_ = other.pitcherDominate_;
-      batterDominate_ = other.batterDominate_;
+      dominate_ = other.dominate_ != null ? other.dominate_.Clone() : null;
       battingMode_ = other.battingMode_;
+      stealBase_ = other.stealBase_ != null ? other.stealBase_.Clone() : null;
+      autoPlay_ = other.autoPlay_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -6277,36 +6737,47 @@ namespace Protocols {
       return new PitchMode(this);
     }
 
-    /// <summary>Field number for the "pitcherDominate" field.</summary>
-    public const int PitcherDominateFieldNumber = 1;
-    private bool pitcherDominate_;
+    /// <summary>Field number for the "dominate" field.</summary>
+    public const int DominateFieldNumber = 1;
+    private global::Protocols.DominateStatus dominate_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool PitcherDominate {
-      get { return pitcherDominate_; }
+    public global::Protocols.DominateStatus Dominate {
+      get { return dominate_; }
       set {
-        pitcherDominate_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "batterDominate" field.</summary>
-    public const int BatterDominateFieldNumber = 2;
-    private bool batterDominate_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool BatterDominate {
-      get { return batterDominate_; }
-      set {
-        batterDominate_ = value;
+        dominate_ = value;
       }
     }
 
     /// <summary>Field number for the "battingMode" field.</summary>
-    public const int BattingModeFieldNumber = 3;
+    public const int BattingModeFieldNumber = 2;
     private global::Protocols.BattingMode battingMode_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Protocols.BattingMode BattingMode {
       get { return battingMode_; }
       set {
         battingMode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "stealBase" field.</summary>
+    public const int StealBaseFieldNumber = 3;
+    private global::Protocols.StealBaseStatus stealBase_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Protocols.StealBaseStatus StealBase {
+      get { return stealBase_; }
+      set {
+        stealBase_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "autoPlay" field.</summary>
+    public const int AutoPlayFieldNumber = 4;
+    private bool autoPlay_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool AutoPlay {
+      get { return autoPlay_; }
+      set {
+        autoPlay_ = value;
       }
     }
 
@@ -6323,18 +6794,20 @@ namespace Protocols {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (PitcherDominate != other.PitcherDominate) return false;
-      if (BatterDominate != other.BatterDominate) return false;
+      if (!object.Equals(Dominate, other.Dominate)) return false;
       if (BattingMode != other.BattingMode) return false;
+      if (!object.Equals(StealBase, other.StealBase)) return false;
+      if (AutoPlay != other.AutoPlay) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (PitcherDominate != false) hash ^= PitcherDominate.GetHashCode();
-      if (BatterDominate != false) hash ^= BatterDominate.GetHashCode();
+      if (dominate_ != null) hash ^= Dominate.GetHashCode();
       if (BattingMode != 0) hash ^= BattingMode.GetHashCode();
+      if (stealBase_ != null) hash ^= StealBase.GetHashCode();
+      if (AutoPlay != false) hash ^= AutoPlay.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -6348,17 +6821,21 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (PitcherDominate != false) {
-        output.WriteRawTag(8);
-        output.WriteBool(PitcherDominate);
-      }
-      if (BatterDominate != false) {
-        output.WriteRawTag(16);
-        output.WriteBool(BatterDominate);
+      if (dominate_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Dominate);
       }
       if (BattingMode != 0) {
-        output.WriteRawTag(24);
+        output.WriteRawTag(16);
         output.WriteEnum((int) BattingMode);
+      }
+      if (stealBase_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(StealBase);
+      }
+      if (AutoPlay != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(AutoPlay);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -6368,14 +6845,17 @@ namespace Protocols {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (PitcherDominate != false) {
-        size += 1 + 1;
-      }
-      if (BatterDominate != false) {
-        size += 1 + 1;
+      if (dominate_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Dominate);
       }
       if (BattingMode != 0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) BattingMode);
+      }
+      if (stealBase_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(StealBase);
+      }
+      if (AutoPlay != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -6388,14 +6868,23 @@ namespace Protocols {
       if (other == null) {
         return;
       }
-      if (other.PitcherDominate != false) {
-        PitcherDominate = other.PitcherDominate;
-      }
-      if (other.BatterDominate != false) {
-        BatterDominate = other.BatterDominate;
+      if (other.dominate_ != null) {
+        if (dominate_ == null) {
+          dominate_ = new global::Protocols.DominateStatus();
+        }
+        Dominate.MergeFrom(other.Dominate);
       }
       if (other.BattingMode != 0) {
         BattingMode = other.BattingMode;
+      }
+      if (other.stealBase_ != null) {
+        if (stealBase_ == null) {
+          stealBase_ = new global::Protocols.StealBaseStatus();
+        }
+        StealBase.MergeFrom(other.StealBase);
+      }
+      if (other.AutoPlay != false) {
+        AutoPlay = other.AutoPlay;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -6408,16 +6897,26 @@ namespace Protocols {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 8: {
-            PitcherDominate = input.ReadBool();
+          case 10: {
+            if (dominate_ == null) {
+              dominate_ = new global::Protocols.DominateStatus();
+            }
+            input.ReadMessage(dominate_);
             break;
           }
           case 16: {
-            BatterDominate = input.ReadBool();
+            battingMode_ = (global::Protocols.BattingMode) input.ReadEnum();
             break;
           }
-          case 24: {
-            battingMode_ = (global::Protocols.BattingMode) input.ReadEnum();
+          case 26: {
+            if (stealBase_ == null) {
+              stealBase_ = new global::Protocols.StealBaseStatus();
+            }
+            input.ReadMessage(stealBase_);
+            break;
+          }
+          case 32: {
+            AutoPlay = input.ReadBool();
             break;
           }
         }
@@ -6438,7 +6937,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6584,7 +7083,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6604,9 +7103,11 @@ namespace Protocols {
       ballType_ = other.ballType_;
       targetX_ = other.targetX_;
       targetY_ = other.targetY_;
-      dominate_ = other.dominate_;
+      puzzleType_ = other.puzzleType_;
       eval_ = other.eval_;
-      operationEval_ = other.operationEval_;
+      pitchSpeed_ = other.pitchSpeed_;
+      offsetLength_ = other.offsetLength_;
+      pickoff_ = other.pickoff_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -6648,14 +7149,17 @@ namespace Protocols {
       }
     }
 
-    /// <summary>Field number for the "dominate" field.</summary>
-    public const int DominateFieldNumber = 4;
-    private bool dominate_;
+    /// <summary>Field number for the "puzzleType" field.</summary>
+    public const int PuzzleTypeFieldNumber = 4;
+    private uint puzzleType_;
+    /// <summary>
+    ///bool dominate = 4; // 没用了，现在用PitchMode里的dominate来判断。
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Dominate {
-      get { return dominate_; }
+    public uint PuzzleType {
+      get { return puzzleType_; }
       set {
-        dominate_ = value;
+        puzzleType_ = value;
       }
     }
 
@@ -6670,14 +7174,39 @@ namespace Protocols {
       }
     }
 
-    /// <summary>Field number for the "operationEval" field.</summary>
-    public const int OperationEvalFieldNumber = 6;
-    private uint operationEval_;
+    /// <summary>Field number for the "pitchSpeed" field.</summary>
+    public const int PitchSpeedFieldNumber = 6;
+    private float pitchSpeed_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public uint OperationEval {
-      get { return operationEval_; }
+    public float PitchSpeed {
+      get { return pitchSpeed_; }
       set {
-        operationEval_ = value;
+        pitchSpeed_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "offsetLength" field.</summary>
+    public const int OffsetLengthFieldNumber = 7;
+    private float offsetLength_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float OffsetLength {
+      get { return offsetLength_; }
+      set {
+        offsetLength_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "pickoff" field.</summary>
+    public const int PickoffFieldNumber = 8;
+    private uint pickoff_;
+    /// <summary>
+    /// 0 - 非牵制。 1~3 - 牵制指定垒上跑者
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public uint Pickoff {
+      get { return pickoff_; }
+      set {
+        pickoff_ = value;
       }
     }
 
@@ -6697,9 +7226,11 @@ namespace Protocols {
       if (BallType != other.BallType) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TargetX, other.TargetX)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TargetY, other.TargetY)) return false;
-      if (Dominate != other.Dominate) return false;
+      if (PuzzleType != other.PuzzleType) return false;
       if (Eval != other.Eval) return false;
-      if (OperationEval != other.OperationEval) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(PitchSpeed, other.PitchSpeed)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(OffsetLength, other.OffsetLength)) return false;
+      if (Pickoff != other.Pickoff) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -6709,9 +7240,11 @@ namespace Protocols {
       if (BallType != 0) hash ^= BallType.GetHashCode();
       if (TargetX != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TargetX);
       if (TargetY != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TargetY);
-      if (Dominate != false) hash ^= Dominate.GetHashCode();
+      if (PuzzleType != 0) hash ^= PuzzleType.GetHashCode();
       if (Eval != 0) hash ^= Eval.GetHashCode();
-      if (OperationEval != 0) hash ^= OperationEval.GetHashCode();
+      if (PitchSpeed != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(PitchSpeed);
+      if (OffsetLength != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(OffsetLength);
+      if (Pickoff != 0) hash ^= Pickoff.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -6737,17 +7270,25 @@ namespace Protocols {
         output.WriteRawTag(29);
         output.WriteFloat(TargetY);
       }
-      if (Dominate != false) {
+      if (PuzzleType != 0) {
         output.WriteRawTag(32);
-        output.WriteBool(Dominate);
+        output.WriteUInt32(PuzzleType);
       }
       if (Eval != 0) {
         output.WriteRawTag(40);
         output.WriteUInt32(Eval);
       }
-      if (OperationEval != 0) {
-        output.WriteRawTag(48);
-        output.WriteUInt32(OperationEval);
+      if (PitchSpeed != 0F) {
+        output.WriteRawTag(53);
+        output.WriteFloat(PitchSpeed);
+      }
+      if (OffsetLength != 0F) {
+        output.WriteRawTag(61);
+        output.WriteFloat(OffsetLength);
+      }
+      if (Pickoff != 0) {
+        output.WriteRawTag(64);
+        output.WriteUInt32(Pickoff);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -6766,14 +7307,20 @@ namespace Protocols {
       if (TargetY != 0F) {
         size += 1 + 4;
       }
-      if (Dominate != false) {
-        size += 1 + 1;
+      if (PuzzleType != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(PuzzleType);
       }
       if (Eval != 0) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Eval);
       }
-      if (OperationEval != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(OperationEval);
+      if (PitchSpeed != 0F) {
+        size += 1 + 4;
+      }
+      if (OffsetLength != 0F) {
+        size += 1 + 4;
+      }
+      if (Pickoff != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Pickoff);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -6795,14 +7342,20 @@ namespace Protocols {
       if (other.TargetY != 0F) {
         TargetY = other.TargetY;
       }
-      if (other.Dominate != false) {
-        Dominate = other.Dominate;
+      if (other.PuzzleType != 0) {
+        PuzzleType = other.PuzzleType;
       }
       if (other.Eval != 0) {
         Eval = other.Eval;
       }
-      if (other.OperationEval != 0) {
-        OperationEval = other.OperationEval;
+      if (other.PitchSpeed != 0F) {
+        PitchSpeed = other.PitchSpeed;
+      }
+      if (other.OffsetLength != 0F) {
+        OffsetLength = other.OffsetLength;
+      }
+      if (other.Pickoff != 0) {
+        Pickoff = other.Pickoff;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -6828,15 +7381,23 @@ namespace Protocols {
             break;
           }
           case 32: {
-            Dominate = input.ReadBool();
+            PuzzleType = input.ReadUInt32();
             break;
           }
           case 40: {
             Eval = input.ReadUInt32();
             break;
           }
-          case 48: {
-            OperationEval = input.ReadUInt32();
+          case 53: {
+            PitchSpeed = input.ReadFloat();
+            break;
+          }
+          case 61: {
+            OffsetLength = input.ReadFloat();
+            break;
+          }
+          case 64: {
+            Pickoff = input.ReadUInt32();
             break;
           }
         }
@@ -6856,7 +7417,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[30]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[33]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6878,6 +7439,10 @@ namespace Protocols {
       time_ = other.time_;
       dir_ = other.dir_;
       eval_ = other.eval_;
+      batOpType_ = other.batOpType_;
+      targetY_ = other.targetY_;
+      targetXAfterBat_ = other.targetXAfterBat_;
+      targetYAfterBat_ = other.targetYAfterBat_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -6956,6 +7521,62 @@ namespace Protocols {
       }
     }
 
+    /// <summary>Field number for the "batOpType" field.</summary>
+    public const int BatOpTypeFieldNumber = 6;
+    private global::Protocols.BatOpType batOpType_ = 0;
+    /// <summary>
+    /// 击球的模式：1-普通打击，2-摆棒子强震，3-主宰时刻-精确落点 // TODO: 应当用DominateStatus以及BattingMode来判断
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Protocols.BatOpType BatOpType {
+      get { return batOpType_; }
+      set {
+        batOpType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "targetY" field.</summary>
+    public const int TargetYFieldNumber = 7;
+    private float targetY_;
+    /// <summary>
+    /// 挥棒落点 // TODO: 将主宰时刻有关的打击数据放到一个专门的数据里
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float TargetY {
+      get { return targetY_; }
+      set {
+        targetY_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "targetXAfterBat" field.</summary>
+    public const int TargetXAfterBatFieldNumber = 8;
+    private float targetXAfterBat_;
+    /// <summary>
+    /// 挥棒后的落点X
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float TargetXAfterBat {
+      get { return targetXAfterBat_; }
+      set {
+        targetXAfterBat_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "targetYAfterBat" field.</summary>
+    public const int TargetYAfterBatFieldNumber = 9;
+    private float targetYAfterBat_;
+    /// <summary>
+    /// 挥棒后的落点Y
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float TargetYAfterBat {
+      get { return targetYAfterBat_; }
+      set {
+        targetYAfterBat_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as BattingInfo);
@@ -6974,6 +7595,10 @@ namespace Protocols {
       if (Time != other.Time) return false;
       if (Dir != other.Dir) return false;
       if (Eval != other.Eval) return false;
+      if (BatOpType != other.BatOpType) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TargetY, other.TargetY)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TargetXAfterBat, other.TargetXAfterBat)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TargetYAfterBat, other.TargetYAfterBat)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -6985,6 +7610,10 @@ namespace Protocols {
       if (Time != 0) hash ^= Time.GetHashCode();
       if (Dir != 0) hash ^= Dir.GetHashCode();
       if (Eval != 0) hash ^= Eval.GetHashCode();
+      if (BatOpType != 0) hash ^= BatOpType.GetHashCode();
+      if (TargetY != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TargetY);
+      if (TargetXAfterBat != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TargetXAfterBat);
+      if (TargetYAfterBat != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TargetYAfterBat);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -7018,6 +7647,22 @@ namespace Protocols {
         output.WriteRawTag(40);
         output.WriteEnum((int) Eval);
       }
+      if (BatOpType != 0) {
+        output.WriteRawTag(48);
+        output.WriteEnum((int) BatOpType);
+      }
+      if (TargetY != 0F) {
+        output.WriteRawTag(61);
+        output.WriteFloat(TargetY);
+      }
+      if (TargetXAfterBat != 0F) {
+        output.WriteRawTag(69);
+        output.WriteFloat(TargetXAfterBat);
+      }
+      if (TargetYAfterBat != 0F) {
+        output.WriteRawTag(77);
+        output.WriteFloat(TargetYAfterBat);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -7040,6 +7685,18 @@ namespace Protocols {
       }
       if (Eval != 0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Eval);
+      }
+      if (BatOpType != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) BatOpType);
+      }
+      if (TargetY != 0F) {
+        size += 1 + 4;
+      }
+      if (TargetXAfterBat != 0F) {
+        size += 1 + 4;
+      }
+      if (TargetYAfterBat != 0F) {
+        size += 1 + 4;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -7066,6 +7723,18 @@ namespace Protocols {
       }
       if (other.Eval != 0) {
         Eval = other.Eval;
+      }
+      if (other.BatOpType != 0) {
+        BatOpType = other.BatOpType;
+      }
+      if (other.TargetY != 0F) {
+        TargetY = other.TargetY;
+      }
+      if (other.TargetXAfterBat != 0F) {
+        TargetXAfterBat = other.TargetXAfterBat;
+      }
+      if (other.TargetYAfterBat != 0F) {
+        TargetYAfterBat = other.TargetYAfterBat;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -7098,6 +7767,22 @@ namespace Protocols {
             eval_ = (global::Protocols.BatOperationResultType) input.ReadEnum();
             break;
           }
+          case 48: {
+            batOpType_ = (global::Protocols.BatOpType) input.ReadEnum();
+            break;
+          }
+          case 61: {
+            TargetY = input.ReadFloat();
+            break;
+          }
+          case 69: {
+            TargetXAfterBat = input.ReadFloat();
+            break;
+          }
+          case 77: {
+            TargetYAfterBat = input.ReadFloat();
+            break;
+          }
         }
       }
     }
@@ -7116,7 +7801,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[31]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[34]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7305,7 +7990,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[32]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[35]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7327,6 +8012,8 @@ namespace Protocols {
       frameRunBase_ = other.frameRunBase_ != null ? other.frameRunBase_.Clone() : null;
       frameCatch_ = other.frameCatch_ != null ? other.frameCatch_.Clone() : null;
       frameHitBallCatch_ = other.frameHitBallCatch_ != null ? other.frameHitBallCatch_.Clone() : null;
+      framePickoff_ = other.framePickoff_ != null ? other.framePickoff_.Clone() : null;
+      frameCatcherPickoff_ = other.frameCatcherPickoff_ != null ? other.frameCatcherPickoff_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -7390,6 +8077,28 @@ namespace Protocols {
       }
     }
 
+    /// <summary>Field number for the "framePickoff" field.</summary>
+    public const int FramePickoffFieldNumber = 5;
+    private global::Protocols.RunFrame_Pickoff framePickoff_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Protocols.RunFrame_Pickoff FramePickoff {
+      get { return framePickoff_; }
+      set {
+        framePickoff_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "frameCatcherPickoff" field.</summary>
+    public const int FrameCatcherPickoffFieldNumber = 6;
+    private global::Protocols.RunFrame_CatcherPickoff frameCatcherPickoff_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Protocols.RunFrame_CatcherPickoff FrameCatcherPickoff {
+      get { return frameCatcherPickoff_; }
+      set {
+        frameCatcherPickoff_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as RunFrame);
@@ -7408,6 +8117,8 @@ namespace Protocols {
       if (!object.Equals(FrameRunBase, other.FrameRunBase)) return false;
       if (!object.Equals(FrameCatch, other.FrameCatch)) return false;
       if (!object.Equals(FrameHitBallCatch, other.FrameHitBallCatch)) return false;
+      if (!object.Equals(FramePickoff, other.FramePickoff)) return false;
+      if (!object.Equals(FrameCatcherPickoff, other.FrameCatcherPickoff)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -7419,6 +8130,8 @@ namespace Protocols {
       if (frameRunBase_ != null) hash ^= FrameRunBase.GetHashCode();
       if (frameCatch_ != null) hash ^= FrameCatch.GetHashCode();
       if (frameHitBallCatch_ != null) hash ^= FrameHitBallCatch.GetHashCode();
+      if (framePickoff_ != null) hash ^= FramePickoff.GetHashCode();
+      if (frameCatcherPickoff_ != null) hash ^= FrameCatcherPickoff.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -7448,6 +8161,14 @@ namespace Protocols {
         output.WriteRawTag(34);
         output.WriteMessage(FrameHitBallCatch);
       }
+      if (framePickoff_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(FramePickoff);
+      }
+      if (frameCatcherPickoff_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(FrameCatcherPickoff);
+      }
       if (Type != 0) {
         output.WriteRawTag(160, 6);
         output.WriteEnum((int) Type);
@@ -7474,6 +8195,12 @@ namespace Protocols {
       }
       if (frameHitBallCatch_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(FrameHitBallCatch);
+      }
+      if (framePickoff_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(FramePickoff);
+      }
+      if (frameCatcherPickoff_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(FrameCatcherPickoff);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -7512,6 +8239,18 @@ namespace Protocols {
           frameHitBallCatch_ = new global::Protocols.RunFrame_HitBallCatch();
         }
         FrameHitBallCatch.MergeFrom(other.FrameHitBallCatch);
+      }
+      if (other.framePickoff_ != null) {
+        if (framePickoff_ == null) {
+          framePickoff_ = new global::Protocols.RunFrame_Pickoff();
+        }
+        FramePickoff.MergeFrom(other.FramePickoff);
+      }
+      if (other.frameCatcherPickoff_ != null) {
+        if (frameCatcherPickoff_ == null) {
+          frameCatcherPickoff_ = new global::Protocols.RunFrame_CatcherPickoff();
+        }
+        FrameCatcherPickoff.MergeFrom(other.FrameCatcherPickoff);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -7552,6 +8291,20 @@ namespace Protocols {
             input.ReadMessage(frameHitBallCatch_);
             break;
           }
+          case 42: {
+            if (framePickoff_ == null) {
+              framePickoff_ = new global::Protocols.RunFrame_Pickoff();
+            }
+            input.ReadMessage(framePickoff_);
+            break;
+          }
+          case 50: {
+            if (frameCatcherPickoff_ == null) {
+              frameCatcherPickoff_ = new global::Protocols.RunFrame_CatcherPickoff();
+            }
+            input.ReadMessage(frameCatcherPickoff_);
+            break;
+          }
           case 800: {
             type_ = (global::Protocols.RunFrameType) input.ReadEnum();
             break;
@@ -7573,7 +8326,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[33]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[36]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7873,7 +8626,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[34]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[37]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8145,7 +8898,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[35]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[38]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8417,7 +9170,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[36]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[39]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8765,6 +9518,410 @@ namespace Protocols {
   /// <summary>
   ///[NoReg]
   /// </summary>
+  public sealed partial class RunFrame_Pickoff : pb::IMessage<RunFrame_Pickoff> {
+    private static readonly pb::MessageParser<RunFrame_Pickoff> _parser = new pb::MessageParser<RunFrame_Pickoff>(() => new RunFrame_Pickoff());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<RunFrame_Pickoff> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[40]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RunFrame_Pickoff() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RunFrame_Pickoff(RunFrame_Pickoff other) : this() {
+      base_ = other.base_;
+      isOut_ = other.isOut_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RunFrame_Pickoff Clone() {
+      return new RunFrame_Pickoff(this);
+    }
+
+    /// <summary>Field number for the "base" field.</summary>
+    public const int BaseFieldNumber = 1;
+    private uint base_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public uint Base {
+      get { return base_; }
+      set {
+        base_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "isOut" field.</summary>
+    public const int IsOutFieldNumber = 2;
+    private bool isOut_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsOut {
+      get { return isOut_; }
+      set {
+        isOut_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as RunFrame_Pickoff);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(RunFrame_Pickoff other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Base != other.Base) return false;
+      if (IsOut != other.IsOut) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Base != 0) hash ^= Base.GetHashCode();
+      if (IsOut != false) hash ^= IsOut.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Base != 0) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(Base);
+      }
+      if (IsOut != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(IsOut);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Base != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Base);
+      }
+      if (IsOut != false) {
+        size += 1 + 1;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(RunFrame_Pickoff other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Base != 0) {
+        Base = other.Base;
+      }
+      if (other.IsOut != false) {
+        IsOut = other.IsOut;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Base = input.ReadUInt32();
+            break;
+          }
+          case 16: {
+            IsOut = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///[NoReg]
+  /// </summary>
+  public sealed partial class RunFrame_CatcherPickoff : pb::IMessage<RunFrame_CatcherPickoff> {
+    private static readonly pb::MessageParser<RunFrame_CatcherPickoff> _parser = new pb::MessageParser<RunFrame_CatcherPickoff>(() => new RunFrame_CatcherPickoff());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<RunFrame_CatcherPickoff> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[41]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RunFrame_CatcherPickoff() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RunFrame_CatcherPickoff(RunFrame_CatcherPickoff other) : this() {
+      endTime_ = other.endTime_;
+      outTime_ = other.outTime_;
+      catcher_ = other.catcher_;
+      toBase_ = other.toBase_;
+      outAthleteOnFieldRole_ = other.outAthleteOnFieldRole_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public RunFrame_CatcherPickoff Clone() {
+      return new RunFrame_CatcherPickoff(this);
+    }
+
+    /// <summary>Field number for the "endTime" field.</summary>
+    public const int EndTimeFieldNumber = 1;
+    private float endTime_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float EndTime {
+      get { return endTime_; }
+      set {
+        endTime_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "outTime" field.</summary>
+    public const int OutTimeFieldNumber = 2;
+    private float outTime_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float OutTime {
+      get { return outTime_; }
+      set {
+        outTime_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "catcher" field.</summary>
+    public const int CatcherFieldNumber = 3;
+    private global::Protocols.OnFieldRole catcher_ = 0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Protocols.OnFieldRole Catcher {
+      get { return catcher_; }
+      set {
+        catcher_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "toBase" field.</summary>
+    public const int ToBaseFieldNumber = 4;
+    private uint toBase_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public uint ToBase {
+      get { return toBase_; }
+      set {
+        toBase_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "outAthleteOnFieldRole" field.</summary>
+    public const int OutAthleteOnFieldRoleFieldNumber = 5;
+    private global::Protocols.OnFieldRole outAthleteOnFieldRole_ = 0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Protocols.OnFieldRole OutAthleteOnFieldRole {
+      get { return outAthleteOnFieldRole_; }
+      set {
+        outAthleteOnFieldRole_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as RunFrame_CatcherPickoff);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(RunFrame_CatcherPickoff other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(EndTime, other.EndTime)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(OutTime, other.OutTime)) return false;
+      if (Catcher != other.Catcher) return false;
+      if (ToBase != other.ToBase) return false;
+      if (OutAthleteOnFieldRole != other.OutAthleteOnFieldRole) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (EndTime != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(EndTime);
+      if (OutTime != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(OutTime);
+      if (Catcher != 0) hash ^= Catcher.GetHashCode();
+      if (ToBase != 0) hash ^= ToBase.GetHashCode();
+      if (OutAthleteOnFieldRole != 0) hash ^= OutAthleteOnFieldRole.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (EndTime != 0F) {
+        output.WriteRawTag(13);
+        output.WriteFloat(EndTime);
+      }
+      if (OutTime != 0F) {
+        output.WriteRawTag(21);
+        output.WriteFloat(OutTime);
+      }
+      if (Catcher != 0) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) Catcher);
+      }
+      if (ToBase != 0) {
+        output.WriteRawTag(32);
+        output.WriteUInt32(ToBase);
+      }
+      if (OutAthleteOnFieldRole != 0) {
+        output.WriteRawTag(40);
+        output.WriteEnum((int) OutAthleteOnFieldRole);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (EndTime != 0F) {
+        size += 1 + 4;
+      }
+      if (OutTime != 0F) {
+        size += 1 + 4;
+      }
+      if (Catcher != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Catcher);
+      }
+      if (ToBase != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(ToBase);
+      }
+      if (OutAthleteOnFieldRole != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) OutAthleteOnFieldRole);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(RunFrame_CatcherPickoff other) {
+      if (other == null) {
+        return;
+      }
+      if (other.EndTime != 0F) {
+        EndTime = other.EndTime;
+      }
+      if (other.OutTime != 0F) {
+        OutTime = other.OutTime;
+      }
+      if (other.Catcher != 0) {
+        Catcher = other.Catcher;
+      }
+      if (other.ToBase != 0) {
+        ToBase = other.ToBase;
+      }
+      if (other.OutAthleteOnFieldRole != 0) {
+        OutAthleteOnFieldRole = other.OutAthleteOnFieldRole;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 13: {
+            EndTime = input.ReadFloat();
+            break;
+          }
+          case 21: {
+            OutTime = input.ReadFloat();
+            break;
+          }
+          case 24: {
+            catcher_ = (global::Protocols.OnFieldRole) input.ReadEnum();
+            break;
+          }
+          case 32: {
+            ToBase = input.ReadUInt32();
+            break;
+          }
+          case 40: {
+            outAthleteOnFieldRole_ = (global::Protocols.OnFieldRole) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///[NoReg]
+  /// </summary>
   public sealed partial class BatResult : pb::IMessage<BatResult> {
     private static readonly pb::MessageParser<BatResult> _parser = new pb::MessageParser<BatResult>(() => new BatResult());
     private pb::UnknownFieldSet _unknownFields;
@@ -8773,7 +9930,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[37]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[42]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8798,6 +9955,10 @@ namespace Protocols {
       outFieldFlyTime_ = other.outFieldFlyTime_;
       outFieldFlyHitGroundTimes_ = other.outFieldFlyHitGroundTimes_;
       isFastOut_ = other.isFastOut_;
+      isAutoSwing_ = other.isAutoSwing_;
+      hitBallCatcherOnFieldRole_ = other.hitBallCatcherOnFieldRole_;
+      trajectoryType_ = other.trajectoryType_;
+      multiPlayDefenders_ = other.multiPlayDefenders_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -8893,6 +10054,49 @@ namespace Protocols {
       }
     }
 
+    /// <summary>Field number for the "isAutoSwing" field.</summary>
+    public const int IsAutoSwingFieldNumber = 9;
+    private bool isAutoSwing_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool IsAutoSwing {
+      get { return isAutoSwing_; }
+      set {
+        isAutoSwing_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "hitBallCatcherOnFieldRole" field.</summary>
+    public const int HitBallCatcherOnFieldRoleFieldNumber = 10;
+    private global::Protocols.OnFieldRole hitBallCatcherOnFieldRole_ = 0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Protocols.OnFieldRole HitBallCatcherOnFieldRole {
+      get { return hitBallCatcherOnFieldRole_; }
+      set {
+        hitBallCatcherOnFieldRole_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "trajectoryType" field.</summary>
+    public const int TrajectoryTypeFieldNumber = 11;
+    private global::Protocols.TrajectoryType trajectoryType_ = 0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Protocols.TrajectoryType TrajectoryType {
+      get { return trajectoryType_; }
+      set {
+        trajectoryType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "multiPlayDefenders" field.</summary>
+    public const int MultiPlayDefendersFieldNumber = 12;
+    private static readonly pb::FieldCodec<global::Protocols.OnFieldRole> _repeated_multiPlayDefenders_codec
+        = pb::FieldCodec.ForEnum(98, x => (int) x, x => (global::Protocols.OnFieldRole) x);
+    private readonly pbc::RepeatedField<global::Protocols.OnFieldRole> multiPlayDefenders_ = new pbc::RepeatedField<global::Protocols.OnFieldRole>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Protocols.OnFieldRole> MultiPlayDefenders {
+      get { return multiPlayDefenders_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as BatResult);
@@ -8914,6 +10118,10 @@ namespace Protocols {
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(OutFieldFlyTime, other.OutFieldFlyTime)) return false;
       if (OutFieldFlyHitGroundTimes != other.OutFieldFlyHitGroundTimes) return false;
       if (IsFastOut != other.IsFastOut) return false;
+      if (IsAutoSwing != other.IsAutoSwing) return false;
+      if (HitBallCatcherOnFieldRole != other.HitBallCatcherOnFieldRole) return false;
+      if (TrajectoryType != other.TrajectoryType) return false;
+      if(!multiPlayDefenders_.Equals(other.multiPlayDefenders_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -8928,6 +10136,10 @@ namespace Protocols {
       if (OutFieldFlyTime != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(OutFieldFlyTime);
       if (OutFieldFlyHitGroundTimes != 0) hash ^= OutFieldFlyHitGroundTimes.GetHashCode();
       if (IsFastOut != false) hash ^= IsFastOut.GetHashCode();
+      if (IsAutoSwing != false) hash ^= IsAutoSwing.GetHashCode();
+      if (HitBallCatcherOnFieldRole != 0) hash ^= HitBallCatcherOnFieldRole.GetHashCode();
+      if (TrajectoryType != 0) hash ^= TrajectoryType.GetHashCode();
+      hash ^= multiPlayDefenders_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -8970,6 +10182,19 @@ namespace Protocols {
         output.WriteRawTag(64);
         output.WriteBool(IsFastOut);
       }
+      if (IsAutoSwing != false) {
+        output.WriteRawTag(72);
+        output.WriteBool(IsAutoSwing);
+      }
+      if (HitBallCatcherOnFieldRole != 0) {
+        output.WriteRawTag(80);
+        output.WriteEnum((int) HitBallCatcherOnFieldRole);
+      }
+      if (TrajectoryType != 0) {
+        output.WriteRawTag(88);
+        output.WriteEnum((int) TrajectoryType);
+      }
+      multiPlayDefenders_.WriteTo(output, _repeated_multiPlayDefenders_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -9000,6 +10225,16 @@ namespace Protocols {
       if (IsFastOut != false) {
         size += 1 + 1;
       }
+      if (IsAutoSwing != false) {
+        size += 1 + 1;
+      }
+      if (HitBallCatcherOnFieldRole != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) HitBallCatcherOnFieldRole);
+      }
+      if (TrajectoryType != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) TrajectoryType);
+      }
+      size += multiPlayDefenders_.CalculateSize(_repeated_multiPlayDefenders_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -9033,6 +10268,16 @@ namespace Protocols {
       if (other.IsFastOut != false) {
         IsFastOut = other.IsFastOut;
       }
+      if (other.IsAutoSwing != false) {
+        IsAutoSwing = other.IsAutoSwing;
+      }
+      if (other.HitBallCatcherOnFieldRole != 0) {
+        HitBallCatcherOnFieldRole = other.HitBallCatcherOnFieldRole;
+      }
+      if (other.TrajectoryType != 0) {
+        TrajectoryType = other.TrajectoryType;
+      }
+      multiPlayDefenders_.Add(other.multiPlayDefenders_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -9076,6 +10321,23 @@ namespace Protocols {
             IsFastOut = input.ReadBool();
             break;
           }
+          case 72: {
+            IsAutoSwing = input.ReadBool();
+            break;
+          }
+          case 80: {
+            hitBallCatcherOnFieldRole_ = (global::Protocols.OnFieldRole) input.ReadEnum();
+            break;
+          }
+          case 88: {
+            trajectoryType_ = (global::Protocols.TrajectoryType) input.ReadEnum();
+            break;
+          }
+          case 98:
+          case 96: {
+            multiPlayDefenders_.AddEntriesFrom(input, _repeated_multiPlayDefenders_codec);
+            break;
+          }
         }
       }
     }
@@ -9093,7 +10355,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[38]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[43]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9259,7 +10521,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[39]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9457,6 +10719,172 @@ namespace Protocols {
 
   }
 
+  /// <summary>
+  ///[NoReg]
+  /// </summary>
+  public sealed partial class ChangedPlayerAbilities : pb::IMessage<ChangedPlayerAbilities> {
+    private static readonly pb::MessageParser<ChangedPlayerAbilities> _parser = new pb::MessageParser<ChangedPlayerAbilities>(() => new ChangedPlayerAbilities());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ChangedPlayerAbilities> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[45]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ChangedPlayerAbilities() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ChangedPlayerAbilities(ChangedPlayerAbilities other) : this() {
+      id_ = other.id_;
+      abilities_ = other.abilities_ != null ? other.abilities_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ChangedPlayerAbilities Clone() {
+      return new ChangedPlayerAbilities(this);
+    }
+
+    /// <summary>Field number for the "id" field.</summary>
+    public const int IdFieldNumber = 1;
+    private uint id_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public uint Id {
+      get { return id_; }
+      set {
+        id_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "abilities" field.</summary>
+    public const int AbilitiesFieldNumber = 2;
+    private global::Protocols.PlayerAbilities abilities_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Protocols.PlayerAbilities Abilities {
+      get { return abilities_; }
+      set {
+        abilities_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ChangedPlayerAbilities);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ChangedPlayerAbilities other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Id != other.Id) return false;
+      if (!object.Equals(Abilities, other.Abilities)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Id != 0) hash ^= Id.GetHashCode();
+      if (abilities_ != null) hash ^= Abilities.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Id != 0) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(Id);
+      }
+      if (abilities_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Abilities);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Id != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Id);
+      }
+      if (abilities_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Abilities);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ChangedPlayerAbilities other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Id != 0) {
+        Id = other.Id;
+      }
+      if (other.abilities_ != null) {
+        if (abilities_ == null) {
+          abilities_ = new global::Protocols.PlayerAbilities();
+        }
+        Abilities.MergeFrom(other.Abilities);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Id = input.ReadUInt32();
+            break;
+          }
+          case 18: {
+            if (abilities_ == null) {
+              abilities_ = new global::Protocols.PlayerAbilities();
+            }
+            input.ReadMessage(abilities_);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class SelectPitchOp : pb::IMessage<SelectPitchOp> {
     private static readonly pb::MessageParser<SelectPitchOp> _parser = new pb::MessageParser<SelectPitchOp>(() => new SelectPitchOp());
     private pb::UnknownFieldSet _unknownFields;
@@ -9465,7 +10893,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[40]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[46]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9600,7 +11028,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[41]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[47]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9619,6 +11047,7 @@ namespace Protocols {
     public SelectPitchResp(SelectPitchResp other) : this() {
       selection_ = other.selection_ != null ? other.selection_.Clone() : null;
       possibleResults_ = other.possibleResults_.Clone();
+      changedAbilities_ = other.changedAbilities_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -9648,6 +11077,16 @@ namespace Protocols {
       get { return possibleResults_; }
     }
 
+    /// <summary>Field number for the "changedAbilities" field.</summary>
+    public const int ChangedAbilitiesFieldNumber = 3;
+    private static readonly pb::FieldCodec<global::Protocols.ChangedPlayerAbilities> _repeated_changedAbilities_codec
+        = pb::FieldCodec.ForMessage(26, global::Protocols.ChangedPlayerAbilities.Parser);
+    private readonly pbc::RepeatedField<global::Protocols.ChangedPlayerAbilities> changedAbilities_ = new pbc::RepeatedField<global::Protocols.ChangedPlayerAbilities>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Protocols.ChangedPlayerAbilities> ChangedAbilities {
+      get { return changedAbilities_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as SelectPitchResp);
@@ -9663,6 +11102,7 @@ namespace Protocols {
       }
       if (!object.Equals(Selection, other.Selection)) return false;
       if(!possibleResults_.Equals(other.possibleResults_)) return false;
+      if(!changedAbilities_.Equals(other.changedAbilities_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -9671,6 +11111,7 @@ namespace Protocols {
       int hash = 1;
       if (selection_ != null) hash ^= Selection.GetHashCode();
       hash ^= possibleResults_.GetHashCode();
+      hash ^= changedAbilities_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -9689,6 +11130,7 @@ namespace Protocols {
         output.WriteMessage(Selection);
       }
       possibleResults_.WriteTo(output, _repeated_possibleResults_codec);
+      changedAbilities_.WriteTo(output, _repeated_changedAbilities_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -9701,6 +11143,7 @@ namespace Protocols {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Selection);
       }
       size += possibleResults_.CalculateSize(_repeated_possibleResults_codec);
+      size += changedAbilities_.CalculateSize(_repeated_changedAbilities_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -9719,6 +11162,7 @@ namespace Protocols {
         Selection.MergeFrom(other.Selection);
       }
       possibleResults_.Add(other.possibleResults_);
+      changedAbilities_.Add(other.changedAbilities_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -9741,6 +11185,10 @@ namespace Protocols {
             possibleResults_.AddEntriesFrom(input, _repeated_possibleResults_codec);
             break;
           }
+          case 26: {
+            changedAbilities_.AddEntriesFrom(input, _repeated_changedAbilities_codec);
+            break;
+          }
         }
       }
     }
@@ -9748,7 +11196,7 @@ namespace Protocols {
   }
 
   /// <summary>
-  /// TODO: Delete these Dominate Messages.
+  /// TODO: Delete these Dominate Messages. // 投球主宰时刻现在无需单独的环节，沿用普通投球的数据即可。判断是否主宰时刻通过球种和相应的次数来判断
   /// </summary>
   public sealed partial class DominatePitchOp : pb::IMessage<DominatePitchOp> {
     private static readonly pb::MessageParser<DominatePitchOp> _parser = new pb::MessageParser<DominatePitchOp>(() => new DominatePitchOp());
@@ -9758,7 +11206,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[42]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[48]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9921,7 +11369,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[43]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[49]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10084,7 +11532,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[44]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[50]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10102,7 +11550,6 @@ namespace Protocols {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public BatOp(BatOp other) : this() {
       bat_ = other.bat_ != null ? other.bat_.Clone() : null;
-      dominate_ = other.dominate_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -10114,22 +11561,14 @@ namespace Protocols {
     /// <summary>Field number for the "bat" field.</summary>
     public const int BatFieldNumber = 1;
     private global::Protocols.BattingInfo bat_;
+    /// <summary>
+    ///bool dominate = 2; // 现在通过DominateStatus判断
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Protocols.BattingInfo Bat {
       get { return bat_; }
       set {
         bat_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "dominate" field.</summary>
-    public const int DominateFieldNumber = 2;
-    private bool dominate_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Dominate {
-      get { return dominate_; }
-      set {
-        dominate_ = value;
       }
     }
 
@@ -10147,7 +11586,6 @@ namespace Protocols {
         return true;
       }
       if (!object.Equals(Bat, other.Bat)) return false;
-      if (Dominate != other.Dominate) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -10155,7 +11593,6 @@ namespace Protocols {
     public override int GetHashCode() {
       int hash = 1;
       if (bat_ != null) hash ^= Bat.GetHashCode();
-      if (Dominate != false) hash ^= Dominate.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -10173,10 +11610,6 @@ namespace Protocols {
         output.WriteRawTag(10);
         output.WriteMessage(Bat);
       }
-      if (Dominate != false) {
-        output.WriteRawTag(16);
-        output.WriteBool(Dominate);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -10187,9 +11620,6 @@ namespace Protocols {
       int size = 0;
       if (bat_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Bat);
-      }
-      if (Dominate != false) {
-        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -10207,9 +11637,6 @@ namespace Protocols {
           bat_ = new global::Protocols.BattingInfo();
         }
         Bat.MergeFrom(other.Bat);
-      }
-      if (other.Dominate != false) {
-        Dominate = other.Dominate;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -10229,10 +11656,6 @@ namespace Protocols {
             input.ReadMessage(bat_);
             break;
           }
-          case 16: {
-            Dominate = input.ReadBool();
-            break;
-          }
         }
       }
     }
@@ -10247,7 +11670,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[45]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[51]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10450,7 +11873,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[46]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[52]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10613,7 +12036,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[47]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[53]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10779,7 +12202,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[48]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[54]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10911,7 +12334,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[49]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[55]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10928,8 +12351,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SetDominateEvent(SetDominateEvent other) : this() {
-      role_ = other.role_;
-      active_ = other.active_;
+      status_ = other.status_ != null ? other.status_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -10938,28 +12360,14 @@ namespace Protocols {
       return new SetDominateEvent(this);
     }
 
-    /// <summary>Field number for the "role" field.</summary>
-    public const int RoleFieldNumber = 1;
-    private uint role_;
-    /// <summary>
-    /// 0-pitcher, 1-batter.
-    /// </summary>
+    /// <summary>Field number for the "status" field.</summary>
+    public const int StatusFieldNumber = 1;
+    private global::Protocols.DominateStatus status_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public uint Role {
-      get { return role_; }
+    public global::Protocols.DominateStatus Status {
+      get { return status_; }
       set {
-        role_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "active" field.</summary>
-    public const int ActiveFieldNumber = 2;
-    private bool active_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Active {
-      get { return active_; }
-      set {
-        active_ = value;
+        status_ = value;
       }
     }
 
@@ -10976,16 +12384,14 @@ namespace Protocols {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Role != other.Role) return false;
-      if (Active != other.Active) return false;
+      if (!object.Equals(Status, other.Status)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Role != 0) hash ^= Role.GetHashCode();
-      if (Active != false) hash ^= Active.GetHashCode();
+      if (status_ != null) hash ^= Status.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -10999,13 +12405,9 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Role != 0) {
-        output.WriteRawTag(8);
-        output.WriteUInt32(Role);
-      }
-      if (Active != false) {
-        output.WriteRawTag(16);
-        output.WriteBool(Active);
+      if (status_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Status);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -11015,11 +12417,8 @@ namespace Protocols {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Role != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Role);
-      }
-      if (Active != false) {
-        size += 1 + 1;
+      if (status_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Status);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -11032,11 +12431,266 @@ namespace Protocols {
       if (other == null) {
         return;
       }
-      if (other.Role != 0) {
-        Role = other.Role;
+      if (other.status_ != null) {
+        if (status_ == null) {
+          status_ = new global::Protocols.DominateStatus();
+        }
+        Status.MergeFrom(other.Status);
       }
-      if (other.Active != false) {
-        Active = other.Active;
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (status_ == null) {
+              status_ = new global::Protocols.DominateStatus();
+            }
+            input.ReadMessage(status_);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///[NoReg]
+  /// </summary>
+  public sealed partial class StealBaseStatus : pb::IMessage<StealBaseStatus> {
+    private static readonly pb::MessageParser<StealBaseStatus> _parser = new pb::MessageParser<StealBaseStatus>(() => new StealBaseStatus());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<StealBaseStatus> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[56]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StealBaseStatus() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StealBaseStatus(StealBaseStatus other) : this() {
+      base1_ = other.base1_;
+      base2_ = other.base2_;
+      base3_ = other.base3_;
+      base1AdvanceDist_ = other.base1AdvanceDist_;
+      base2AdvanceDist_ = other.base2AdvanceDist_;
+      base3AdvanceDist_ = other.base3AdvanceDist_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public StealBaseStatus Clone() {
+      return new StealBaseStatus(this);
+    }
+
+    /// <summary>Field number for the "base1" field.</summary>
+    public const int Base1FieldNumber = 1;
+    private bool base1_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Base1 {
+      get { return base1_; }
+      set {
+        base1_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "base2" field.</summary>
+    public const int Base2FieldNumber = 2;
+    private bool base2_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Base2 {
+      get { return base2_; }
+      set {
+        base2_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "base3" field.</summary>
+    public const int Base3FieldNumber = 3;
+    private bool base3_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Base3 {
+      get { return base3_; }
+      set {
+        base3_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "base1AdvanceDist" field.</summary>
+    public const int Base1AdvanceDistFieldNumber = 4;
+    private float base1AdvanceDist_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float Base1AdvanceDist {
+      get { return base1AdvanceDist_; }
+      set {
+        base1AdvanceDist_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "base2AdvanceDist" field.</summary>
+    public const int Base2AdvanceDistFieldNumber = 5;
+    private float base2AdvanceDist_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float Base2AdvanceDist {
+      get { return base2AdvanceDist_; }
+      set {
+        base2AdvanceDist_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "base3AdvanceDist" field.</summary>
+    public const int Base3AdvanceDistFieldNumber = 6;
+    private float base3AdvanceDist_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float Base3AdvanceDist {
+      get { return base3AdvanceDist_; }
+      set {
+        base3AdvanceDist_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as StealBaseStatus);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(StealBaseStatus other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Base1 != other.Base1) return false;
+      if (Base2 != other.Base2) return false;
+      if (Base3 != other.Base3) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Base1AdvanceDist, other.Base1AdvanceDist)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Base2AdvanceDist, other.Base2AdvanceDist)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Base3AdvanceDist, other.Base3AdvanceDist)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Base1 != false) hash ^= Base1.GetHashCode();
+      if (Base2 != false) hash ^= Base2.GetHashCode();
+      if (Base3 != false) hash ^= Base3.GetHashCode();
+      if (Base1AdvanceDist != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Base1AdvanceDist);
+      if (Base2AdvanceDist != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Base2AdvanceDist);
+      if (Base3AdvanceDist != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Base3AdvanceDist);
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Base1 != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Base1);
+      }
+      if (Base2 != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Base2);
+      }
+      if (Base3 != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(Base3);
+      }
+      if (Base1AdvanceDist != 0F) {
+        output.WriteRawTag(37);
+        output.WriteFloat(Base1AdvanceDist);
+      }
+      if (Base2AdvanceDist != 0F) {
+        output.WriteRawTag(45);
+        output.WriteFloat(Base2AdvanceDist);
+      }
+      if (Base3AdvanceDist != 0F) {
+        output.WriteRawTag(53);
+        output.WriteFloat(Base3AdvanceDist);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Base1 != false) {
+        size += 1 + 1;
+      }
+      if (Base2 != false) {
+        size += 1 + 1;
+      }
+      if (Base3 != false) {
+        size += 1 + 1;
+      }
+      if (Base1AdvanceDist != 0F) {
+        size += 1 + 4;
+      }
+      if (Base2AdvanceDist != 0F) {
+        size += 1 + 4;
+      }
+      if (Base3AdvanceDist != 0F) {
+        size += 1 + 4;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(StealBaseStatus other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Base1 != false) {
+        Base1 = other.Base1;
+      }
+      if (other.Base2 != false) {
+        Base2 = other.Base2;
+      }
+      if (other.Base3 != false) {
+        Base3 = other.Base3;
+      }
+      if (other.Base1AdvanceDist != 0F) {
+        Base1AdvanceDist = other.Base1AdvanceDist;
+      }
+      if (other.Base2AdvanceDist != 0F) {
+        Base2AdvanceDist = other.Base2AdvanceDist;
+      }
+      if (other.Base3AdvanceDist != 0F) {
+        Base3AdvanceDist = other.Base3AdvanceDist;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -11050,11 +12704,303 @@ namespace Protocols {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            Role = input.ReadUInt32();
+            Base1 = input.ReadBool();
             break;
           }
           case 16: {
-            Active = input.ReadBool();
+            Base2 = input.ReadBool();
+            break;
+          }
+          case 24: {
+            Base3 = input.ReadBool();
+            break;
+          }
+          case 37: {
+            Base1AdvanceDist = input.ReadFloat();
+            break;
+          }
+          case 45: {
+            Base2AdvanceDist = input.ReadFloat();
+            break;
+          }
+          case 53: {
+            Base3AdvanceDist = input.ReadFloat();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  /// 设置盗垒状态，攻方发往服务器
+  /// </summary>
+  public sealed partial class SetStealBaseOp : pb::IMessage<SetStealBaseOp> {
+    private static readonly pb::MessageParser<SetStealBaseOp> _parser = new pb::MessageParser<SetStealBaseOp>(() => new SetStealBaseOp());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SetStealBaseOp> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[57]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetStealBaseOp() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetStealBaseOp(SetStealBaseOp other) : this() {
+      status_ = other.status_ != null ? other.status_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetStealBaseOp Clone() {
+      return new SetStealBaseOp(this);
+    }
+
+    /// <summary>Field number for the "status" field.</summary>
+    public const int StatusFieldNumber = 1;
+    private global::Protocols.StealBaseStatus status_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Protocols.StealBaseStatus Status {
+      get { return status_; }
+      set {
+        status_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SetStealBaseOp);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SetStealBaseOp other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Status, other.Status)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (status_ != null) hash ^= Status.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (status_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Status);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (status_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Status);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SetStealBaseOp other) {
+      if (other == null) {
+        return;
+      }
+      if (other.status_ != null) {
+        if (status_ == null) {
+          status_ = new global::Protocols.StealBaseStatus();
+        }
+        Status.MergeFrom(other.Status);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (status_ == null) {
+              status_ = new global::Protocols.StealBaseStatus();
+            }
+            input.ReadMessage(status_);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  /// 通知盗垒状态，服务器发往客户端
+  /// </summary>
+  public sealed partial class SetStealBaseEvent : pb::IMessage<SetStealBaseEvent> {
+    private static readonly pb::MessageParser<SetStealBaseEvent> _parser = new pb::MessageParser<SetStealBaseEvent>(() => new SetStealBaseEvent());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SetStealBaseEvent> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[58]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetStealBaseEvent() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetStealBaseEvent(SetStealBaseEvent other) : this() {
+      status_ = other.status_ != null ? other.status_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetStealBaseEvent Clone() {
+      return new SetStealBaseEvent(this);
+    }
+
+    /// <summary>Field number for the "status" field.</summary>
+    public const int StatusFieldNumber = 1;
+    private global::Protocols.StealBaseStatus status_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Protocols.StealBaseStatus Status {
+      get { return status_; }
+      set {
+        status_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SetStealBaseEvent);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SetStealBaseEvent other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Status, other.Status)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (status_ != null) hash ^= Status.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (status_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Status);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (status_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Status);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SetStealBaseEvent other) {
+      if (other == null) {
+        return;
+      }
+      if (other.status_ != null) {
+        if (status_ == null) {
+          status_ = new global::Protocols.StealBaseStatus();
+        }
+        Status.MergeFrom(other.Status);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (status_ == null) {
+              status_ = new global::Protocols.StealBaseStatus();
+            }
+            input.ReadMessage(status_);
             break;
           }
         }
@@ -11074,7 +13020,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[50]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[59]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11203,7 +13149,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[51]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[60]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11335,7 +13281,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[52]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[61]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11464,7 +13410,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[53]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[62]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11596,7 +13542,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[54]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[63]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11697,7 +13643,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[55]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[64]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11790,6 +13736,107 @@ namespace Protocols {
 
   }
 
+  public sealed partial class BatDoneOp : pb::IMessage<BatDoneOp> {
+    private static readonly pb::MessageParser<BatDoneOp> _parser = new pb::MessageParser<BatDoneOp>(() => new BatDoneOp());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<BatDoneOp> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[65]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public BatDoneOp() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public BatDoneOp(BatDoneOp other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public BatDoneOp Clone() {
+      return new BatDoneOp(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as BatDoneOp);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(BatDoneOp other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(BatDoneOp other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    }
+
+  }
+
   public sealed partial class VainSwingOp : pb::IMessage<VainSwingOp> {
     private static readonly pb::MessageParser<VainSwingOp> _parser = new pb::MessageParser<VainSwingOp>(() => new VainSwingOp());
     private pb::UnknownFieldSet _unknownFields;
@@ -11798,7 +13845,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[56]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[66]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11899,7 +13946,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[57]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[67]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12000,7 +14047,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[58]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[68]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12101,7 +14148,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[59]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[69]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12202,7 +14249,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[60]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[70]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12295,6 +14342,163 @@ namespace Protocols {
 
   }
 
+  public sealed partial class SelectingBattingTargetEvent : pb::IMessage<SelectingBattingTargetEvent> {
+    private static readonly pb::MessageParser<SelectingBattingTargetEvent> _parser = new pb::MessageParser<SelectingBattingTargetEvent>(() => new SelectingBattingTargetEvent());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SelectingBattingTargetEvent> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[71]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SelectingBattingTargetEvent() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SelectingBattingTargetEvent(SelectingBattingTargetEvent other) : this() {
+      x_ = other.x_;
+      y_ = other.y_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SelectingBattingTargetEvent Clone() {
+      return new SelectingBattingTargetEvent(this);
+    }
+
+    /// <summary>Field number for the "x" field.</summary>
+    public const int XFieldNumber = 1;
+    private float x_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float X {
+      get { return x_; }
+      set {
+        x_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "y" field.</summary>
+    public const int YFieldNumber = 2;
+    private float y_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float Y {
+      get { return y_; }
+      set {
+        y_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SelectingBattingTargetEvent);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SelectingBattingTargetEvent other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(X, other.X)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Y, other.Y)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (X != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(X);
+      if (Y != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Y);
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (X != 0F) {
+        output.WriteRawTag(13);
+        output.WriteFloat(X);
+      }
+      if (Y != 0F) {
+        output.WriteRawTag(21);
+        output.WriteFloat(Y);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (X != 0F) {
+        size += 1 + 4;
+      }
+      if (Y != 0F) {
+        size += 1 + 4;
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SelectingBattingTargetEvent other) {
+      if (other == null) {
+        return;
+      }
+      if (other.X != 0F) {
+        X = other.X;
+      }
+      if (other.Y != 0F) {
+        Y = other.Y;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 13: {
+            X = input.ReadFloat();
+            break;
+          }
+          case 21: {
+            Y = input.ReadFloat();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   /// <summary>
   ///[RegID(2001)]
   ///[FrameSyncBegin]
@@ -12307,7 +14511,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[61]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[72]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12495,7 +14699,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[62]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[73]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12683,7 +14887,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[63]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[74]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12776,6 +14980,9 @@ namespace Protocols {
 
   }
 
+  /// <summary>
+  ///[FrameSyncReq]
+  /// </summary>
   public sealed partial class RunToBaseReq : pb::IMessage<RunToBaseReq> {
     private static readonly pb::MessageParser<RunToBaseReq> _parser = new pb::MessageParser<RunToBaseReq>(() => new RunToBaseReq());
     private pb::UnknownFieldSet _unknownFields;
@@ -12784,7 +14991,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[64]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[75]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13000,7 +15207,7 @@ namespace Protocols {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[65]; }
+      get { return global::Protocols.CombinedReflection.Descriptor.MessageTypes[76]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

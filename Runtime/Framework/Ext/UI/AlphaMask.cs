@@ -52,7 +52,7 @@ namespace UIExt
 //            }
 //            if (!_RealSprite && !string.IsNullOrEmpty(Path))
 //            {
-//                var sprite = Capstones.UnityFramework.ResManager.LoadRes(Path) as Sprite;
+//                var sprite = ResManager.LoadRes(Path) as Sprite;
 //                _RealSprite = sprite;
 //            }
 
@@ -60,7 +60,7 @@ namespace UIExt
 //            {
 //                _IsPacked = _RealSprite.name.Contains("?");
 
-//                Material matPacked = Capstones.UnityFramework.ResManager.LoadRes("Assets/CapstonesRes/Common/Materials/UIAlphaMaskPacked.mat") as Material;
+//                Material matPacked = ResManager.LoadRes("Assets/CapstonesRes/Common/Materials/UIAlphaMaskPacked.mat") as Material;
 //                var image = GetComponent<Image>();
 //                if (image)
 //                {

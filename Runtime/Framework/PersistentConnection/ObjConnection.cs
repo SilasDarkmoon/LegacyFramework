@@ -10,6 +10,9 @@ using Unity.Collections.Concurrent;
 using Capstones.UnityEngineEx;
 using System.IO;
 
+using PlatDependant = Capstones.UnityEngineEx.PlatDependant;
+using TaskProgress = Capstones.UnityEngineEx.TaskProgress;
+
 namespace Capstones.Net
 {
     public class SerializationConfig : ICloneable
@@ -89,12 +92,12 @@ namespace Capstones.Net
             _Client = clientFactory(url);
             _Stream = new ConnectionStream(_Client);
             _Splitter = sconfig.SplitterFactory(_Stream);
-            _Splitter.OnReceiveBlock += OnReceiveBlock;
+            _Splitter.OnReceiveBlock += ReceiveBlock;
             _Client.StartConnect();
             _LastReceiveTick = System.Environment.TickCount;
         }
 
-        protected void OnReceiveBlock(NativeBufferStream buffer, int size, uint type, uint flags, uint seq, uint sseq)
+        protected void ReceiveBlock(NativeBufferStream buffer, int size, uint type, uint flags, uint seq, uint sseq)
         {
             _LastReceiveTick = System.Environment.TickCount;
             if (buffer != null && size >= 0 && size <= buffer.Length)
@@ -111,8 +114,11 @@ namespace Capstones.Net
                 _PendingRead.Obj = _SerConfig.ReaderWriter.Read(type, buffer, 0, size);
                 _PendingRead.Seq = seq;
                 _PendingRead.SSeq = sseq;
+                OnReceiveObj(_PendingRead.Obj, type, seq, sseq);
             }
         }
+        public delegate void ReceiveObjAction(object obj, uint type, uint seq, uint sseq);
+        public event ReceiveObjAction OnReceiveObj = (obj, type, seq, sseq) => { };
         public object TryRead(out uint seq, out uint sseq, out uint type)
         {
             try
@@ -428,8 +434,38 @@ namespace Capstones.Net
         protected bool _ShouldLock;
         protected readonly LinkedList<PersistentConnectionRequest> _PendingRequests = new LinkedList<PersistentConnectionRequest>();
 
-        public delegate bool FilterMessage(uint type, uint seq, object raw);
-        public FilterMessage OnFilterMessage;
+        public delegate bool FilterMessageFunc(uint type, uint seq, object raw);
+        protected readonly List<FilterMessageFunc> _FilterMessageHandlers = new List<FilterMessageFunc>();
+        public event FilterMessageFunc OnFilterMessage
+        {
+            add
+            {
+                _FilterMessageHandlers.Add(value);
+            }
+            remove
+            {
+                for (int i = 0; i < _FilterMessageHandlers.Count; ++i)
+                {
+                    if (_FilterMessageHandlers[i] == value)
+                    {
+                        _FilterMessageHandlers.RemoveAt(i--);
+                    }
+                }
+            }
+        }
+        protected bool FilterMessage(uint type, uint seq, object raw)
+        {
+            for (int i = 0; i < _FilterMessageHandlers.Count; ++i)
+            {
+                if (_FilterMessageHandlers[i] != null && !_FilterMessageHandlers[i](type, seq, raw))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+        //public delegate void ReceiveMessageAction(PersistentConnectionResponseData mess);
+        //public event ReceiveMessageAction OnReceiveMessage = mess => { };
 
         public PersistentConnectionRequestFactoryBase(ObjClient con)
         {
@@ -483,14 +519,16 @@ namespace Capstones.Net
                     }
                     //else
                     {
-                        if (OnFilterMessage == null || OnFilterMessage(type, respseq, readobj))
+                        if (FilterMessage(type, respseq, readobj))
                         {
-                            EnqueuePushMessage(new PersistentConnectionResponseData()
+                            var mess = new PersistentConnectionResponseData()
                             {
                                 RespDataType = type,
                                 RespSeq = respseq,
                                 Result = readobj,
-                            });
+                            };
+                            EnqueuePushMessage(mess);
+                            //OnReceiveMessage(mess);
                         }
                     }
                 }
@@ -572,11 +610,15 @@ namespace Capstones.Net
         protected abstract void EnqueuePushMessage(PersistentConnectionResponseData data);
         protected abstract bool TryDequeuePushMessage(out PersistentConnectionResponseData data);
         protected abstract void DoSendRequest(PersistentConnectionRequest req);
-        protected abstract void DoSendMessage(object obj);
+        protected abstract void DoSendMessage(object obj, uint seq_pingback);
 
         public void SendMessage(object obj)
         {
-            DoSendMessage(obj);
+            SendMessage(obj, 0);
+        }
+        public void SendMessage(object obj, uint seq_pingback)
+        {
+            DoSendMessage(obj, seq_pingback);
         }
         public PersistentConnectionRequest SendRequest(object obj)
         {
@@ -618,7 +660,7 @@ namespace Capstones.Net
                 _Connection.Dispose();
                 _Connection = null;
             }
-            OnFilterMessage = null;
+            _FilterMessageHandlers.Clear();
             OnDispose();
         }
     }
@@ -629,6 +671,7 @@ namespace Capstones.Net
         {
             public PersistentConnectionRequest _Req;
             public object _Raw;
+            public uint _SeqPingBack;
         }
         protected readonly ConcurrentQueue<PendingSendData> _PendingSend = new ConcurrentQueue<PendingSendData>();
         protected AutoResetEvent _HaveDataToSend = new AutoResetEvent(false);
@@ -667,7 +710,7 @@ namespace Capstones.Net
                             }
                             else if (pending._Raw != null)
                             {
-                                _Connection.Write(pending._Raw);
+                                _Connection.Write(pending._Raw, pending._SeqPingBack);
                             }
                         }
                     }
@@ -708,9 +751,9 @@ namespace Capstones.Net
             _PendingSend.Enqueue(new PendingSendData() { _Req = req });
             _HaveDataToSend.Set();
         }
-        protected override void DoSendMessage(object obj)
+        protected override void DoSendMessage(object obj, uint seq_pingback)
         {
-            _PendingSend.Enqueue(new PendingSendData() { _Raw = obj });
+            _PendingSend.Enqueue(new PendingSendData() { _Raw = obj, _SeqPingBack = seq_pingback });
             _HaveDataToSend.Set();
         }
         protected override void OnDispose()
@@ -754,9 +797,9 @@ namespace Capstones.Net
         {
             req.Send(_Connection);
         }
-        protected override void DoSendMessage(object obj)
+        protected override void DoSendMessage(object obj, uint seq_pingback)
         {
-            _Connection.Write(obj);
+            _Connection.Write(obj, seq_pingback);
         }
 
         public override PersistentConnectionResponseData GetMessageInfo()

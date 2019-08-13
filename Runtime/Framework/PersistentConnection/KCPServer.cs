@@ -9,6 +9,9 @@ using UnityEngine;
 using Unity.Collections.Concurrent;
 using Capstones.UnityEngineEx;
 
+using PlatDependant = Capstones.UnityEngineEx.PlatDependant;
+using TaskProgress = Capstones.UnityEngineEx.TaskProgress;
+
 namespace Capstones.Net
 {
     public class KCPServer : IPersistentConnectionServer, IDisposable

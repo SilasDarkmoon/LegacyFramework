@@ -20,6 +20,13 @@ enum BattingMode
     Slugging = 2;
     Bunt = 3;
 }
+enum TrajectoryType
+{
+    UnknownTrajectoryType = 0;
+    LowTrajectory = 1;
+    MiddleTrajectory = 2;
+    HighTrajectory = 3;
+}
 enum PitchType
 {
     UnknownPitchType = 0;
@@ -39,6 +46,21 @@ enum PitchType
     Shoot = 14;
     Vslider = 15;
     SlowCurve = 16;
+}
+enum PitchTypeGrade
+{
+    UnknownPitchTypeGrade = 0;
+    D = 1;
+    C = 2;
+    B = 3;
+    A = 4;
+    S = 5;
+}
+enum ManualPitchPuzzleType
+{
+    UnknownPuzzleType = 0;
+    PuzzleStrike = 1;
+    PuzzleBall = 2;
 }
 enum PitchResult
 {
@@ -71,6 +93,8 @@ enum RunFrameType
     RunBase = 2;
     Catch = 3;
     HitBallCatch = 4;
+    PickoffFrame = 5;
+    CatcherPickoff = 6;
 }
 enum Role
 {
@@ -116,14 +140,50 @@ enum BatOperationResultType
     Auto = 1;
     NotBat = 2;
     EarlyOrLate = 3;
-    JustEarlyOrLateClick = 4;
-    JustEarlyOrLateLeft = 5;
-    JustEarlyOrLateCenter = 6;
-    JustEarlyOrLateRight = 7;
-    PerfectClick = 8;
-    PerfectLeft = 9;
-    PerfectCenter = 10;
-    PerfectRight = 11;   
+    JustEarlyOrLate = 4;
+    Perfect = 5;
+}
+
+enum BatOpType
+{
+    UnknownBatOpType = 0;
+    Default = 1;
+    GuessPitchPos = 2;
+    SelectHitPos = 3;
+}
+
+enum DominateType
+{
+    option allow_alias = true;
+    UnknownDominate = 0;
+
+    BatterDominate1 = 1; // 停滞击球
+    SlowMotionBatting = 1;
+    BatterDominate2 = 2; // 预知球路
+    BattingEye = 2;
+    BatterDominate3 = 3; // 定向击球
+    HitTargetSelection = 3;
+    BatterDominate4 = 4;
+    BatterDominate5 = 5;
+    BatterDominate6 = 6;
+    BatterDominate7 = 7;
+    BatterDominate8 = 8;
+    BatterDominate9 = 9;
+    BatterDominate10 = 10;
+    
+    PitcherDominate1 = 11; // 光速直球
+    LightSpeedPitch = 11;
+    PitcherDominate2 = 12; // 超级曲球
+    SuperCurve = 12;
+    PitcherDominate3 = 13; // 可控投球
+    UnderControlPitch = 13;
+    PitcherDominate4 = 14;
+    PitcherDominate5 = 15;
+    PitcherDominate6 = 16;
+    PitcherDominate7 = 17;
+    PitcherDominate8 = 18;
+    PitcherDominate9 = 19;
+    PitcherDominate10 = 20;
 }
 
 //[RegID(1001)]
@@ -149,6 +209,11 @@ message OpponentConnected
 }
 message OpponentDisconnected
 {
+}
+message GamersStatus
+{
+    uint32 homeRTT = 1;
+    uint32 awayRTT = 2;
 }
 
 //[RegID(1)]
@@ -235,6 +300,7 @@ message TeamInfo
     Role captain = 3;
     repeated Role orderOfRoles = 4;
     float overLordEnergy = 5;
+    string homeShirtID = 6;
 }
 //[NoReg]
 // 这个是在一次投打开始时就确定好的数据
@@ -249,6 +315,8 @@ message PitchSituation
     BaseRunners baseRunners = 7; // 跑垒者
     FieldSituation field = 8; // 野区状态
     repeated OnFieldRoleToIDMapEntry onFieldToID = 9; // 场上指责对player id的对应关系
+    float initPitchTargetPositionX = 10;
+    float initPitchTargetPositionY = 11;
 }
 //[NoReg]
 // 场上球员的状态（buff,debuff等）
@@ -275,42 +343,33 @@ message PlayerInfo
     repeated PitchTypeInfo pitchTypes = 12;
     HandType battingHand = 13;
     BattingProficiency battingProficiency = 14;
-    uint32 plateAppearance = 15;
-    uint32 atBats = 16;
-    uint32 runs = 17;
-    uint32 hits = 18;
-    uint32 errors = 19;
-    uint32 homeRuns = 20;
-    uint32 pitchCount = 21;
-    float leftEnergyPercentage = 22;
-    float positionX = 23;
-    float positionY = 24;
-    float rotationX = 25;
-    float rotationY = 26;
-    float rotationZ = 27;
+    repeated DominateType dominateTypes = 15;
+    uint32 plateAppearance = 16;
+    uint32 atBats = 17;
+    uint32 runs = 18;
+    uint32 hits = 19;
+    uint32 errors = 20;
+    uint32 homeRuns = 21;
+    uint32 pitchCount = 22;
+    float leftEnergyPercentage = 23;
+    float positionX = 24;
+    float positionY = 25;
+    float rotationX = 26;
+    float rotationY = 27;
+    float rotationZ = 28;
 }
 //[NoReg]
 message PlayerAbilities
 {
     float contact = 1;
-    float drag = 2;
-    float push = 3;
-    float dragBunt = 4;
-    float slugging = 5;
-    float steal = 6;
-    float baseRunning = 7;
-    float stability = 8;
-    float reaction = 9;
-    float throwing = 10;
-    float fieldingRange = 11;
-    float blocking = 12;
-    float plateDispline = 13;
-    float stamina = 14;
-    float control = 15;
-    float breaking = 16;
-    float explosiveNess = 17;
-    float bunt = 18;
-    float stealTendency = 19;
+    float slugging = 2;
+    float baseRunning = 3;
+    float fielding = 4;
+    float plateDispline = 5;
+    float stamina = 6;
+    float control = 7;
+    float breaking = 8;
+    float explosiveness = 9;
 }
 //[NoReg]
 message PlayerSeasonStats
@@ -328,7 +387,7 @@ message PlayerSeasonStats
 message PitchTypeInfo
 {
     PitchType type = 1;
-    float grade = 2;
+    PitchTypeGrade grade = 2;
 }
 //[NoReg]
 message BattingProficiency
@@ -343,12 +402,26 @@ message FieldSituation
 
 }
 //[NoReg]
+message DominateOpStatus
+{
+    uint32 count = 1;
+    repeated uint32 countByPitchType = 2;
+}
+//[NoReg]
+message DominateStatus
+{
+    float pitcherOverLordEnergy = 1; // 目前投手攒的气
+    float batterOverLordEnergy = 2; // 目前打手攒的气
+    repeated DominateOpStatus activeOpStatus = 3; // The index is DominateType
+}
+//[NoReg]
 // 这个是在球投出之前就要决定的数据
 message PitchMode
 {
-    bool pitcherDominate = 1;
-    bool batterDominate = 2;
-    BattingMode battingMode = 3;
+    DominateStatus dominate = 1;
+    BattingMode battingMode = 2;
+    StealBaseStatus stealBase = 3;
+    bool autoPlay = 4;
 }
 //[NoReg]
 // 打手擅长区块。投手在选目标时显示的红/蓝块。
@@ -363,9 +436,12 @@ message PitchSelection
     uint32 ballType = 1;
     float targetX = 2;
     float targetY = 3;
-    bool dominate = 4;
+    //bool dominate = 4; // 没用了，现在用PitchMode里的dominate来判断。
+    uint32 puzzleType = 4;
     uint32 eval = 5;
-    uint32 operationEval = 6;
+    float pitchSpeed = 6;
+    float offsetLength = 7;
+    uint32 pickoff = 8; // 0 - 非牵制。 1~3 - 牵制指定垒上跑者
 }
 //[NoReg]
 message BattingInfo
@@ -375,6 +451,10 @@ message BattingInfo
     uint32 time = 3; // 挥棒时间
     BatDir dir = 4; // 挥棒方向
     BatOperationResultType eval = 5; // 挥棒评分
+    BatOpType batOpType = 6; // 击球的模式：1-普通打击，2-摆棒子强震，3-主宰时刻-精确落点 // TODO: 应当用DominateStatus以及BattingMode来判断
+    float targetY = 7; // 挥棒落点 // TODO: 将主宰时刻有关的打击数据放到一个专门的数据里
+    float targetXAfterBat = 8; // 挥棒后的落点X
+    float targetYAfterBat = 9; // 挥棒后的落点Y
 }
 //[NoReg]
 // 跑垒者
@@ -393,6 +473,8 @@ message RunFrame
     RunFrame_RunBase frameRunBase = 2;
     RunFrame_Catch frameCatch = 3;
     RunFrame_HitBallCatch frameHitBallCatch = 4;
+    RunFrame_Pickoff framePickoff = 5;
+    RunFrame_CatcherPickoff frameCatcherPickoff = 6;
 }
 //[NoReg]
 message RunFrame_DefenseMove
@@ -439,6 +521,21 @@ message RunFrame_HitBallCatch
     bool isHitWall = 9;
 }
 //[NoReg]
+message RunFrame_Pickoff
+{
+    uint32 base = 1;
+    bool isOut = 2;
+}
+//[NoReg]
+message RunFrame_CatcherPickoff
+{
+    float endTime = 1;
+    float outTime = 2;
+    OnFieldRole catcher = 3;
+    uint32 toBase = 4;
+    OnFieldRole outAthleteOnFieldRole = 5;
+}
+//[NoReg]
 message BatResult
 {
     PitchResult result = 1;
@@ -449,6 +546,10 @@ message BatResult
     float outFieldFlyTime = 6;
     uint32 outFieldFlyHitGroundTimes = 7;
     bool isFastOut = 8;
+    bool isAutoSwing = 9;
+    OnFieldRole hitBallCatcherOnFieldRole = 10;
+    TrajectoryType trajectoryType = 11;
+    repeated OnFieldRole multiPlayDefenders = 12;
 }
 //[NoReg]
 message PossibleBatResult
@@ -464,6 +565,12 @@ message TeamStats
     uint32 errors = 3;
     repeated uint32 inningScores = 4;
 }
+//[NoReg]
+message ChangedPlayerAbilities
+{
+    uint32 id = 1;
+    PlayerAbilities abilities = 2;
+}
 
 message SelectPitchOp
 {
@@ -473,8 +580,9 @@ message SelectPitchResp
 {
     PitchSelection selection = 1;
     repeated PossibleBatResult possibleResults = 2;
+    repeated ChangedPlayerAbilities changedAbilities = 3;
 }
-// TODO: Delete these Dominate Messages.
+// TODO: Delete these Dominate Messages. // 投球主宰时刻现在无需单独的环节，沿用普通投球的数据即可。判断是否主宰时刻通过球种和相应的次数来判断
 message DominatePitchOp
 {
     SelectPitchOp op = 1;
@@ -488,7 +596,7 @@ message DominatePitchResp
 message BatOp
 {
     BattingInfo bat = 1;
-    bool dominate = 2;
+    //bool dominate = 2; // 现在通过DominateStatus判断
 }
 message BatResp
 {
@@ -514,8 +622,27 @@ message SetDominateOp
 // 主宰时刻开关被设置的事件通知。由服务器发往两个客户端。
 message SetDominateEvent
 {
-    uint32 role = 1; // 0-pitcher, 1-batter.
-    bool active = 2;
+    DominateStatus status = 1;
+}
+//[NoReg]
+message StealBaseStatus
+{
+    bool base1 = 1;
+    bool base2 = 2;
+    bool base3 = 3;
+    float base1AdvanceDist = 4;
+    float base2AdvanceDist = 5;
+    float base3AdvanceDist = 6;
+}
+// 设置盗垒状态，攻方发往服务器
+message SetStealBaseOp
+{
+    StealBaseStatus status = 1;
+}
+// 通知盗垒状态，服务器发往客户端
+message SetStealBaseEvent
+{
+    StealBaseStatus status = 1;
 }
 // 设置打击模式（短打，强击，正常）
 message SetBattingModeOp
@@ -542,6 +669,9 @@ message PitchPrepareOp
 message PitchReadyResp
 {
 }
+message BatDoneOp
+{
+}
 message VainSwingOp
 {
 }
@@ -556,6 +686,11 @@ message BeginBatSwingOp
 }
 message BeginBatSwingEvent
 {
+}
+message SelectingBattingTargetEvent
+{
+    float x = 1;
+    float y = 2;
 }
 //[RegID(2001)]
 //[FrameSyncBegin]

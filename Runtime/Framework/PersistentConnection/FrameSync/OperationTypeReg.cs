@@ -10,6 +10,7 @@ namespace Capstones.Net.FrameSync
             _FrameSyncBeginProtocol = typeof(Protocols.FrameSyncBegin);
             _FrameSyncTickProtocol = typeof(Protocols.FrameSyncTick);
             _FrameSyncEndProtocol = typeof(Protocols.FrameSyncEnd);
+            _FrameSyncReqProtocols.Add(typeof(Protocols.RunToBaseReq));
             _FrameSyncProtocols.Add(typeof(Protocols.RunToBaseResp));
             // Delegates
             FuncGetFrameSyncBeginInterval = obj => (int)((Protocols.FrameSyncBegin)obj).Interval;

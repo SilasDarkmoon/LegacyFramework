@@ -291,8 +291,8 @@ public static class GenConfig
                 new List<string>(){"System.IO.DirectoryInfo", "CreateSubdirectory", "System.String", "System.Security.AccessControl.DirectorySecurity"},
                 new List<string>(){"System.IO.DirectoryInfo", "Create", "System.Security.AccessControl.DirectorySecurity"},
                 new List<string>(){"UnityEngine.MonoBehaviour", "runInEditMode"},
-                new List<string>(){"Capstones.UnityFramework.ResManager", "LoadMainAsset", "System.String"},
-                new List<string>(){"Capstones.UnityFramework.ResManager", "GetDistributeAssetName", "System.String"},
+                new List<string>(){"ResManager", "LoadMainAsset", "System.String"},
+                new List<string>(){"ResManager", "GetDistributeAssetName", "System.String"},
                 new List<string>(){ "UnityEngine.Input", "IsJoystickPreconfigured", "System.String"},
                 new List<string>(){ "UnityEngine.UI.Graphic", "OnRebuildRequested"},
             };

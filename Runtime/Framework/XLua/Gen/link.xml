@@ -176,17 +176,17 @@
 		<type fullname="UnityEngine.UI.CapstoneShadow" preserve="all"/>
 		<type fullname="CommonToggle" preserve="all"/>
 		<type fullname="UIExt.PolygonCustom" preserve="all"/>
-		<type fullname="Capstones.UnityFramework.ResManager" preserve="all"/>
-		<type fullname="Capstones.UnityFramework.ResManager+AssetDesc" preserve="all"/>
-		<type fullname="Capstones.UnityFramework.ResManager+AssetDesc_DynTex" preserve="all"/>
-		<type fullname="Capstones.UnityFramework.ResManager+AssetDesc_DynSprite" preserve="all"/>
-		<type fullname="Capstones.UnityFramework.ResManager+AssetDesc_FromManifest" preserve="all"/>
-		<type fullname="Capstones.UnityFramework.ResManager+AssetDesc_PackedTex" preserve="all"/>
-		<type fullname="Capstones.UnityFramework.ResManager+AssetDesc_NewPackedTex" preserve="all"/>
-		<type fullname="Capstones.UnityFramework.ResManager+AssetBundleInfo" preserve="all"/>
-		<type fullname="Capstones.UnityFramework.ResManager+AssetInfo" preserve="all"/>
-		<type fullname="Capstones.UnityFramework.ResManager+LoadResAsyncRequest" preserve="all"/>
-		<type fullname="Capstones.UnityFramework.ResManager+PackedSceneObjs" preserve="all"/>
+		<type fullname="ResManager" preserve="all"/>
+		<type fullname="ResManager+AssetDesc" preserve="all"/>
+		<type fullname="ResManager+AssetDesc_DynTex" preserve="all"/>
+		<type fullname="ResManager+AssetDesc_DynSprite" preserve="all"/>
+		<type fullname="ResManager+AssetDesc_FromManifest" preserve="all"/>
+		<type fullname="ResManager+AssetDesc_PackedTex" preserve="all"/>
+		<type fullname="ResManager+AssetDesc_NewPackedTex" preserve="all"/>
+		<type fullname="ResManager+AssetBundleInfo" preserve="all"/>
+		<type fullname="ResManager+AssetInfo" preserve="all"/>
+		<type fullname="ResManager+LoadResAsyncRequest" preserve="all"/>
+		<type fullname="ResManager+PackedSceneObjs" preserve="all"/>
 		<type fullname="Capstones.PlatExt.PlatDependant+TaskProgress" preserve="all"/>
 		<type fullname="VideoPlayerManager" preserve="all"/>
 		<type fullname="VideoPlayerManager+InitType" preserve="all"/>

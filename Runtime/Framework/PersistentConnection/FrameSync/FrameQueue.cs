@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using Capstones.UnityFramework;
-using Unity.Collections.Concurrent;
 using Capstones.UnityEngineEx;
+using Unity.Collections.Concurrent;
 
 namespace Capstones.Net.FrameSync
 {
@@ -71,7 +70,7 @@ namespace Capstones.Net.FrameSync
         {
             if (_ReqFac != null)
             {
-                _ReqFac.OnFilterMessage = null;
+                _ReqFac.OnFilterMessage -= OnFilterMessage;
             }
         }
         public void Attach(PersistentConnectionRequestFactoryBase reqfac)
@@ -80,7 +79,7 @@ namespace Capstones.Net.FrameSync
             _ReqFac = reqfac;
             if (reqfac != null)
             {
-                reqfac.OnFilterMessage = OnFilterMessage;
+                reqfac.OnFilterMessage += OnFilterMessage;
             }
         }
 
@@ -202,29 +201,23 @@ namespace Capstones.Net.FrameSync
             return _SyncState;
         }
 
-        public const float OverflowCatchupTime = 0.5f;
+        public const float OverflowCatchupTime = 1.0f;
         public const float MaxTimeScale = 2.0f;
         public float CheckTimeScale()
         {
-            if (_SyncState == SyncState.BufferOverflow)
+            if (_SyncState == SyncState.BufferOverflow && Count > _BufferBeginLength)
             {
-                var catchupfulltime = _LastFrame.Time - _SyncTimeSinceBegin + OverflowCatchupTime;
-                var catchuptime = catchupfulltime - _BufferBeginLength * _LastFrame.Interval;
-                if (catchuptime <= OverflowCatchupTime)
+                var catchupfulltime = OverflowCatchupTime;
+                var catchuptime = catchupfulltime + (Count - _BufferBeginLength) * _LastFrame.Interval * 0.001f;
+                var ts = catchuptime / catchupfulltime;
+                if (ts > MaxTimeScale)
                 {
-                    //PlatExt.PlatDependant.LogError("Unable to determine overflow timescale - interval too large.");
-                    return 1.2f;
+#if DEBUG_FRAME_QUEUE
+                    PlatExt.PlatDependant.LogError("Unable to determine overflow timescale - timescale too large.");
+#endif
+                    ts = MaxTimeScale;
                 }
-                else
-                {
-                    var ts = catchuptime / OverflowCatchupTime;
-                    if (ts > MaxTimeScale)
-                    {
-                        //PlatExt.PlatDependant.LogError("Unable to determine overflow timescale - timescale too large.");
-                        ts = MaxTimeScale;
-                    }
-                    return ts;
-                }
+                return ts;
             }
             return 1.0f;
         }
@@ -244,7 +237,7 @@ namespace Capstones.Net.FrameSync
                 if (!_Ended)
                 {
                     _LastUpdateTick = curtick;
-                    _FullTimeSinceBegin = _SyncTimeSinceBegin = _LastSyncFrame.Time;
+                    _FullTimeSinceBegin = _SyncTimeSinceBegin = _LastSyncFrame.Time * 0.001f;
                 }
             }
             if (_SyncTimeSinceBegin >= 0)
@@ -254,6 +247,7 @@ namespace Capstones.Net.FrameSync
                 {
                     if (curstate == SyncState.Begin)
                     {
+                        _LastUpdateTick = curtick;
                         return;
                     }
                 }
@@ -266,17 +260,23 @@ namespace Capstones.Net.FrameSync
                     else if (curstate != SyncState.BufferRunOut)
                     {
                         TimeScale = -1.0f;
-                        //PlatExt.PlatDependant.LogError("SyncFrame Run Out Restored");
+#if DEBUG_FRAME_QUEUE
+                        PlatExt.PlatDependant.LogError("SyncFrame Run Out Restored");
+#endif
                     }
                     else
                     {
+                        _LastUpdateTick = curtick;
                         return;
                     }
                 }
                 if (!_Ended && curstate == SyncState.BufferRunOut)
                 {
-                    //PlatExt.PlatDependant.LogError("SyncFrame Run Out...");
+#if DEBUG_FRAME_QUEUE
+                    PlatExt.PlatDependant.LogError("SyncFrame Run Out...");
+#endif
                     TimeScale = 0f;
+                    _LastUpdateTick = curtick;
                     return;
                 }
 
@@ -291,14 +291,18 @@ namespace Capstones.Net.FrameSync
                     {
                         if (_Ended)
                         {
-                            //PlatExt.PlatDependant.LogError("SyncFrame Done");
+#if DEBUG_FRAME_QUEUE
+                            PlatExt.PlatDependant.LogError("SyncFrame Done");
+#endif
                             TimeScale = -1.0f;
                             _SyncTimeSinceBegin = -1.0f;
                             break;
                         }
                         else
                         {
-                            //PlatExt.PlatDependant.LogError("SyncFrame Run Out - May be caused by large timescale");
+#if DEBUG_FRAME_QUEUE
+                            PlatExt.PlatDependant.LogError("SyncFrame Run Out - May be caused by large timescale");
+#endif
                             TimeScale = 0f;
                             break;
                         }
@@ -314,7 +318,9 @@ namespace Capstones.Net.FrameSync
                     {
                         if (curstate != SyncState.BufferOverflow)
                         {
-                            //PlatExt.PlatDependant.LogError("SyncFrame Overflow Restored");
+#if DEBUG_FRAME_QUEUE
+                            PlatExt.PlatDependant.LogError("SyncFrame Overflow Restored");
+#endif
                             TimeScale = -1.0f;
                             //// Overflow Restored - we should break now in order to not fall into RunOut
                             //// Now the TimeScale won't be too large, so we commented this out.
@@ -329,7 +335,7 @@ namespace Capstones.Net.FrameSync
                         else
                         {
                             var ts = CheckTimeScale();
-                            if (ts > UnityEngine.Time.timeScale)
+                            if (ts > TimeScale)
                             {
                                 TimeScale = ts;
                             }
@@ -338,9 +344,9 @@ namespace Capstones.Net.FrameSync
                     else if (curstate == SyncState.BufferOverflow)
                     {
                         var ts = CheckTimeScale();
-                        //PlatExt.PlatDependant.LogError("SyncFrame Overflow...");
-                        //PlatExt.PlatDependant.LogError(TimeScale);
-                        //PlatExt.PlatDependant.LogError(ts);
+#if DEBUG_FRAME_QUEUE
+                        PlatExt.PlatDependant.LogError("SyncFrame Overflow... time scale changed from " + TimeScale + " to " + ts);
+#endif
 
                         TimeScale = ts;
                     }
@@ -476,6 +482,6 @@ namespace Capstones.Net.FrameSync
                 _TypedOpHandlers[typeof(T)] = new TypedFrameOpHandlerWrapper<T>() { TypedHandler = handler };
             }
         }
-        #endregion
+#endregion
     }
 }
