@@ -44,7 +44,7 @@ namespace Google.Protobuf.Reflection
     /// Mind-bending stuff (at least to your humble narrator) but the resulting delegates are
     /// very fast compared with calling Invoke later on.
     /// </summary>
-    internal static class ReflectionUtil
+    public static class ReflectionUtil
     {
         static ReflectionUtil()
         {
@@ -67,7 +67,7 @@ namespace Google.Protobuf.Reflection
             SampleEnumMethod();
         }
 
-        internal static void ForceInitialize<T>() { new ReflectionHelper<IMessage, T>(); }
+        public static void ForceInitialize<T>() { new ReflectionHelper<IMessage, T>(); }
 
         /// <summary>
         /// Empty Type[] used when calling GetProperty to force property instead of indexer fetching.

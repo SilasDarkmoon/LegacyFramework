@@ -7,18 +7,20 @@ namespace Capstones.Net.FrameSync
     {
         private static readonly HashSet<Type> _FrameSyncProtocols = new HashSet<Type>();
         private static readonly HashSet<Type> _FrameSyncReqProtocols = new HashSet<Type>();
-        private static readonly Type _FrameSyncBeginProtocol;
-        private static readonly Type _FrameSyncEndProtocol;
-        private static readonly Type _FrameSyncTickProtocol;
-        public static Type FrameSyncBeginProtocol { get { return _FrameSyncBeginProtocol; } }
-        public static Type FrameSyncEndProtocol { get { return _FrameSyncEndProtocol; } }
-        public static Type FrameSyncTickProtocol { get { return _FrameSyncTickProtocol; } }
+        private static Type _FrameSyncBeginProtocol;
+        private static Type _FrameSyncEndProtocol;
+        private static Type _FrameSyncTickProtocol;
+        public static HashSet<Type> FrameSyncProtocols { get { return _FrameSyncProtocols; } }
+        public static HashSet<Type> FrameSyncReqProtocols { get { return _FrameSyncReqProtocols; } }
+        public static Type FrameSyncBeginProtocol { get { return _FrameSyncBeginProtocol; } set { _FrameSyncBeginProtocol = value; } }
+        public static Type FrameSyncEndProtocol { get { return _FrameSyncEndProtocol; } set { _FrameSyncEndProtocol = value; } }
+        public static Type FrameSyncTickProtocol { get { return _FrameSyncTickProtocol; } set { _FrameSyncTickProtocol = value; } }
 
-        private static readonly Func<object, int> FuncGetFrameSyncBeginInterval;
-        private static readonly Func<object, int> FuncGetFrameSyncBeginIndex;
-        private static readonly Func<object, int> FuncGetFrameSyncBeginTime;
-        private static readonly Func<object, int> FuncGetFrameSyncTickTime;
-        private static readonly Func<object, int> FuncGetFrameSyncTickInterval;
+        public static Func<object, int> FuncGetFrameSyncBeginInterval;
+        public static Func<object, int> FuncGetFrameSyncBeginIndex;
+        public static Func<object, int> FuncGetFrameSyncBeginTime;
+        public static Func<object, int> FuncGetFrameSyncTickTime;
+        public static Func<object, int> FuncGetFrameSyncTickInterval;
 
         public static bool IsFrameSyncProtocol(Type type)
         {

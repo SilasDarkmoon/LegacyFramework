@@ -474,7 +474,7 @@ namespace Capstones.Net
             }
         }
 
-        private class RegisteredType
+        public class RegisteredType
         {
             public RegisteredType(uint id, Type messageType, Google.Protobuf.MessageParser parser)
             {
