@@ -1,9 +1,18 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class SafeAreaFullScreenRect : MonoBehaviour
 {
     void Start()
     {
+        //子对象的 awake start 会在父对象之前执行，因此需要在父对象SafeAreaRect的start之后执行
+        StartCoroutine(DelayToLayout());
+    }
+
+    IEnumerator DelayToLayout()
+    {
+        yield return new WaitForEndOfFrame();
+
         var safeAreaRect = GetComponentInParent<SafeAreaRect>();
         if (safeAreaRect != null)
         {
