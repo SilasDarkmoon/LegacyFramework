@@ -185,9 +185,9 @@ public static class GenConfig
         #region struct + enum
         typeof(DG.Tweening.Ease),
        // typeof(Capstones.UnityFramework.HttpRequest.RequestStatus),
-        typeof(XLua.UI.ScrollRectEx.MovementType),
-        typeof(XLua.UI.ScrollRectExSameSize.Direction),
-        typeof(XLua.UI.ScrollRectEx.Direction),
+        //typeof(XLua.UI.ScrollRectEx.MovementType),
+        //typeof(XLua.UI.ScrollRectExSameSize.Direction),
+        //typeof(XLua.UI.ScrollRectEx.Direction),
         #endregion
         typeof(GLog),
         //以下类不能进行 wrap 会出现bug
