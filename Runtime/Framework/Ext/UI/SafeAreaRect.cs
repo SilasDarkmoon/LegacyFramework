@@ -29,7 +29,7 @@ public class SafeAreaRect : MonoBehaviour
     
     private float screenWidth, screenHeight, notchWidth, notchHeight;
 
-    private Rect GetSafeArea()
+    public Rect GetSafeArea()
     {
         float x = 0, y = 0, w = 1, h = 1;
 
@@ -67,6 +67,7 @@ public class SafeAreaRect : MonoBehaviour
         }
 #endif
         ApplySafeArea(GetSafeArea());
+        ApplyFullArea();
     }
 
     void ApplySafeArea(Rect area)
@@ -75,5 +76,17 @@ public class SafeAreaRect : MonoBehaviour
         var anchorMax = area.position + area.size;
         rectTransform.anchorMin = anchorMin;
         rectTransform.anchorMax = anchorMax;
+    }
+
+    void ApplyFullArea()
+    {
+        var fullRects = GetComponentsInChildren<SafeAreaFullScreenRect>(true);
+        if (fullRects != null)
+        {
+            for (int i = 0; i < fullRects.Length; i++)
+            {
+                fullRects[i].RefreshOnStart(this);
+            }
+        }
     }
 }
