@@ -4,9 +4,8 @@
         "LegacyFramework.Framework",
         "JsonObject",
         "Unity.IO.Compression",
-        "LegacyFramework.DOTween"
+        "DOTween"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [
         "Editor"
     ],
@@ -15,5 +14,6 @@
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": []
+    "defineConstraints": [],
+    "versionDefines": []
 }

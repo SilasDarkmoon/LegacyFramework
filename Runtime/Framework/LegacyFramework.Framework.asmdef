@@ -4,15 +4,15 @@
         "Unity.IO.Compression",
         "JsonObject",
         "Unity.Collections.Concurrent",
-        "LegacyFramework.DOTween",
-        "ResManager"
+        "ResManager",
+        "DOTween"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": []
+    "defineConstraints": [],
+    "versionDefines": []
 }
