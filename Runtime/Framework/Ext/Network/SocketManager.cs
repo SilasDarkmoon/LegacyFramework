@@ -8,7 +8,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
+#if !NET_4_6 && !NET_STANDARD_2_0
 using Unity.Collections.Concurrent;
+#else
+using System.Collections.Concurrent;
+#endif
 
 namespace Capstones.UnityFramework.Network
 {

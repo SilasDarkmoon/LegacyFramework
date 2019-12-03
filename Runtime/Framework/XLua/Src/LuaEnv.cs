@@ -1545,7 +1545,11 @@ namespace XLua
             var stream = PlatDependant.OpenRead(zipPath);
             if (stream != null)
             {
+#if !NET_4_6 && !NET_STANDARD_2_0
                 var zip = new Unity.IO.Compression.ZipArchive(stream, Unity.IO.Compression.ZipArchiveMode.Read);
+#else
+                var zip = new System.IO.Compression.ZipArchive(stream, System.IO.Compression.ZipArchiveMode.Read);
+#endif
                 isValid = (zip != null) && (zip.Entries != null);
                 if (isValid)
                 {
@@ -1568,6 +1572,6 @@ namespace XLua
             return 1;
         }
 
-        #endregion
+#endregion
     }
 }
